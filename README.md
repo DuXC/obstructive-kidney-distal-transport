@@ -1,4 +1,4 @@
-# Reproduction from donor aggregates, version 0.4
+# Reproduction from donor aggregates, version 0.5
 
 This code and data release supports the analysis for “Distal nephron transport programs in obstructed and unobstructed cancer nephrectomy tissue”. It starts from verified donor-by-lineage and donor-by-state RNA count matrices derived from GSE254185. The main comparison is five UTUC nephrectomies with obstruction versus seven RCC reference nephrectomies. Tumour context is inseparable from obstruction.
 
@@ -35,10 +35,23 @@ Xiancheng Du, Yongkun Zhu, Kaihua Xue, Shuchun Tao, Chunhui Liu and Chao Sun, in
 
 ## Version and citation
 
-Version 0.4 preserves the verified numerical analysis and figures from version 0.3 and adds public release metadata, a code license and citation information. The associated manuscript remains under author review.
+Version 0.5 preserves the discovery analysis and adds a frozen public-data extension using GSE183277 and a secondary GSE183276 assay. The associated manuscript remains under author review.
 
 Repository: https://github.com/DuXC/obstructive-kidney-distal-transport
 
-Versioned release: https://github.com/DuXC/obstructive-kidney-distal-transport/releases/tag/v0.4.0
+Versioned release: https://github.com/DuXC/obstructive-kidney-distal-transport/releases/tag/v0.5.0
 
-Use CITATION.cff to cite this software and cite Reck et al. (2025) and GSE254185 for the source data. The source and supplementary code paths retain their original phase names for reproducibility.
+Use CITATION.cff to cite this software. Cite Reck et al. (2025) and GSE254185 for discovery data, and Lake et al. (2023), GSE183277 and GSE183276 for the external atlas data. The source and supplementary code paths retain their original phase names for reproducibility.
+
+
+## External public-data extension
+
+Run python reproduce_external.py from the repository root. This checks the included external donor-aggregate and plan hashes, reruns the two assay analyses, independently verifies Welch intervals and ten-test BH correction, compares fourteen regenerated statistical tables against frozen expected snapshots, and redraws Fig4/FigS5/FigS6. Set RSCRIPT and KIDNEY_R_LIB as needed, using the same packages as the discovery analysis. External environment snapshots are included.
+
+The primary snRNA analysis includes four non-stone reference, nine AKI and seven CKD cortical donors. None of its ten tests passes FDR correction. In the secondary scRNA assay, AKI TAL salt and DCT magnesium pass the separate ten-test family (FDR 0.011 and 0.003); CKD DCT has only two affected donors and remains descriptive. Reference-state restriction attenuates scRNA TAL support. These are partial cross-injury findings, not obstruction-specific replication.
+
+The GSE183276 matrix is author-processed count-scale data with fractional values in a source reporting SoupX preprocessing. Values are not rounded. Fourteen reported patient IDs shared with snRNA are excluded; the three PRE019 libraries are combined. Both assays come from the same atlas and are not independent studies. All representation, donor-mapping and inference decisions are recorded in external_validation/03_protocol.
+
+The acceptance run starts from the included donor aggregates. The optional source-download and aggregation scripts require the official source RDS/metadata files and greater memory; the two external RDS archives total about 2.32 GB and are not duplicated here. Download receipts identify the exact official URLs and checksums. The original whole-matrix linkage and aggregation were verified in the originating workspace.
+
+Source: Lake BB et al. An atlas of healthy and injured cell states and niches in the human kidney. Nature 619, 585–594 (2023). https://doi.org/10.1038/s41586-023-05769-3. GEO GSE183277 and GSE183276; reference-biopsy provenance also uses GSE169285. Source participants are identified only by public study pseudonyms.

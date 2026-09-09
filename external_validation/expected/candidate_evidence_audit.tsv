@@ -1,0 +1,7 @@
+accession	decision	reason	url
+GSE254185	DISCOVERY	Original 12-donor Edinburgh cohort; not external validation	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE254185
+GSE183277	PRIMARY_CROSS_DISEASE	36 source patients; 20 meet the frozen non-stone cortical-sample definition before lineage eligibility	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183277
+GSE183276	SECONDARY_ASSAY	45 patient IDs in retained metadata; 14 IDs shared with snCv3; same atlas	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183276
+GSE180394	INELIGIBLE_DONOR_COVERAGE	One hydronephrosis sample and nine living-donor samples; minimum four affected donors not met	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180394
+GSE282059	INELIGIBLE_PANEL_COVERAGE	Same-study CosMx; previous fixed-program coverage gate remains failed	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE282059
+GSE195849	INELIGIBLE_TISSUE	Ureter tissue methylome/transcriptome, not kidney TAL/DCT	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE195849

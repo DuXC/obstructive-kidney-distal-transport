@@ -1,0 +1,42 @@
+patient	condition.l1	condition.l2	condition.l3	region.l1	region.l2	percent.cortex	tissue_type	sex
+30-10034	AKI	AKI	0	Cortex	C	100	Biopsy	F
+32-10003	AKI	AKI	0	Cortex	C	100	Biopsy	M
+32-10034	AKI	AKI	0	Cortex	C	100	Biopsy	M
+32-2	AKI	AKI	0	Cortex	C	100	Biopsy	M
+33-10005	AKI	AKI	0	Medulla	C-M	30	Biopsy	M
+33-10006	AKI	AKI	0	Cortex	C	100	Biopsy	M
+COV-02-0002	AKI	COV-AKI	0	Cortex	C	100	Biopsy	M
+COV-02-0010	AKI	COV-AKI	0	Cortex	C	100	Biopsy	F
+COV-02-0094	AKI	COV-AKI	0	Cortex	C-M	60	Biopsy	M
+COV-02-0096	AKI	COV-AKI	0	Cortex	C	100	Biopsy	F
+29-10006	CKD	DKD	0	Cortex	C	100	Biopsy	F
+29-10008	CKD	H-CKD	0	Cortex	C	100	Biopsy	F
+29-10010	CKD	DKD	0	Cortex	C	100	Biopsy	M
+29-10012	CKD	DKD	0	Cortex	C	100	Biopsy	F
+29-10013	CKD	DKD	0	Medulla	C-M	40	Biopsy	F
+31-10000	CKD	H-CKD	0	Medulla	C-M	45	Biopsy	M
+31-10001	CKD	DKD	0	Medulla	C-M	40	Biopsy	M
+31-10006	CKD	H-CKD	0	Medulla	M	0	Biopsy	M
+31-10013	CKD	H-CKD	0	Medulla	M	10	Biopsy	M
+31-10035	CKD	DKD	0	Cortex	C	85	Biopsy	F
+3477	CKD	H-CKD	DKD	Medulla	C-M	30	Nephrectomy	F
+3479	CKD	H-CKD	0	Cortex	C	100	Nephrectomy	M
+3487	CKD	DKD	0	Cortex	C	100	Nephrectomy	M
+18-142	Ref	Ref	Ref	Cortex	C	95	Nephrectomy	F
+18-162	Ref	Ref	Ref	Cortex	C-M	60	Nephrectomy	F
+18-312	Ref	Ref	Ref	Cortex	C	100	Nephrectomy	M
+3490	Ref	Ref	Ref	Medulla	M	10	Biopsy	F
+3499	Ref	Ref	Ref	Medulla	M	10	Deceased Donor	F
+3504	Ref	Ref	Ref	Medulla	M	5	Nephrectomy	F
+3535	Ref	Ref	Ref	Cortex	C	100	Nephrectomy	M
+3535	Ref	Ref	Ref	Medulla	M	0	Nephrectomy	M
+3593	Ref	Ref	Ref	Medulla	M	0	Deceased Donor	M
+3593	Ref	Ref	Ref	Papilla	P	0	Deceased Donor	M
+3613	Ref	Ref	Ref	Papilla	P	0	Deceased Donor	F
+KRP446	Ref	Ref	Stone	Cortex	C	100	Biopsy	M
+KRP446	Ref	Ref	Stone	Papilla	P	0	Biopsy	M
+KRP460	Ref	Ref	Stone	Cortex	C	100	Biopsy	F
+KRP460	Ref	Ref	Stone	Papilla	P	0	Biopsy	F
+KRP461	Ref	Ref	Stone	Cortex	C	100	Biopsy	M
+KRP462	Ref	Ref	Stone	Cortex	C	100	Biopsy	F
+KRP462	Ref	Ref	Stone	Papilla	P	0	Biopsy	F

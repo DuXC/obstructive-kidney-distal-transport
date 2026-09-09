@@ -1,7 +1,7 @@
 {
   "title": "Obstructive kidney distal transport programs: donor-level reanalysis code and data",
   "upload_type": "software",
-  "description": "Code, verified donor aggregates, expected result tables and figure scripts for a 12-donor secondary analysis of GSE254185. Tumour type and obstruction status are completely confounded; the results describe transcript scores and do not establish physiological transport or an isolated obstruction effect.",
+  "description": "Code, verified donor aggregates, expected result tables and figure scripts for a 12-donor secondary analysis of GSE254185. Tumour type and obstruction status are completely confounded; the results describe transcript scores and do not establish physiological transport or an isolated obstruction effect. This version adds primary snRNA and secondary scRNA cross-injury analyses from the Lake et al. atlas, with partial support and complete null/untestable results.",
   "creators": [
     {
       "name": "Du, Xiancheng",
@@ -34,7 +34,7 @@
       "orcid": "0000-0003-0538-1239"
     }
   ],
-  "version": "0.4.0",
+  "version": "0.5.0",
   "publication_date": "2026-09-10",
   "license": "MIT",
   "keywords": [
@@ -53,6 +53,21 @@
     },
     {
       "identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE254185",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.1038/s41586-023-05769-3",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183277",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183276",
       "relation": "isDerivedFrom",
       "scheme": "url"
     }

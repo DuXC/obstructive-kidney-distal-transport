@@ -1,0 +1,7 @@
+/05_results/*
+/06_figures/*
+/02_data/*normalized*
+/08_qa/*_model_receipt.json
+/08_qa/reproduction_receipt.json
+/08_qa/*_reproduction.log
+/08_qa/*_model_stdout.log

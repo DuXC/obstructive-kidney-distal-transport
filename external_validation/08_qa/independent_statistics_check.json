@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "frozen_plan_and_memberships_unchanged": true,
+  "assays": [
+    {
+      "assay": "sn",
+      "primary_tests": 10,
+      "primary_tested": 10,
+      "fdr_lt_05": 0,
+      "welch_ci_bh_independently_recomputed": true,
+      "all_fixed_members_represented": true
+    },
+    {
+      "assay": "sc",
+      "primary_tests": 10,
+      "primary_tested": 7,
+      "fdr_lt_05": 2,
+      "welch_ci_bh_independently_recomputed": true,
+      "all_fixed_members_represented": true
+    }
+  ]
+}

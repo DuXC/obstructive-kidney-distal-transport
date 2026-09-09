@@ -1,0 +1,8 @@
+{
+  "frozen_at": "2026-09-10T01:09:18.817540+08:00",
+  "stage": "Metadata and cell counts inspected; external expression matrix not read; contrasts not calculated",
+  "files": {
+    "EXTERNAL_VALIDATION_PLAN_v1.md": "af20b42eccb30baa88aed75f4ebbb3f620f9db501c33b5a1c20478080cc2465f",
+    "modules_v1.json": "cc24293cf4548b850492780e6ef1dcd8626e9f89277b54ec1618e9750ebb790f"
+  }
+}

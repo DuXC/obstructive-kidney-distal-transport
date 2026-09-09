@@ -1,0 +1,4 @@
+dataset	role	comparison	eligible_donors	interpretation
+GSE254185	Discovery snRNA	RCC reference vs obstructed UTUC	TAL 7/5; DCT 6/5	Cancer type and obstruction coincide
+GSE183277	Primary external snRNA	Non-stone cortex; AKI/CKD vs reference	Ref 4; AKI 9; CKD 7	Cross-injury assessment; small reference group
+GSE183276	Secondary external scRNA	AKI/CKD vs living-donor reference	TAL 18/7/5; DCT 13/6/2	Shared IDs excluded; CKD DCT descriptive

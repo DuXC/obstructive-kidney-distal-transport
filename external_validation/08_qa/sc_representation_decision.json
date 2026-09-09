@@ -1,0 +1,7 @@
+{
+  "reviewed_at": "2026-09-10T01:20:50.617453+08:00",
+  "file": "sc_representation_review.md",
+  "sha256": "b32cc54e314dd4725757292fe119a58c6a60c9f66928482514ee9cdcd77c6256",
+  "decision": "ACCEPT_AUTHOR_PROCESSED_COUNT_SCALE_SECONDARY_ASSAY",
+  "stage": "Before scCv3 program comparisons; snCv3 results already known"
+}

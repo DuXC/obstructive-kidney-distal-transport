@@ -27,10 +27,10 @@ authors:
     family-names: "Sun"
     orcid: "https://orcid.org/0000-0003-0538-1239"
     affiliation: "Department of Urology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing 210009, China"
-version: "0.4.0"
+version: "0.5.0"
 date-released: "2026-09-10"
 repository-code: "https://github.com/DuXC/obstructive-kidney-distal-transport"
-url: "https://github.com/DuXC/obstructive-kidney-distal-transport/releases/tag/v0.4.0"
+url: "https://github.com/DuXC/obstructive-kidney-distal-transport/releases/tag/v0.5.0"
 license: "MIT"
 keywords:
   - "kidney"
@@ -39,4 +39,4 @@ keywords:
   - "donor-level analysis"
   - "TAL"
   - "DCT"
-abstract: "Code, verified donor aggregates, expected result tables and figure scripts for a 12-donor secondary analysis of GSE254185. Tumour type and obstruction status are completely confounded; the results describe transcript scores and do not establish physiological transport or an isolated obstruction effect."
+abstract: "Code, verified donor aggregates and complete results for the 12-donor GSE254185 discovery analysis and a frozen GSE183277/GSE183276 external atlas extension. Primary external snRNA comparisons are uncertain; the secondary scRNA assay gives partial AKI support. Cancer type and obstruction remain confounded in discovery. The results estimate transcript scores and do not establish physiological transport or an isolated obstruction effect."

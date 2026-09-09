@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-09-10T01:35:04.423661+08:00",
+  "scope": "Reproduction from included verified donor aggregates; full raw source reaggregation is separate.",
+  "tables": [
+    {
+      "file": "sn_program_comparisons.tsv",
+      "rows": 190,
+      "numeric_match": true,
+      "byte_identical": true
+    },
+    {
+      "file": "sn_donor_scores.tsv",
+      "rows": 2178,
+      "numeric_match": true,
+      "byte_identical": true
+    },
+    {
+      "file": "sn_member_coverage.tsv",
+      "rows": 50,
+      "numeric_match": true,
+      "byte_identical": true
+    },
+    {
+      "file": "sn_normalization.tsv",
+      "rows": 48,
+      "numeric_match": true,
+      "byte_identical": true
+    },
+    {
+      "file": "sn_gene_results.tsv.gz",
+      "rows": 47381,
+      "numeric_match": true,
+      "byte_identical": true
+    },
+    {
+      "file": "sn_fixed_gene_results.tsv",
+      "rows": 72,
+      "numeric_match": true,
+      "byte_identical": true
+    },
+    {
+      "file": "sn_lodo_summary.tsv",
+      "rows": 10,
+      "numeric_match": true,
+      "byte_identical": true
+    },
+    {
+      "file": "sc_program_comparisons.tsv",
+      "rows": 248,
+      "numeric_match": true,
+      "byte_identical": true
+    },
+    {
+      "file": "sc_donor_scores.tsv",
+      "rows": 4662,
+      "numeric_match": true,
+      "byte_identical": true
+    },
+    {
+      "file": "sc_member_coverage.tsv",
+      "rows": 50,
+      "numeric_match": true,
+      "byte_identical": true
+    },
+    {
+      "file": "sc_normalization.tsv",
+      "rows": 82,
+      "numeric_match": true,
+      "byte_identical": true
+    },
+    {
+      "file": "sc_gene_results.tsv.gz",
+      "rows": 29499,
+      "numeric_match": true,
+      "byte_identical": true
+    },
+    {
+      "file": "sc_fixed_gene_results.tsv",
+      "rows": 52,
+      "numeric_match": true,
+      "byte_identical": true
+    },
+    {
+      "file": "sc_lodo_summary.tsv",
+      "rows": 10,
+      "numeric_match": true,
+      "byte_identical": true
+    }
+  ],
+  "figures": [
+    {
+      "file": "Fig4.png",
+      "byte_identical": true
+    },
+    {
+      "file": "FigS5.png",
+      "byte_identical": true
+    },
+    {
+      "file": "FigS6.png",
+      "byte_identical": true
+    }
+  ],
+  "original_discovery_analysis": "Unchanged from v0.4.0."
+}

@@ -1,0 +1,9 @@
+{
+  "02_data/sn_donor_pseudobulk.rds": "56786eedc70547109815f4fd1b43fb3200a9d7af3617756f4ec58c7936d68cf0",
+  "02_data/sc_donor_pseudobulk.rds": "6f1fc246e805f9e0af72c54b70912e539906f612c10a85500a3ccf28bb650c99",
+  "03_protocol/EXTERNAL_VALIDATION_PLAN_v1.md": "af20b42eccb30baa88aed75f4ebbb3f620f9db501c33b5a1c20478080cc2465f",
+  "03_protocol/modules_v1.json": "cc24293cf4548b850492780e6ef1dcd8626e9f89277b54ec1618e9750ebb790f",
+  "03_protocol/freeze_receipt.json": "6d4a3e98b789e98de659597508c156ecb3b905fc10120698f07b95bd25a79f02",
+  "03_protocol/FIGURE_CONTRACT.md": "66475e919733959be72724fdf3390556c60e655882faebda83203049b4834b35",
+  "03_protocol/sc_representation_review.md": "b32cc54e314dd4725757292fe119a58c6a60c9f66928482514ee9cdcd77c6256"
+}
