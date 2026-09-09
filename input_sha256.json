@@ -1,0 +1,19 @@
+{
+  "02_data/derived/pseudobulk_celltype.tsv.gz": "d8bd21ae4fa462e16b74b538dfb278a8f1a05a0d27010c34f380c73a5ad66d29",
+  "02_data/derived/pseudobulk_state.tsv.gz": "db1604b80ad4284e285e031f49a6c549c9984bc1d7b8a7e23e5d58b8fb1c8f49",
+  "02_data/derived/pseudobulk_celltype_samples.tsv": "4976d340e99acc883e844c43b60d9e4af22b9300dd432bde943e020f7e7df769",
+  "02_data/derived/pseudobulk_state_samples.tsv": "e51ab2d5bfcbb466605002ea9114fbd7be6dd527f8a19e8825c985868857b48b",
+  "02_data/derived/nucleus_qc.tsv.gz": "ce148cac4a533e2258da6dbca097282b1de731d9e4adae5967948dd0a076b9a2",
+  "03_protocol/ANALYSIS_PLAN_v1.md": "1719de13bfe394266581208c9638572b5cd9d20428795690986a91ef932b2f20",
+  "03_protocol/modules_v1.json": "cc24293cf4548b850492780e6ef1dcd8626e9f89277b54ec1618e9750ebb790f",
+  "03_protocol/module_gene_table.tsv": "6a8aaa6b0b1117a8873faad6d07f41c4faafa5871aa411a89bf7ffd4fc7d7a78",
+  "03_protocol/freeze_receipt.json": "e007f9e5fa675655b33ed7543f65ccdd076fd57d1f9a9b15d273c6cd032a67f9",
+  "05_results/donor_clinical_source_table.tsv": "1293c62020b6ef2f18bfbc4f8b5f5a069faf22c42196754e73844b9c04b21e0a",
+  "05_results/captured_composition.tsv": "a3f622b9736638c7549ac9391c6f791999fddaaae2dbcb1b7992270e7a8baf18",
+  "05_results/author_state_composition.tsv": "d9fca6e300344eeada0bfcb8ce01826bdd5bd296d1599acf129196a718230d11",
+  "05_results/marker_audit_by_donor.tsv.gz": "786f1fa5685de3fb0028fb25a158e1fc9ea3bf83e0ae75424ca1007c078dc12b",
+  "05_results/donor_celltype_qc.tsv": "4976d340e99acc883e844c43b60d9e4af22b9300dd432bde943e020f7e7df769",
+  "05_results/donor_library_celltype_counts.tsv": "8e4bbc0cf0dee92a249d72bb79ffa2270fef03cb634d53ed34599317b2132017",
+  "05_results/donor_qc.tsv": "49c77b5d549a349452967fe33ca76ef023892a7a0744282670fb5bc2093fd996",
+  "10_manuscript_refinement_20260909/06_scripts/04_figures.py": "c7b35ea14ebed6c6e559f65b3ec95226924bf37159a1d9cf3ee2b033073e2e9e"
+}

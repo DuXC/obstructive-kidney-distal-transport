@@ -1,0 +1,6 @@
+package	version
+edgeR	4.10.5
+limma	3.68.5
+jsonlite	2.0.0
+statmod	1.5.2
+locfit	1.5-9.12

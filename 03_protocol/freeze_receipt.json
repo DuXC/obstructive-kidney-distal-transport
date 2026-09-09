@@ -1,0 +1,10 @@
+{
+  "frozen_at": "2026-09-09T10:38:09+0800",
+  "basis": "Source reading and counts/QC completed; differential expression and module tests not yet run",
+  "source_clinical_counts_match_metadata": true,
+  "files": {
+    "03_protocol/ANALYSIS_PLAN_v1.md": "1719de13bfe394266581208c9638572b5cd9d20428795690986a91ef932b2f20",
+    "03_protocol/modules_v1.json": "cc24293cf4548b850492780e6ef1dcd8626e9f89277b54ec1618e9750ebb790f",
+    "03_protocol/module_gene_table.tsv": "6a8aaa6b0b1117a8873faad6d07f41c4faafa5871aa411a89bf7ffd4fc7d7a78"
+  }
+}

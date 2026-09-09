@@ -1,0 +1,189 @@
+donor	celltype	pb_id	n_nuclei	group	sex	total_umis	detected_genes
+Control1	ATL	Control1__ATL	17	Control	Male	45472	9204
+Control1	B Cell	Control1__B Cell	10	Control	Male	13338	4595
+Control1	CNT	Control1__CNT	76	Control	Male	221401	14591
+Control1	DCT	Control1__DCT	121	Control	Male	512444	17504
+Control1	DTL	Control1__DTL	8	Control	Male	31716	7411
+Control1	Endothelia	Control1__Endothelia	118	Control	Male	197162	14608
+Control1	IC-A	Control1__IC-A	41	Control	Male	179703	13612
+Control1	IC-B	Control1__IC-B	11	Control	Male	25268	6388
+Control1	Interstitium	Control1__Interstitium	5	Control	Male	5437	2896
+Control1	Myeloid Cell	Control1__Myeloid Cell	23	Control	Male	62409	10152
+Control1	PC	Control1__PC	98	Control	Male	277213	15354
+Control1	PEC	Control1__PEC	26	Control	Male	78371	10852
+Control1	PT	Control1__PT	127	Control	Male	708549	19335
+Control1	Podocyte	Control1__Podocyte	6	Control	Male	20345	6342
+Control1	T Cell	Control1__T Cell	43	Control	Male	55195	9399
+Control1	TAL	Control1__TAL	439	Control	Male	1856464	23164
+Control2	ATL	Control2__ATL	12	Control	Male	14938	5211
+Control2	B Cell	Control2__B Cell	19	Control	Male	14156	4895
+Control2	CNT	Control2__CNT	297	Control	Male	822216	18865
+Control2	DCT	Control2__DCT	546	Control	Male	2052873	21590
+Control2	DTL	Control2__DTL	9	Control	Male	14764	5134
+Control2	Endothelia	Control2__Endothelia	172	Control	Male	210476	14271
+Control2	IC-A	Control2__IC-A	127	Control	Male	447672	16431
+Control2	IC-B	Control2__IC-B	108	Control	Male	314582	14498
+Control2	Interstitium	Control2__Interstitium	80	Control	Male	108102	11665
+Control2	Myeloid Cell	Control2__Myeloid Cell	148	Control	Male	220971	13890
+Control2	PC	Control2__PC	154	Control	Male	423739	16497
+Control2	PEC	Control2__PEC	83	Control	Male	144146	13199
+Control2	PT	Control2__PT	802	Control	Male	3616076	24059
+Control2	Podocyte	Control2__Podocyte	9	Control	Male	26935	7157
+Control2	T Cell	Control2__T Cell	172	Control	Male	163254	12910
+Control2	TAL	Control2__TAL	1235	Control	Male	3906598	24339
+Control3	ATL	Control3__ATL	34	Control	Female	47607	9052
+Control3	B Cell	Control3__B Cell	6	Control	Female	6774	3090
+Control3	CNT	Control3__CNT	3	Control	Female	6365	2979
+Control3	DCT	Control3__DCT	13	Control	Female	45083	8576
+Control3	DTL	Control3__DTL	17	Control	Female	31022	7662
+Control3	Endothelia	Control3__Endothelia	11	Control	Female	11699	4262
+Control3	IC-A	Control3__IC-A	4	Control	Female	18133	5587
+Control3	IC-B	Control3__IC-B	2	Control	Female	3334	1892
+Control3	Interstitium	Control3__Interstitium	19	Control	Female	28411	6830
+Control3	Myeloid Cell	Control3__Myeloid Cell	17	Control	Female	27504	6535
+Control3	PC	Control3__PC	28	Control	Female	67248	9468
+Control3	PT	Control3__PT	157	Control	Female	580551	17342
+Control3	T Cell	Control3__T Cell	30	Control	Female	34354	7592
+Control3	TAL	Control3__TAL	102	Control	Female	314987	16047
+Control4	ATL	Control4__ATL	45	Control	Male	74792	11605
+Control4	B Cell	Control4__B Cell	5	Control	Male	8174	3814
+Control4	CNT	Control4__CNT	102	Control	Male	208975	14461
+Control4	DCT	Control4__DCT	117	Control	Male	396957	16379
+Control4	DTL	Control4__DTL	18	Control	Male	44660	9523
+Control4	Endothelia	Control4__Endothelia	96	Control	Male	144069	13217
+Control4	IC-A	Control4__IC-A	76	Control	Male	227706	14515
+Control4	IC-B	Control4__IC-B	27	Control	Male	69577	9707
+Control4	Interstitium	Control4__Interstitium	21	Control	Male	69109	10554
+Control4	Myeloid Cell	Control4__Myeloid Cell	70	Control	Male	100146	11412
+Control4	PC	Control4__PC	100	Control	Male	238887	14853
+Control4	PEC	Control4__PEC	19	Control	Male	24356	7103
+Control4	PT	Control4__PT	532	Control	Male	1866550	22855
+Control4	Podocyte	Control4__Podocyte	6	Control	Male	18136	5829
+Control4	T Cell	Control4__T Cell	72	Control	Male	62610	10101
+Control4	TAL	Control4__TAL	954	Control	Male	3062810	24492
+Control5	ATL	Control5__ATL	44	Control	Female	47978	9290
+Control5	CNT	Control5__CNT	96	Control	Female	202325	13241
+Control5	DCT	Control5__DCT	205	Control	Female	670164	17802
+Control5	DTL	Control5__DTL	21	Control	Female	39225	8619
+Control5	Endothelia	Control5__Endothelia	79	Control	Female	91089	11264
+Control5	IC-A	Control5__IC-A	82	Control	Female	261765	14541
+Control5	IC-B	Control5__IC-B	70	Control	Female	178092	12163
+Control5	Interstitium	Control5__Interstitium	6	Control	Female	8046	3432
+Control5	Myeloid Cell	Control5__Myeloid Cell	34	Control	Female	47010	8309
+Control5	PC	Control5__PC	145	Control	Female	246548	13963
+Control5	PEC	Control5__PEC	6	Control	Female	9755	4069
+Control5	PT	Control5__PT	227	Control	Female	741813	19074
+Control5	Podocyte	Control5__Podocyte	2	Control	Female	2776	1533
+Control5	T Cell	Control5__T Cell	28	Control	Female	25384	6365
+Control5	TAL	Control5__TAL	786	Control	Female	2118943	22656
+Control6	ATL	Control6__ATL	37	Control	Female	59410	10442
+Control6	B Cell	Control6__B Cell	4	Control	Female	3113	1899
+Control6	CNT	Control6__CNT	202	Control	Female	427388	16987
+Control6	DCT	Control6__DCT	220	Control	Female	682157	17732
+Control6	DTL	Control6__DTL	12	Control	Female	29989	7801
+Control6	Endothelia	Control6__Endothelia	51	Control	Female	60873	10112
+Control6	IC-A	Control6__IC-A	77	Control	Female	254848	14641
+Control6	IC-B	Control6__IC-B	45	Control	Female	88365	10778
+Control6	Interstitium	Control6__Interstitium	34	Control	Female	56877	9725
+Control6	Myeloid Cell	Control6__Myeloid Cell	79	Control	Female	99595	11415
+Control6	PC	Control6__PC	68	Control	Female	158077	13054
+Control6	PEC	Control6__PEC	30	Control	Female	55581	10080
+Control6	PT	Control6__PT	366	Control	Female	1211303	20523
+Control6	Podocyte	Control6__Podocyte	4	Control	Female	12411	4672
+Control6	T Cell	Control6__T Cell	89	Control	Female	87602	10984
+Control6	TAL	Control6__TAL	633	Control	Female	2055093	22512
+Control7	ATL	Control7__ATL	1	Control	Male	2008	1217
+Control7	B Cell	Control7__B Cell	15	Control	Male	18404	6013
+Control7	CNT	Control7__CNT	329	Control	Male	729962	18262
+Control7	DCT	Control7__DCT	595	Control	Male	1931645	21567
+Control7	DTL	Control7__DTL	6	Control	Male	12505	4810
+Control7	Endothelia	Control7__Endothelia	164	Control	Male	186775	13581
+Control7	IC-A	Control7__IC-A	120	Control	Male	350560	15184
+Control7	IC-B	Control7__IC-B	179	Control	Male	458731	15663
+Control7	Interstitium	Control7__Interstitium	63	Control	Male	93125	11462
+Control7	Myeloid Cell	Control7__Myeloid Cell	84	Control	Male	103957	11233
+Control7	PC	Control7__PC	89	Control	Male	231344	13785
+Control7	PEC	Control7__PEC	47	Control	Male	78031	10866
+Control7	PT	Control7__PT	1002	Control	Male	3908242	24408
+Control7	Podocyte	Control7__Podocyte	8	Control	Male	21436	6013
+Control7	T Cell	Control7__T Cell	154	Control	Male	127652	12154
+Control7	TAL	Control7__TAL	657	Control	Male	1967357	22055
+UUO1	ATL	UUO1__ATL	1	UUO	Male	669	563
+UUO1	B Cell	UUO1__B Cell	354	UUO	Male	331507	16587
+UUO1	CNT	UUO1__CNT	93	UUO	Male	330928	16736
+UUO1	DCT	UUO1__DCT	213	UUO	Male	675815	19110
+UUO1	Endothelia	UUO1__Endothelia	94	UUO	Male	128978	13208
+UUO1	IC-A	UUO1__IC-A	186	UUO	Male	595299	17859
+UUO1	IC-B	UUO1__IC-B	59	UUO	Male	124435	11954
+UUO1	Interstitium	UUO1__Interstitium	20	UUO	Male	35162	8104
+UUO1	Myeloid Cell	UUO1__Myeloid Cell	304	UUO	Male	456762	17568
+UUO1	PC	UUO1__PC	39	UUO	Male	103381	12269
+UUO1	PEC	UUO1__PEC	18	UUO	Male	29256	7966
+UUO1	PT	UUO1__PT	802	UUO	Male	2957660	24182
+UUO1	Podocyte	UUO1__Podocyte	4	UUO	Male	7215	3347
+UUO1	T Cell	UUO1__T Cell	1461	UUO	Male	1350006	21524
+UUO1	TAL	UUO1__TAL	323	UUO	Male	1034379	20835
+UUO2	ATL	UUO2__ATL	15	UUO	Male	46284	8649
+UUO2	B Cell	UUO2__B Cell	202	UUO	Male	241999	14795
+UUO2	CNT	UUO2__CNT	81	UUO	Male	282699	15952
+UUO2	DCT	UUO2__DCT	226	UUO	Male	938380	20049
+UUO2	DTL	UUO2__DTL	6	UUO	Male	18179	5700
+UUO2	Endothelia	UUO2__Endothelia	231	UUO	Male	485070	17560
+UUO2	IC-A	UUO2__IC-A	135	UUO	Male	641461	17979
+UUO2	IC-B	UUO2__IC-B	113	UUO	Male	369449	15669
+UUO2	Interstitium	UUO2__Interstitium	51	UUO	Male	121204	12732
+UUO2	Myeloid Cell	UUO2__Myeloid Cell	451	UUO	Male	998369	20573
+UUO2	PC	UUO2__PC	41	UUO	Male	167683	14082
+UUO2	PEC	UUO2__PEC	31	UUO	Male	90184	11915
+UUO2	PT	UUO2__PT	637	UUO	Male	3031972	24551
+UUO2	Podocyte	UUO2__Podocyte	6	UUO	Male	21096	5677
+UUO2	T Cell	UUO2__T Cell	1423	UUO	Male	1979677	22909
+UUO2	TAL	UUO2__TAL	1126	UUO	Male	4436404	25705
+UUO3	ATL	UUO3__ATL	272	UUO	Female	510821	18458
+UUO3	B Cell	UUO3__B Cell	200	UUO	Female	261936	14920
+UUO3	CNT	UUO3__CNT	37	UUO	Female	162186	13597
+UUO3	DCT	UUO3__DCT	60	UUO	Female	274915	15459
+UUO3	DTL	UUO3__DTL	112	UUO	Female	335052	16626
+UUO3	Endothelia	UUO3__Endothelia	83	UUO	Female	140379	13180
+UUO3	IC-A	UUO3__IC-A	43	UUO	Female	164062	13353
+UUO3	IC-B	UUO3__IC-B	9	UUO	Female	25830	6482
+UUO3	Interstitium	UUO3__Interstitium	202	UUO	Female	383656	17512
+UUO3	Myeloid Cell	UUO3__Myeloid Cell	559	UUO	Female	1184476	20365
+UUO3	PC	UUO3__PC	234	UUO	Female	914179	20047
+UUO3	PEC	UUO3__PEC	12	UUO	Female	42038	9016
+UUO3	PT	UUO3__PT	247	UUO	Female	1155932	21148
+UUO3	Podocyte	UUO3__Podocyte	13	UUO	Female	23662	6112
+UUO3	T Cell	UUO3__T Cell	1713	UUO	Female	1990623	21714
+UUO3	TAL	UUO3__TAL	1620	UUO	Female	5587516	25946
+UUO4	ATL	UUO4__ATL	4	UUO	Male	5181	2807
+UUO4	B Cell	UUO4__B Cell	3126	UUO	Male	2906750	23415
+UUO4	CNT	UUO4__CNT	27	UUO	Male	77186	10762
+UUO4	DCT	UUO4__DCT	180	UUO	Male	630573	18273
+UUO4	DTL	UUO4__DTL	4	UUO	Male	7310	3641
+UUO4	Endothelia	UUO4__Endothelia	72	UUO	Male	122107	12176
+UUO4	IC-A	UUO4__IC-A	49	UUO	Male	228985	13993
+UUO4	IC-B	UUO4__IC-B	8	UUO	Male	25882	6220
+UUO4	Interstitium	UUO4__Interstitium	218	UUO	Male	369579	17009
+UUO4	Myeloid Cell	UUO4__Myeloid Cell	797	UUO	Male	1482244	21450
+UUO4	PC	UUO4__PC	14	UUO	Male	38671	8391
+UUO4	PEC	UUO4__PEC	10	UUO	Male	22665	6845
+UUO4	PT	UUO4__PT	217	UUO	Male	821118	19659
+UUO4	Podocyte	UUO4__Podocyte	9	UUO	Male	33075	7905
+UUO4	T Cell	UUO4__T Cell	4063	UUO	Male	4315834	24423
+UUO4	TAL	UUO4__TAL	391	UUO	Male	1414581	21057
+UUO5	ATL	UUO5__ATL	135	UUO	Male	235087	14774
+UUO5	B Cell	UUO5__B Cell	391	UUO	Male	482518	16624
+UUO5	CNT	UUO5__CNT	459	UUO	Male	1537539	20516
+UUO5	DCT	UUO5__DCT	490	UUO	Male	2105294	21228
+UUO5	DTL	UUO5__DTL	56	UUO	Male	123637	12333
+UUO5	Endothelia	UUO5__Endothelia	426	UUO	Male	625804	17379
+UUO5	IC-A	UUO5__IC-A	163	UUO	Male	662508	17227
+UUO5	IC-B	UUO5__IC-B	60	UUO	Male	177986	12224
+UUO5	Interstitium	UUO5__Interstitium	186	UUO	Male	287033	15644
+UUO5	Myeloid Cell	UUO5__Myeloid Cell	475	UUO	Male	996426	18837
+UUO5	PC	UUO5__PC	479	UUO	Male	1440254	20177
+UUO5	PEC	UUO5__PEC	51	UUO	Male	126346	12375
+UUO5	PT	UUO5__PT	1493	UUO	Male	7112169	25768
+UUO5	Podocyte	UUO5__Podocyte	41	UUO	Male	115223	11467
+UUO5	T Cell	UUO5__T Cell	1804	UUO	Male	2010324	20871
+UUO5	TAL	UUO5__TAL	1757	UUO	Male	5888084	25214

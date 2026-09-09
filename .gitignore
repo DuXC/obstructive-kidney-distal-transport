@@ -1,0 +1,5 @@
+__pycache__/
+.DS_Store
+*.pyc
+08_logs/
+**/05_figures/

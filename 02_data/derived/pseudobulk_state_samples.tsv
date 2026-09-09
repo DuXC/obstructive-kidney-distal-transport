@@ -1,0 +1,624 @@
+donor	state	pb_id	n_nuclei	group	sex	total_umis	detected_genes
+Control1	ATL	Control1__ATL	17	Control	Male	45472	9204
+Control1	Ascending Vasa Recta	Control1__Ascending Vasa Recta	16	Control	Male	28660	7411
+Control1	CD14 Monocyte	Control1__CD14 Monocyte	1	Control	Male	1209	877
+Control1	CD16 Monocyte	Control1__CD16 Monocyte	5	Control	Male	14357	4676
+Control1	CNT	Control1__CNT	76	Control	Male	221401	14591
+Control1	DCT Injured	Control1__DCT Injured	1	Control	Male	4218	2100
+Control1	DCT1	Control1__DCT1	85	Control	Male	377106	16198
+Control1	DCT2	Control1__DCT2	35	Control	Male	131120	12415
+Control1	DTL	Control1__DTL	8	Control	Male	31716	7411
+Control1	Descending Vasa Recta	Control1__Descending Vasa Recta	5	Control	Male	14126	4854
+Control1	Effector Tc Cell	Control1__Effector Tc Cell	8	Control	Male	7728	3551
+Control1	Effector Th Cell	Control1__Effector Th Cell	2	Control	Male	1375	1007
+Control1	Endothelia Glomerular	Control1__Endothelia Glomerular	20	Control	Male	41189	7720
+Control1	Fibroblast	Control1__Fibroblast	1	Control	Male	1722	1081
+Control1	IC-B	Control1__IC-B	11	Control	Male	25268	6388
+Control1	Macrophage Activated	Control1__Macrophage Activated	10	Control	Male	29195	6711
+Control1	Macrophage Resident	Control1__Macrophage Resident	2	Control	Male	2542	1564
+Control1	Macula Densa	Control1__Macula Densa	8	Control	Male	33218	7523
+Control1	Mast Cell	Control1__Mast Cell	1	Control	Male	2455	1339
+Control1	Memory B Cell	Control1__Memory B Cell	8	Control	Male	8261	3503
+Control1	Monocyte Transitioning	Control1__Monocyte Transitioning	1	Control	Male	461	359
+Control1	Myofibroblast	Control1__Myofibroblast	2	Control	Male	2575	1632
+Control1	NK CD56dim	Control1__NK CD56dim	19	Control	Male	25123	6422
+Control1	NKT Cell	Control1__NKT Cell	4	Control	Male	3837	2188
+Control1	Naïve B Cell	Control1__Naïve B Cell	1	Control	Male	979	698
+Control1	Naïve Th Cell	Control1__Naïve Th Cell	10	Control	Male	17132	5204
+Control1	PEC	Control1__PEC	26	Control	Male	78371	10852
+Control1	PT Inflammatory	Control1__PT Inflammatory	6	Control	Male	33790	7102
+Control1	PT Injured	Control1__PT Injured	23	Control	Male	89063	11206
+Control1	PT S1	Control1__PT S1	40	Control	Male	289957	15307
+Control1	PT S2	Control1__PT S2	23	Control	Male	126468	12473
+Control1	PT S3	Control1__PT S3	35	Control	Male	169271	13699
+Control1	Pericyte	Control1__Pericyte	1	Control	Male	524	432
+Control1	Peritubular Capillary Endothelia	Control1__Peritubular Capillary Endothelia	77	Control	Male	113187	12307
+Control1	Plasma Cell	Control1__Plasma Cell	1	Control	Male	4098	1790
+Control1	Podocyte	Control1__Podocyte	6	Control	Male	20345	6342
+Control1	TAL Inflammatory	Control1__TAL Inflammatory	17	Control	Male	62647	10014
+Control1	TAL Injured	Control1__TAL Injured	25	Control	Male	106720	11819
+Control1	cDC CCR7+	Control1__cDC CCR7+	1	Control	Male	9545	3805
+Control1	cDC2	Control1__cDC2	1	Control	Male	1607	1148
+Control1	cIC-A	Control1__cIC-A	25	Control	Male	100832	11074
+Control1	cPC	Control1__cPC	60	Control	Male	112617	12213
+Control1	cTAL1	Control1__cTAL1	96	Control	Male	432212	17393
+Control1	cTAL2	Control1__cTAL2	153	Control	Male	635806	18652
+Control1	mIC-A	Control1__mIC-A	16	Control	Male	78871	10537
+Control1	mPC	Control1__mPC	38	Control	Male	164596	12817
+Control1	mTAL	Control1__mTAL	140	Control	Male	585861	18742
+Control1	pDC	Control1__pDC	1	Control	Male	1038	707
+Control1	vSMC	Control1__vSMC	1	Control	Male	616	501
+Control2	ATL	Control2__ATL	12	Control	Male	14938	5211
+Control2	Ascending Vasa Recta	Control2__Ascending Vasa Recta	22	Control	Male	25608	7145
+Control2	CD14 Monocyte	Control2__CD14 Monocyte	10	Control	Male	11828	4511
+Control2	CD16 Monocyte	Control2__CD16 Monocyte	22	Control	Male	42333	7600
+Control2	CNT	Control2__CNT	293	Control	Male	807309	18781
+Control2	CNT Injured	Control2__CNT Injured	4	Control	Male	14907	4814
+Control2	DCT Injured	Control2__DCT Injured	4	Control	Male	13180	4676
+Control2	DCT1	Control2__DCT1	302	Control	Male	1138317	19450
+Control2	DCT2	Control2__DCT2	240	Control	Male	901376	18811
+Control2	DTL	Control2__DTL	9	Control	Male	14764	5134
+Control2	Descending Vasa Recta	Control2__Descending Vasa Recta	4	Control	Male	5566	2739
+Control2	Effector Tc Cell	Control2__Effector Tc Cell	18	Control	Male	12034	4436
+Control2	Effector Th Cell	Control2__Effector Th Cell	37	Control	Male	28764	6641
+Control2	Endothelia Glomerular	Control2__Endothelia Glomerular	7	Control	Male	11047	3866
+Control2	Fibroblast	Control2__Fibroblast	47	Control	Male	70977	9846
+Control2	IC-A Injured	Control2__IC-A Injured	1	Control	Male	9511	3197
+Control2	IC-B	Control2__IC-B	108	Control	Male	314582	14498
+Control2	JG Cell	Control2__JG Cell	5	Control	Male	8818	3313
+Control2	MAIT	Control2__MAIT	7	Control	Male	5195	2570
+Control2	Macrophage Activated	Control2__Macrophage Activated	11	Control	Male	17822	5535
+Control2	Macrophage HIF1A+	Control2__Macrophage HIF1A+	1	Control	Male	698	473
+Control2	Macrophage Resident	Control2__Macrophage Resident	87	Control	Male	129514	11476
+Control2	Macula Densa	Control2__Macula Densa	35	Control	Male	113735	11793
+Control2	Mast Cell	Control2__Mast Cell	5	Control	Male	3725	2172
+Control2	Memory B Cell	Control2__Memory B Cell	16	Control	Male	12276	4486
+Control2	Monocyte Transitioning	Control2__Monocyte Transitioning	4	Control	Male	4041	2186
+Control2	Myofibroblast	Control2__Myofibroblast	15	Control	Male	16121	5439
+Control2	NK CD56bright	Control2__NK CD56bright	2	Control	Male	2500	1526
+Control2	NK CD56dim	Control2__NK CD56dim	53	Control	Male	55785	8951
+Control2	NKT Cell	Control2__NKT Cell	12	Control	Male	12184	4484
+Control2	Naïve B Cell	Control2__Naïve B Cell	2	Control	Male	1073	811
+Control2	Naïve Tc Cell	Control2__Naïve Tc Cell	3	Control	Male	2812	1687
+Control2	Naïve Th Cell	Control2__Naïve Th Cell	31	Control	Male	35474	7114
+Control2	PC Injured	Control2__PC Injured	1	Control	Male	2430	1485
+Control2	PEC	Control2__PEC	83	Control	Male	144146	13199
+Control2	PT Inflammatory	Control2__PT Inflammatory	14	Control	Male	53330	9021
+Control2	PT Injured	Control2__PT Injured	94	Control	Male	277248	15401
+Control2	PT S1	Control2__PT S1	432	Control	Male	2402226	22116
+Control2	PT S2	Control2__PT S2	162	Control	Male	503459	17050
+Control2	PT S3	Control2__PT S3	100	Control	Male	379813	15955
+Control2	Pericyte	Control2__Pericyte	12	Control	Male	10908	4081
+Control2	Peritubular Capillary Endothelia	Control2__Peritubular Capillary Endothelia	139	Control	Male	168255	13274
+Control2	Plasma Cell	Control2__Plasma Cell	1	Control	Male	807	563
+Control2	Podocyte	Control2__Podocyte	9	Control	Male	26935	7157
+Control2	TAL Inflammatory	Control2__TAL Inflammatory	6	Control	Male	15946	5179
+Control2	TAL Injured	Control2__TAL Injured	11	Control	Male	28732	7118
+Control2	Treg	Control2__Treg	9	Control	Male	8506	3816
+Control2	cDC1	Control2__cDC1	1	Control	Male	2679	1598
+Control2	cDC2	Control2__cDC2	6	Control	Male	7571	3246
+Control2	cIC-A	Control2__cIC-A	101	Control	Male	356231	15598
+Control2	cPC	Control2__cPC	113	Control	Male	293152	15063
+Control2	cTAL1	Control2__cTAL1	354	Control	Male	1167305	20154
+Control2	cTAL2	Control2__cTAL2	571	Control	Male	1858742	21653
+Control2	mIC-A	Control2__mIC-A	25	Control	Male	81930	10384
+Control2	mPC	Control2__mPC	40	Control	Male	128157	11957
+Control2	mTAL	Control2__mTAL	258	Control	Male	722138	18410
+Control2	pDC	Control2__pDC	1	Control	Male	760	564
+Control2	vSMC	Control2__vSMC	1	Control	Male	1278	782
+Control3	ATL	Control3__ATL	34	Control	Female	47607	9052
+Control3	Ascending Vasa Recta	Control3__Ascending Vasa Recta	4	Control	Female	4245	2100
+Control3	CD14 Monocyte	Control3__CD14 Monocyte	5	Control	Female	9629	3681
+Control3	CD16 Monocyte	Control3__CD16 Monocyte	1	Control	Female	3309	1659
+Control3	CNT	Control3__CNT	3	Control	Female	6365	2979
+Control3	DCT1	Control3__DCT1	4	Control	Female	6737	3253
+Control3	DCT2	Control3__DCT2	9	Control	Female	38346	7931
+Control3	DTL	Control3__DTL	17	Control	Female	31022	7662
+Control3	Effector Th Cell	Control3__Effector Th Cell	8	Control	Female	7852	3309
+Control3	Endothelia Glomerular	Control3__Endothelia Glomerular	2	Control	Female	3029	1524
+Control3	Fibroblast	Control3__Fibroblast	12	Control	Female	19339	5417
+Control3	IC-B	Control3__IC-B	2	Control	Female	3334	1892
+Control3	MAIT	Control3__MAIT	5	Control	Female	4872	2387
+Control3	Macrophage HIF1A+	Control3__Macrophage HIF1A+	2	Control	Female	3313	1642
+Control3	Macrophage Resident	Control3__Macrophage Resident	9	Control	Female	11253	4069
+Control3	Memory B Cell	Control3__Memory B Cell	6	Control	Female	6774	3090
+Control3	Myofibroblast	Control3__Myofibroblast	3	Control	Female	4971	2325
+Control3	NK CD56bright	Control3__NK CD56bright	1	Control	Female	849	649
+Control3	NK CD56dim	Control3__NK CD56dim	4	Control	Female	4959	2468
+Control3	NKT Cell	Control3__NKT Cell	1	Control	Female	977	645
+Control3	Naïve Tc Cell	Control3__Naïve Tc Cell	2	Control	Female	1220	903
+Control3	Naïve Th Cell	Control3__Naïve Th Cell	8	Control	Female	12866	4538
+Control3	PT Inflammatory	Control3__PT Inflammatory	1	Control	Female	2425	1615
+Control3	PT Injured	Control3__PT Injured	12	Control	Female	37368	8533
+Control3	PT S1	Control3__PT S1	19	Control	Female	94811	10662
+Control3	PT S2	Control3__PT S2	10	Control	Female	44714	8257
+Control3	PT S3	Control3__PT S3	115	Control	Female	401233	15916
+Control3	Pericyte	Control3__Pericyte	4	Control	Female	4101	2177
+Control3	Peritubular Capillary Endothelia	Control3__Peritubular Capillary Endothelia	5	Control	Female	4425	2381
+Control3	TAL Inflammatory	Control3__TAL Inflammatory	9	Control	Female	19184	5966
+Control3	TAL Injured	Control3__TAL Injured	3	Control	Female	6036	3170
+Control3	Treg	Control3__Treg	1	Control	Female	759	565
+Control3	cIC-A	Control3__cIC-A	2	Control	Female	10986	4199
+Control3	cPC	Control3__cPC	13	Control	Female	28666	6711
+Control3	cTAL1	Control3__cTAL1	53	Control	Female	178989	13885
+Control3	cTAL2	Control3__cTAL2	25	Control	Female	77209	10612
+Control3	mIC-A	Control3__mIC-A	2	Control	Female	7147	3182
+Control3	mPC	Control3__mPC	15	Control	Female	38582	7365
+Control3	mTAL	Control3__mTAL	12	Control	Female	33569	7915
+Control4	ATL	Control4__ATL	45	Control	Male	74792	11605
+Control4	Ascending Vasa Recta	Control4__Ascending Vasa Recta	19	Control	Male	24271	7182
+Control4	CD14 Monocyte	Control4__CD14 Monocyte	3	Control	Male	4085	2216
+Control4	CD16 Monocyte	Control4__CD16 Monocyte	4	Control	Male	5903	2901
+Control4	CNT	Control4__CNT	96	Control	Male	197251	14189
+Control4	CNT Injured	Control4__CNT Injured	6	Control	Male	11724	4656
+Control4	DCT Injured	Control4__DCT Injured	4	Control	Male	4576	2526
+Control4	DCT1	Control4__DCT1	80	Control	Male	275640	14866
+Control4	DCT2	Control4__DCT2	33	Control	Male	116741	11943
+Control4	DTL	Control4__DTL	18	Control	Male	44660	9523
+Control4	Descending Vasa Recta	Control4__Descending Vasa Recta	8	Control	Male	18254	5464
+Control4	Effector Tc Cell	Control4__Effector Tc Cell	16	Control	Male	10819	4332
+Control4	Effector Th Cell	Control4__Effector Th Cell	8	Control	Male	6524	2961
+Control4	Endothelia Glomerular	Control4__Endothelia Glomerular	18	Control	Male	38523	7590
+Control4	Fibroblast	Control4__Fibroblast	15	Control	Male	47466	9074
+Control4	IC-A Injured	Control4__IC-A Injured	6	Control	Male	11294	4405
+Control4	IC-B	Control4__IC-B	27	Control	Male	69577	9707
+Control4	JG Cell	Control4__JG Cell	2	Control	Male	6348	2589
+Control4	Macrophage Activated	Control4__Macrophage Activated	1	Control	Male	809	571
+Control4	Macrophage HIF1A+	Control4__Macrophage HIF1A+	1	Control	Male	905	678
+Control4	Macrophage Resident	Control4__Macrophage Resident	46	Control	Male	60431	9378
+Control4	Macula Densa	Control4__Macula Densa	9	Control	Male	49131	8383
+Control4	Mast Cell	Control4__Mast Cell	4	Control	Male	4064	2188
+Control4	Monocyte Transitioning	Control4__Monocyte Transitioning	6	Control	Male	11300	3952
+Control4	Myofibroblast	Control4__Myofibroblast	3	Control	Male	8879	3563
+Control4	NK CD56bright	Control4__NK CD56bright	1	Control	Male	659	540
+Control4	NK CD56dim	Control4__NK CD56dim	25	Control	Male	22268	6286
+Control4	NKT Cell	Control4__NKT Cell	9	Control	Male	7067	3336
+Control4	Naïve B Cell	Control4__Naïve B Cell	3	Control	Male	1982	1359
+Control4	Naïve Tc Cell	Control4__Naïve Tc Cell	5	Control	Male	3194	1932
+Control4	Naïve Th Cell	Control4__Naïve Th Cell	7	Control	Male	8613	3800
+Control4	PEC	Control4__PEC	19	Control	Male	24356	7103
+Control4	PT Inflammatory	Control4__PT Inflammatory	13	Control	Male	33095	7641
+Control4	PT Injured	Control4__PT Injured	43	Control	Male	115629	12505
+Control4	PT S1	Control4__PT S1	178	Control	Male	903108	19428
+Control4	PT S2	Control4__PT S2	136	Control	Male	419540	17021
+Control4	PT S3	Control4__PT S3	162	Control	Male	395178	17134
+Control4	Peritubular Capillary Endothelia	Control4__Peritubular Capillary Endothelia	51	Control	Male	63021	9804
+Control4	Plasma Cell	Control4__Plasma Cell	2	Control	Male	6192	3039
+Control4	Podocyte	Control4__Podocyte	6	Control	Male	18136	5829
+Control4	TAL Inflammatory	Control4__TAL Inflammatory	37	Control	Male	91858	11907
+Control4	TAL Injured	Control4__TAL Injured	47	Control	Male	94232	12069
+Control4	Treg	Control4__Treg	1	Control	Male	3466	1993
+Control4	cDC1	Control4__cDC1	1	Control	Male	3101	1834
+Control4	cDC2	Control4__cDC2	3	Control	Male	8849	3313
+Control4	cIC-A	Control4__cIC-A	47	Control	Male	144075	12414
+Control4	cPC	Control4__cPC	49	Control	Male	93745	11193
+Control4	cTAL1	Control4__cTAL1	235	Control	Male	802231	19333
+Control4	cTAL2	Control4__cTAL2	276	Control	Male	852363	19564
+Control4	mIC-A	Control4__mIC-A	23	Control	Male	72337	10375
+Control4	mPC	Control4__mPC	51	Control	Male	145142	12715
+Control4	mTAL	Control4__mTAL	350	Control	Male	1172995	20744
+Control4	pDC	Control4__pDC	1	Control	Male	699	546
+Control4	vSMC	Control4__vSMC	1	Control	Male	6416	2962
+Control5	ATL	Control5__ATL	44	Control	Female	47978	9290
+Control5	Ascending Vasa Recta	Control5__Ascending Vasa Recta	21	Control	Female	23069	6494
+Control5	CD14 Monocyte	Control5__CD14 Monocyte	1	Control	Female	1644	1080
+Control5	CD16 Monocyte	Control5__CD16 Monocyte	1	Control	Female	874	631
+Control5	CNT	Control5__CNT	96	Control	Female	202325	13241
+Control5	DCT1	Control5__DCT1	136	Control	Female	426154	16051
+Control5	DCT2	Control5__DCT2	69	Control	Female	244010	14235
+Control5	DTL	Control5__DTL	21	Control	Female	39225	8619
+Control5	Effector Tc Cell	Control5__Effector Tc Cell	5	Control	Female	3369	1928
+Control5	Effector Th Cell	Control5__Effector Th Cell	5	Control	Female	3459	1865
+Control5	Endothelia Glomerular	Control5__Endothelia Glomerular	13	Control	Female	13718	4709
+Control5	Fibroblast	Control5__Fibroblast	1	Control	Female	2352	1236
+Control5	IC-B	Control5__IC-B	70	Control	Female	178092	12163
+Control5	JG Cell	Control5__JG Cell	1	Control	Female	1829	1096
+Control5	MAIT	Control5__MAIT	1	Control	Female	1176	828
+Control5	Macrophage Activated	Control5__Macrophage Activated	9	Control	Female	16877	5056
+Control5	Macrophage HIF1A+	Control5__Macrophage HIF1A+	2	Control	Female	1567	1045
+Control5	Macrophage Resident	Control5__Macrophage Resident	18	Control	Female	23578	6193
+Control5	Monocyte Transitioning	Control5__Monocyte Transitioning	2	Control	Female	1264	903
+Control5	Myofibroblast	Control5__Myofibroblast	4	Control	Female	3865	2109
+Control5	NK CD56bright	Control5__NK CD56bright	1	Control	Female	1248	853
+Control5	NKT Cell	Control5__NKT Cell	10	Control	Female	9226	3736
+Control5	Naïve Tc Cell	Control5__Naïve Tc Cell	6	Control	Female	6906	3100
+Control5	PEC	Control5__PEC	6	Control	Female	9755	4069
+Control5	PT Inflammatory	Control5__PT Inflammatory	2	Control	Female	4002	2290
+Control5	PT Injured	Control5__PT Injured	50	Control	Female	141194	12940
+Control5	PT S1	Control5__PT S1	60	Control	Female	309043	15258
+Control5	PT S2	Control5__PT S2	26	Control	Female	85618	11059
+Control5	PT S3	Control5__PT S3	89	Control	Female	201956	14187
+Control5	Peritubular Capillary Endothelia	Control5__Peritubular Capillary Endothelia	45	Control	Female	54302	9136
+Control5	Podocyte	Control5__Podocyte	2	Control	Female	2776	1533
+Control5	TAL Inflammatory	Control5__TAL Inflammatory	5	Control	Female	10373	4125
+Control5	TAL Injured	Control5__TAL Injured	6	Control	Female	6503	3123
+Control5	cDC2	Control5__cDC2	1	Control	Female	1206	854
+Control5	cIC-A	Control5__cIC-A	61	Control	Female	187046	13244
+Control5	cPC	Control5__cPC	99	Control	Female	160586	12264
+Control5	cTAL1	Control5__cTAL1	215	Control	Female	627668	18137
+Control5	cTAL2	Control5__cTAL2	252	Control	Female	678236	18299
+Control5	mIC-A	Control5__mIC-A	21	Control	Female	74719	10084
+Control5	mPC	Control5__mPC	46	Control	Female	85962	10183
+Control5	mTAL	Control5__mTAL	308	Control	Female	796163	19066
+Control6	ATL	Control6__ATL	37	Control	Female	59410	10442
+Control6	Ascending Vasa Recta	Control6__Ascending Vasa Recta	6	Control	Female	7525	3501
+Control6	CD14 Monocyte	Control6__CD14 Monocyte	3	Control	Female	5292	2479
+Control6	CD16 Monocyte	Control6__CD16 Monocyte	8	Control	Female	14895	5024
+Control6	CNT	Control6__CNT	202	Control	Female	427388	16987
+Control6	DCT Injured	Control6__DCT Injured	1	Control	Female	1793	1200
+Control6	DCT1	Control6__DCT1	150	Control	Female	480637	16351
+Control6	DCT2	Control6__DCT2	69	Control	Female	199727	13873
+Control6	DTL	Control6__DTL	12	Control	Female	29989	7801
+Control6	Effector Tc Cell	Control6__Effector Tc Cell	9	Control	Female	6526	3143
+Control6	Effector Th Cell	Control6__Effector Th Cell	10	Control	Female	8212	3623
+Control6	Endothelia Glomerular	Control6__Endothelia Glomerular	6	Control	Female	9638	3717
+Control6	Fibroblast	Control6__Fibroblast	27	Control	Female	47795	8902
+Control6	IC-B	Control6__IC-B	45	Control	Female	88365	10778
+Control6	JG Cell	Control6__JG Cell	2	Control	Female	3075	1772
+Control6	Macrophage Activated	Control6__Macrophage Activated	1	Control	Female	1031	747
+Control6	Macrophage Resident	Control6__Macrophage Resident	64	Control	Female	72324	10158
+Control6	Macula Densa	Control6__Macula Densa	3	Control	Female	9729	4255
+Control6	Mast Cell	Control6__Mast Cell	1	Control	Female	570	458
+Control6	Memory B Cell	Control6__Memory B Cell	4	Control	Female	3113	1899
+Control6	NK CD56bright	Control6__NK CD56bright	2	Control	Female	1414	979
+Control6	NK CD56dim	Control6__NK CD56dim	25	Control	Female	29988	7162
+Control6	NKT Cell	Control6__NKT Cell	24	Control	Female	23197	6550
+Control6	Naïve Tc Cell	Control6__Naïve Tc Cell	10	Control	Female	9433	4014
+Control6	Naïve Th Cell	Control6__Naïve Th Cell	7	Control	Female	7697	3449
+Control6	PEC	Control6__PEC	30	Control	Female	55581	10080
+Control6	PT Inflammatory	Control6__PT Inflammatory	2	Control	Female	2211	1363
+Control6	PT Injured	Control6__PT Injured	64	Control	Female	138881	13399
+Control6	PT S1	Control6__PT S1	154	Control	Female	758771	18318
+Control6	PT S2	Control6__PT S2	96	Control	Female	225822	14418
+Control6	PT S3	Control6__PT S3	50	Control	Female	85618	11365
+Control6	Pericyte	Control6__Pericyte	4	Control	Female	4101	2126
+Control6	Peritubular Capillary Endothelia	Control6__Peritubular Capillary Endothelia	39	Control	Female	43710	8886
+Control6	Podocyte	Control6__Podocyte	4	Control	Female	12411	4672
+Control6	TAL Inflammatory	Control6__TAL Inflammatory	1	Control	Female	2245	1463
+Control6	TAL Injured	Control6__TAL Injured	5	Control	Female	11890	4837
+Control6	Treg	Control6__Treg	2	Control	Female	1135	821
+Control6	cDC2	Control6__cDC2	2	Control	Female	5483	2579
+Control6	cIC-A	Control6__cIC-A	66	Control	Female	204281	13834
+Control6	cPC	Control6__cPC	51	Control	Female	108430	11685
+Control6	cTAL1	Control6__cTAL1	136	Control	Female	454684	17137
+Control6	cTAL2	Control6__cTAL2	261	Control	Female	735168	18877
+Control6	mIC-A	Control6__mIC-A	11	Control	Female	50567	8785
+Control6	mPC	Control6__mPC	17	Control	Female	49647	8769
+Control6	mTAL	Control6__mTAL	227	Control	Female	841377	19154
+Control6	vSMC	Control6__vSMC	1	Control	Female	1906	1281
+Control7	ATL	Control7__ATL	1	Control	Male	2008	1217
+Control7	Ascending Vasa Recta	Control7__Ascending Vasa Recta	2	Control	Male	4211	2091
+Control7	CD14 Monocyte	Control7__CD14 Monocyte	10	Control	Male	10007	3658
+Control7	CD16 Monocyte	Control7__CD16 Monocyte	9	Control	Male	13729	4609
+Control7	CNT	Control7__CNT	323	Control	Male	718619	18172
+Control7	CNT Injured	Control7__CNT Injured	6	Control	Male	11343	4268
+Control7	DCT Injured	Control7__DCT Injured	30	Control	Male	85161	11009
+Control7	DCT1	Control7__DCT1	300	Control	Male	1009854	18994
+Control7	DCT2	Control7__DCT2	265	Control	Male	836630	18619
+Control7	DTL	Control7__DTL	6	Control	Male	12505	4810
+Control7	Descending Vasa Recta	Control7__Descending Vasa Recta	7	Control	Male	9313	3593
+Control7	Effector Tc Cell	Control7__Effector Tc Cell	27	Control	Male	20051	5801
+Control7	Effector Th Cell	Control7__Effector Th Cell	19	Control	Male	14709	4848
+Control7	Endothelia Glomerular	Control7__Endothelia Glomerular	10	Control	Male	11212	3869
+Control7	Fibroblast	Control7__Fibroblast	36	Control	Male	57233	9368
+Control7	IC-A Injured	Control7__IC-A Injured	4	Control	Male	7584	3396
+Control7	IC-B	Control7__IC-B	179	Control	Male	458731	15663
+Control7	JG Cell	Control7__JG Cell	12	Control	Male	22422	6276
+Control7	MAIT	Control7__MAIT	3	Control	Male	2507	1591
+Control7	Macrophage Resident	Control7__Macrophage Resident	53	Control	Male	66119	9351
+Control7	Macula Densa	Control7__Macula Densa	22	Control	Male	57167	9638
+Control7	Mast Cell	Control7__Mast Cell	2	Control	Male	1507	1031
+Control7	Memory B Cell	Control7__Memory B Cell	7	Control	Male	5602	2705
+Control7	Monocyte Transitioning	Control7__Monocyte Transitioning	5	Control	Male	6892	3155
+Control7	Myofibroblast	Control7__Myofibroblast	1	Control	Male	421	350
+Control7	NK CD56bright	Control7__NK CD56bright	5	Control	Male	3628	2164
+Control7	NK CD56dim	Control7__NK CD56dim	47	Control	Male	40806	8025
+Control7	NKT Cell	Control7__NKT Cell	7	Control	Male	5480	2848
+Control7	Naïve B Cell	Control7__Naïve B Cell	2	Control	Male	1474	1009
+Control7	Naïve Tc Cell	Control7__Naïve Tc Cell	16	Control	Male	13288	4808
+Control7	Naïve Th Cell	Control7__Naïve Th Cell	28	Control	Male	25900	6670
+Control7	PC Injured	Control7__PC Injured	3	Control	Male	8914	3581
+Control7	PEC	Control7__PEC	47	Control	Male	78031	10866
+Control7	PT Inflammatory	Control7__PT Inflammatory	25	Control	Male	71930	10207
+Control7	PT Injured	Control7__PT Injured	225	Control	Male	583326	18198
+Control7	PT S1	Control7__PT S1	339	Control	Male	1548202	20600
+Control7	PT S2	Control7__PT S2	317	Control	Male	1319655	20325
+Control7	PT S3	Control7__PT S3	96	Control	Male	385129	16105
+Control7	Pericyte	Control7__Pericyte	13	Control	Male	12441	4344
+Control7	Peritubular Capillary Endothelia	Control7__Peritubular Capillary Endothelia	145	Control	Male	162039	13132
+Control7	Plasma Cell	Control7__Plasma Cell	6	Control	Male	11328	4520
+Control7	Podocyte	Control7__Podocyte	8	Control	Male	21436	6013
+Control7	TAL Inflammatory	Control7__TAL Inflammatory	12	Control	Male	33481	7692
+Control7	TAL Injured	Control7__TAL Injured	40	Control	Male	94687	11503
+Control7	Treg	Control7__Treg	2	Control	Male	1283	916
+Control7	cDC1	Control7__cDC1	1	Control	Male	712	577
+Control7	cDC2	Control7__cDC2	2	Control	Male	1576	1036
+Control7	cIC-A	Control7__cIC-A	116	Control	Male	342976	15094
+Control7	cPC	Control7__cPC	83	Control	Male	212040	13341
+Control7	cTAL1	Control7__cTAL1	157	Control	Male	517639	17212
+Control7	cTAL2	Control7__cTAL2	412	Control	Male	1219044	20134
+Control7	mPC	Control7__mPC	3	Control	Male	10390	4146
+Control7	mTAL	Control7__mTAL	14	Control	Male	45339	8467
+Control7	pDC	Control7__pDC	2	Control	Male	3415	1881
+Control7	vSMC	Control7__vSMC	1	Control	Male	608	416
+UUO1	ATL	UUO1__ATL	1	UUO	Male	669	563
+UUO1	Ascending Vasa Recta	UUO1__Ascending Vasa Recta	49	UUO	Male	63690	10204
+UUO1	CD14 Monocyte	UUO1__CD14 Monocyte	71	UUO	Male	79403	10618
+UUO1	CD16 Monocyte	UUO1__CD16 Monocyte	27	UUO	Male	46317	8555
+UUO1	CNT	UUO1__CNT	4	UUO	Male	13585	4767
+UUO1	CNT Injured	UUO1__CNT Injured	89	UUO	Male	317343	16575
+UUO1	DCT Injured	UUO1__DCT Injured	207	UUO	Male	658973	18977
+UUO1	DCT1	UUO1__DCT1	5	UUO	Male	16237	5466
+UUO1	DCT2	UUO1__DCT2	1	UUO	Male	605	509
+UUO1	Descending Vasa Recta	UUO1__Descending Vasa Recta	1	UUO	Male	644	484
+UUO1	Effector Tc Cell	UUO1__Effector Tc Cell	179	UUO	Male	133268	12569
+UUO1	Effector Th Cell	UUO1__Effector Th Cell	150	UUO	Male	137919	12670
+UUO1	Endothelia Glomerular	UUO1__Endothelia Glomerular	37	UUO	Male	53550	9720
+UUO1	IC-A Injured	UUO1__IC-A Injured	174	UUO	Male	548178	17581
+UUO1	IC-B	UUO1__IC-B	59	UUO	Male	124435	11954
+UUO1	JG Cell	UUO1__JG Cell	1	UUO	Male	3494	1801
+UUO1	MAIT	UUO1__MAIT	15	UUO	Male	14138	5155
+UUO1	Macrophage Activated	UUO1__Macrophage Activated	60	UUO	Male	111568	11761
+UUO1	Macrophage HIF1A+	UUO1__Macrophage HIF1A+	20	UUO	Male	27199	6569
+UUO1	Macula Densa	UUO1__Macula Densa	2	UUO	Male	6474	3343
+UUO1	Mast Cell	UUO1__Mast Cell	2	UUO	Male	926	710
+UUO1	Memory B Cell	UUO1__Memory B Cell	270	UUO	Male	249078	15267
+UUO1	Monocyte Transitioning	UUO1__Monocyte Transitioning	37	UUO	Male	56544	9535
+UUO1	Myofibroblast	UUO1__Myofibroblast	18	UUO	Male	31072	7641
+UUO1	NK CD56bright	UUO1__NK CD56bright	16	UUO	Male	16817	5772
+UUO1	NK CD56dim	UUO1__NK CD56dim	55	UUO	Male	58725	9770
+UUO1	NKT Cell	UUO1__NKT Cell	42	UUO	Male	44008	8667
+UUO1	Naïve B Cell	UUO1__Naïve B Cell	45	UUO	Male	32397	7513
+UUO1	Naïve Tc Cell	UUO1__Naïve Tc Cell	188	UUO	Male	164280	13399
+UUO1	Naïve Th Cell	UUO1__Naïve Th Cell	768	UUO	Male	736541	19048
+UUO1	PC Injured	UUO1__PC Injured	39	UUO	Male	103381	12269
+UUO1	PEC	UUO1__PEC	18	UUO	Male	29256	7966
+UUO1	PT Inflammatory	UUO1__PT Inflammatory	231	UUO	Male	882101	19613
+UUO1	PT Injured	UUO1__PT Injured	500	UUO	Male	1820037	22387
+UUO1	PT S1	UUO1__PT S1	21	UUO	Male	85540	10982
+UUO1	PT S2	UUO1__PT S2	24	UUO	Male	74004	10592
+UUO1	PT S3	UUO1__PT S3	26	UUO	Male	95978	11385
+UUO1	Pericyte	UUO1__Pericyte	1	UUO	Male	596	475
+UUO1	Peritubular Capillary Endothelia	UUO1__Peritubular Capillary Endothelia	7	UUO	Male	11094	4596
+UUO1	Plasma Cell	UUO1__Plasma Cell	39	UUO	Male	50032	9269
+UUO1	Podocyte	UUO1__Podocyte	4	UUO	Male	7215	3347
+UUO1	TAL Inflammatory	UUO1__TAL Inflammatory	224	UUO	Male	691017	19283
+UUO1	TAL Injured	UUO1__TAL Injured	57	UUO	Male	173171	14229
+UUO1	Treg	UUO1__Treg	48	UUO	Male	44310	8673
+UUO1	cDC CCR7+	UUO1__cDC CCR7+	6	UUO	Male	7360	3038
+UUO1	cDC1	UUO1__cDC1	4	UUO	Male	9685	4170
+UUO1	cDC2	UUO1__cDC2	28	UUO	Male	46816	8920
+UUO1	cIC-A	UUO1__cIC-A	12	UUO	Male	47121	8632
+UUO1	cTAL1	UUO1__cTAL1	15	UUO	Male	79688	10868
+UUO1	cTAL2	UUO1__cTAL2	20	UUO	Male	65421	10335
+UUO1	mTAL	UUO1__mTAL	5	UUO	Male	18608	6075
+UUO1	pDC	UUO1__pDC	49	UUO	Male	70944	9943
+UUO2	ATL	UUO2__ATL	15	UUO	Male	46284	8649
+UUO2	Ascending Vasa Recta	UUO2__Ascending Vasa Recta	44	UUO	Male	81801	11146
+UUO2	CD14 Monocyte	UUO2__CD14 Monocyte	77	UUO	Male	132415	12427
+UUO2	CD16 Monocyte	UUO2__CD16 Monocyte	19	UUO	Male	37011	7764
+UUO2	CNT	UUO2__CNT	4	UUO	Male	11204	4403
+UUO2	CNT Injured	UUO2__CNT Injured	77	UUO	Male	271495	15798
+UUO2	DCT Injured	UUO2__DCT Injured	222	UUO	Male	915464	19955
+UUO2	DCT2	UUO2__DCT2	4	UUO	Male	22916	6300
+UUO2	DTL	UUO2__DTL	6	UUO	Male	18179	5700
+UUO2	Descending Vasa Recta	UUO2__Descending Vasa Recta	2	UUO	Male	6643	2847
+UUO2	Effector Tc Cell	UUO2__Effector Tc Cell	239	UUO	Male	297939	15245
+UUO2	Effector Th Cell	UUO2__Effector Th Cell	95	UUO	Male	124804	11982
+UUO2	Endothelia Glomerular	UUO2__Endothelia Glomerular	144	UUO	Male	310026	15371
+UUO2	IC-A Injured	UUO2__IC-A Injured	126	UUO	Male	615285	17809
+UUO2	IC-B	UUO2__IC-B	113	UUO	Male	369449	15669
+UUO2	JG Cell	UUO2__JG Cell	2	UUO	Male	2101	1380
+UUO2	MAIT	UUO2__MAIT	228	UUO	Male	281042	15251
+UUO2	Macrophage Activated	UUO2__Macrophage Activated	142	UUO	Male	405865	16279
+UUO2	Macrophage HIF1A+	UUO2__Macrophage HIF1A+	22	UUO	Male	42734	7613
+UUO2	Macrophage Resident	UUO2__Macrophage Resident	9	UUO	Male	17040	5355
+UUO2	Macula Densa	UUO2__Macula Densa	2	UUO	Male	9258	3704
+UUO2	Mast Cell	UUO2__Mast Cell	13	UUO	Male	11140	4387
+UUO2	Memory B Cell	UUO2__Memory B Cell	117	UUO	Male	141225	12490
+UUO2	Monocyte Transitioning	UUO2__Monocyte Transitioning	54	UUO	Male	113246	11965
+UUO2	Myofibroblast	UUO2__Myofibroblast	38	UUO	Male	105146	11962
+UUO2	NK CD56bright	UUO2__NK CD56bright	60	UUO	Male	93454	11676
+UUO2	NK CD56dim	UUO2__NK CD56dim	90	UUO	Male	155114	12755
+UUO2	NKT Cell	UUO2__NKT Cell	67	UUO	Male	102375	11076
+UUO2	Naïve B Cell	UUO2__Naïve B Cell	75	UUO	Male	84008	10414
+UUO2	Naïve Tc Cell	UUO2__Naïve Tc Cell	235	UUO	Male	299199	15584
+UUO2	Naïve Th Cell	UUO2__Naïve Th Cell	303	UUO	Male	487801	17062
+UUO2	PC Injured	UUO2__PC Injured	40	UUO	Male	159965	13951
+UUO2	PEC	UUO2__PEC	31	UUO	Male	90184	11915
+UUO2	PT Inflammatory	UUO2__PT Inflammatory	137	UUO	Male	689464	18756
+UUO2	PT Injured	UUO2__PT Injured	358	UUO	Male	1568858	22267
+UUO2	PT S1	UUO2__PT S1	61	UUO	Male	365790	16422
+UUO2	PT S2	UUO2__PT S2	61	UUO	Male	289833	15550
+UUO2	PT S3	UUO2__PT S3	20	UUO	Male	118027	12147
+UUO2	Pericyte	UUO2__Pericyte	9	UUO	Male	10682	4444
+UUO2	Peritubular Capillary Endothelia	UUO2__Peritubular Capillary Endothelia	41	UUO	Male	86600	10910
+UUO2	Plasma Cell	UUO2__Plasma Cell	10	UUO	Male	16766	5632
+UUO2	Podocyte	UUO2__Podocyte	6	UUO	Male	21096	5677
+UUO2	TAL Inflammatory	UUO2__TAL Inflammatory	446	UUO	Male	1746840	22394
+UUO2	TAL Injured	UUO2__TAL Injured	652	UUO	Male	2566271	23865
+UUO2	Treg	UUO2__Treg	106	UUO	Male	137949	12529
+UUO2	cDC CCR7+	UUO2__cDC CCR7+	8	UUO	Male	21216	5380
+UUO2	cDC1	UUO2__cDC1	5	UUO	Male	11136	4470
+UUO2	cDC2	UUO2__cDC2	57	UUO	Male	123196	12253
+UUO2	cIC-A	UUO2__cIC-A	9	UUO	Male	26176	6553
+UUO2	cTAL1	UUO2__cTAL1	12	UUO	Male	45722	8860
+UUO2	cTAL2	UUO2__cTAL2	4	UUO	Male	28553	6821
+UUO2	mPC	UUO2__mPC	1	UUO	Male	7718	2964
+UUO2	mTAL	UUO2__mTAL	10	UUO	Male	39760	8581
+UUO2	pDC	UUO2__pDC	45	UUO	Male	83370	10543
+UUO2	vSMC	UUO2__vSMC	2	UUO	Male	3275	1901
+UUO3	ATL	UUO3__ATL	272	UUO	Female	510821	18458
+UUO3	Ascending Vasa Recta	UUO3__Ascending Vasa Recta	67	UUO	Female	115078	12423
+UUO3	CD14 Monocyte	UUO3__CD14 Monocyte	100	UUO	Female	175843	13240
+UUO3	CD16 Monocyte	UUO3__CD16 Monocyte	22	UUO	Female	48512	8285
+UUO3	CNT	UUO3__CNT	15	UUO	Female	64128	9967
+UUO3	CNT Injured	UUO3__CNT Injured	22	UUO	Female	98058	11668
+UUO3	DCT Injured	UUO3__DCT Injured	53	UUO	Female	237489	14992
+UUO3	DCT1	UUO3__DCT1	3	UUO	Female	20652	5591
+UUO3	DCT2	UUO3__DCT2	4	UUO	Female	16774	5325
+UUO3	DTL	UUO3__DTL	112	UUO	Female	335052	16626
+UUO3	Descending Vasa Recta	UUO3__Descending Vasa Recta	4	UUO	Female	5914	2875
+UUO3	Effector Tc Cell	UUO3__Effector Tc Cell	510	UUO	Female	469453	16334
+UUO3	Effector Th Cell	UUO3__Effector Th Cell	185	UUO	Female	199161	13412
+UUO3	Endothelia Glomerular	UUO3__Endothelia Glomerular	8	UUO	Female	12358	4329
+UUO3	Fibroblast	UUO3__Fibroblast	1	UUO	Female	7389	3418
+UUO3	IC-A Injured	UUO3__IC-A Injured	35	UUO	Female	131132	12538
+UUO3	IC-B	UUO3__IC-B	9	UUO	Female	25830	6482
+UUO3	MAIT	UUO3__MAIT	10	UUO	Female	12484	4489
+UUO3	Macrophage Activated	UUO3__Macrophage Activated	315	UUO	Female	722619	17810
+UUO3	Macrophage HIF1A+	UUO3__Macrophage HIF1A+	2	UUO	Female	4160	2081
+UUO3	Macrophage Resident	UUO3__Macrophage Resident	1	UUO	Female	1251	863
+UUO3	Macula Densa	UUO3__Macula Densa	3	UUO	Female	10351	4061
+UUO3	Mast Cell	UUO3__Mast Cell	16	UUO	Female	18320	5904
+UUO3	Memory B Cell	UUO3__Memory B Cell	129	UUO	Female	156642	12775
+UUO3	Monocyte Transitioning	UUO3__Monocyte Transitioning	48	UUO	Female	94284	11386
+UUO3	Myofibroblast	UUO3__Myofibroblast	173	UUO	Female	335013	16719
+UUO3	NK CD56bright	UUO3__NK CD56bright	50	UUO	Female	56025	9483
+UUO3	NK CD56dim	UUO3__NK CD56dim	30	UUO	Female	38384	8144
+UUO3	NKT Cell	UUO3__NKT Cell	146	UUO	Female	186093	12985
+UUO3	Naïve B Cell	UUO3__Naïve B Cell	35	UUO	Female	40090	8112
+UUO3	Naïve Tc Cell	UUO3__Naïve Tc Cell	291	UUO	Female	326243	15179
+UUO3	Naïve Th Cell	UUO3__Naïve Th Cell	432	UUO	Female	636729	17369
+UUO3	PC Injured	UUO3__PC Injured	197	UUO	Female	758743	19444
+UUO3	PEC	UUO3__PEC	12	UUO	Female	42038	9016
+UUO3	PT Inflammatory	UUO3__PT Inflammatory	36	UUO	Female	147850	13948
+UUO3	PT Injured	UUO3__PT Injured	172	UUO	Female	757909	19612
+UUO3	PT S1	UUO3__PT S1	12	UUO	Female	92712	11382
+UUO3	PT S2	UUO3__PT S2	5	UUO	Female	31005	7473
+UUO3	PT S3	UUO3__PT S3	22	UUO	Female	126456	12436
+UUO3	Pericyte	UUO3__Pericyte	9	UUO	Female	10380	4383
+UUO3	Peritubular Capillary Endothelia	UUO3__Peritubular Capillary Endothelia	4	UUO	Female	7029	3184
+UUO3	Plasma Cell	UUO3__Plasma Cell	36	UUO	Female	65204	9579
+UUO3	Podocyte	UUO3__Podocyte	13	UUO	Female	23662	6112
+UUO3	TAL Inflammatory	UUO3__TAL Inflammatory	266	UUO	Female	979598	20245
+UUO3	TAL Injured	UUO3__TAL Injured	499	UUO	Female	1689360	22018
+UUO3	Treg	UUO3__Treg	59	UUO	Female	66051	9743
+UUO3	cDC CCR7+	UUO3__cDC CCR7+	3	UUO	Female	5489	2693
+UUO3	cDC1	UUO3__cDC1	6	UUO	Female	18712	5392
+UUO3	cDC2	UUO3__cDC2	31	UUO	Female	59168	9463
+UUO3	cIC-A	UUO3__cIC-A	4	UUO	Female	17386	5481
+UUO3	cPC	UUO3__cPC	7	UUO	Female	27159	6911
+UUO3	cTAL1	UUO3__cTAL1	223	UUO	Female	803157	19516
+UUO3	cTAL2	UUO3__cTAL2	126	UUO	Female	494036	17664
+UUO3	mIC-A	UUO3__mIC-A	4	UUO	Female	15544	5294
+UUO3	mPC	UUO3__mPC	30	UUO	Female	128277	12531
+UUO3	mTAL	UUO3__mTAL	503	UUO	Female	1611014	21838
+UUO3	pDC	UUO3__pDC	15	UUO	Female	36118	7972
+UUO3	vSMC	UUO3__vSMC	19	UUO	Female	30874	7939
+UUO4	ATL	UUO4__ATL	4	UUO	Male	5181	2807
+UUO4	Ascending Vasa Recta	UUO4__Ascending Vasa Recta	8	UUO	Male	10883	4486
+UUO4	CD14 Monocyte	UUO4__CD14 Monocyte	68	UUO	Male	101672	11250
+UUO4	CD16 Monocyte	UUO4__CD16 Monocyte	32	UUO	Male	70822	9581
+UUO4	CNT	UUO4__CNT	4	UUO	Male	17555	5340
+UUO4	CNT Injured	UUO4__CNT Injured	23	UUO	Male	59631	9835
+UUO4	DCT Injured	UUO4__DCT Injured	177	UUO	Male	618905	18179
+UUO4	DCT1	UUO4__DCT1	2	UUO	Male	10169	4029
+UUO4	DCT2	UUO4__DCT2	1	UUO	Male	1499	905
+UUO4	DTL	UUO4__DTL	4	UUO	Male	7310	3641
+UUO4	Descending Vasa Recta	UUO4__Descending Vasa Recta	4	UUO	Male	7471	3541
+UUO4	Effector Tc Cell	UUO4__Effector Tc Cell	432	UUO	Male	381427	15573
+UUO4	Effector Th Cell	UUO4__Effector Th Cell	135	UUO	Male	130905	11967
+UUO4	Endothelia Glomerular	UUO4__Endothelia Glomerular	55	UUO	Male	95317	10860
+UUO4	IC-A Injured	UUO4__IC-A Injured	10	UUO	Male	37374	7891
+UUO4	IC-B	UUO4__IC-B	8	UUO	Male	25882	6220
+UUO4	JG Cell	UUO4__JG Cell	4	UUO	Male	5411	2879
+UUO4	MAIT	UUO4__MAIT	108	UUO	Male	97590	11023
+UUO4	Macrophage Activated	UUO4__Macrophage Activated	217	UUO	Male	489703	16222
+UUO4	Macrophage HIF1A+	UUO4__Macrophage HIF1A+	40	UUO	Male	87335	10098
+UUO4	Macrophage Resident	UUO4__Macrophage Resident	2	UUO	Male	1865	1250
+UUO4	Macula Densa	UUO4__Macula Densa	4	UUO	Male	17124	5467
+UUO4	Mast Cell	UUO4__Mast Cell	90	UUO	Male	84591	11688
+UUO4	Memory B Cell	UUO4__Memory B Cell	2560	UUO	Male	2275315	22294
+UUO4	Monocyte Transitioning	UUO4__Monocyte Transitioning	87	UUO	Male	144784	12754
+UUO4	Myofibroblast	UUO4__Myofibroblast	190	UUO	Male	329576	16458
+UUO4	NK CD56bright	UUO4__NK CD56bright	156	UUO	Male	163905	13298
+UUO4	NK CD56dim	UUO4__NK CD56dim	34	UUO	Male	44569	8501
+UUO4	NKT Cell	UUO4__NKT Cell	27	UUO	Male	33685	7492
+UUO4	Naïve B Cell	UUO4__Naïve B Cell	425	UUO	Male	357146	15612
+UUO4	Naïve Tc Cell	UUO4__Naïve Tc Cell	913	UUO	Male	928465	18692
+UUO4	Naïve Th Cell	UUO4__Naïve Th Cell	1431	UUO	Male	1691479	20844
+UUO4	PC Injured	UUO4__PC Injured	8	UUO	Male	18291	5858
+UUO4	PEC	UUO4__PEC	10	UUO	Male	22665	6845
+UUO4	PT Inflammatory	UUO4__PT Inflammatory	56	UUO	Male	217081	14922
+UUO4	PT Injured	UUO4__PT Injured	150	UUO	Male	538306	18180
+UUO4	PT S1	UUO4__PT S1	4	UUO	Male	31431	7485
+UUO4	PT S2	UUO4__PT S2	1	UUO	Male	8478	3507
+UUO4	PT S3	UUO4__PT S3	6	UUO	Male	25822	7211
+UUO4	Pericyte	UUO4__Pericyte	17	UUO	Male	25071	7054
+UUO4	Peritubular Capillary Endothelia	UUO4__Peritubular Capillary Endothelia	5	UUO	Male	8436	3707
+UUO4	Plasma Cell	UUO4__Plasma Cell	141	UUO	Male	274289	14961
+UUO4	Podocyte	UUO4__Podocyte	9	UUO	Male	33075	7905
+UUO4	TAL Inflammatory	UUO4__TAL Inflammatory	39	UUO	Male	119117	12490
+UUO4	TAL Injured	UUO4__TAL Injured	344	UUO	Male	1265351	20628
+UUO4	Treg	UUO4__Treg	827	UUO	Male	843809	18484
+UUO4	cDC CCR7+	UUO4__cDC CCR7+	18	UUO	Male	36297	6914
+UUO4	cDC1	UUO4__cDC1	26	UUO	Male	65034	9253
+UUO4	cDC2	UUO4__cDC2	135	UUO	Male	260476	14408
+UUO4	cIC-A	UUO4__cIC-A	39	UUO	Male	191611	13336
+UUO4	cPC	UUO4__cPC	2	UUO	Male	9160	3822
+UUO4	cTAL1	UUO4__cTAL1	1	UUO	Male	4282	2313
+UUO4	cTAL2	UUO4__cTAL2	2	UUO	Male	5555	2722
+UUO4	mPC	UUO4__mPC	4	UUO	Male	11220	4442
+UUO4	mTAL	UUO4__mTAL	1	UUO	Male	3152	1942
+UUO4	pDC	UUO4__pDC	82	UUO	Male	139665	12173
+UUO4	vSMC	UUO4__vSMC	7	UUO	Male	9521	3979
+UUO5	ATL	UUO5__ATL	135	UUO	Male	235087	14774
+UUO5	Ascending Vasa Recta	UUO5__Ascending Vasa Recta	96	UUO	Male	152896	12434
+UUO5	CD14 Monocyte	UUO5__CD14 Monocyte	75	UUO	Male	143489	11266
+UUO5	CD16 Monocyte	UUO5__CD16 Monocyte	60	UUO	Male	161919	11249
+UUO5	CNT	UUO5__CNT	446	UUO	Male	1491708	20359
+UUO5	CNT Injured	UUO5__CNT Injured	13	UUO	Male	45831	8439
+UUO5	DCT Injured	UUO5__DCT Injured	25	UUO	Male	90762	10732
+UUO5	DCT1	UUO5__DCT1	263	UUO	Male	1167718	19151
+UUO5	DCT2	UUO5__DCT2	202	UUO	Male	846814	18121
+UUO5	DTL	UUO5__DTL	56	UUO	Male	123637	12333
+UUO5	Descending Vasa Recta	UUO5__Descending Vasa Recta	20	UUO	Male	32056	6892
+UUO5	Effector Tc Cell	UUO5__Effector Tc Cell	378	UUO	Male	310980	14122
+UUO5	Effector Th Cell	UUO5__Effector Th Cell	140	UUO	Male	134647	11419
+UUO5	Endothelia Glomerular	UUO5__Endothelia Glomerular	43	UUO	Male	77588	9940
+UUO5	Fibroblast	UUO5__Fibroblast	1	UUO	Male	4108	2346
+UUO5	IC-A Injured	UUO5__IC-A Injured	4	UUO	Male	13851	4712
+UUO5	IC-B	UUO5__IC-B	60	UUO	Male	177986	12224
+UUO5	JG Cell	UUO5__JG Cell	3	UUO	Male	9431	3656
+UUO5	MAIT	UUO5__MAIT	18	UUO	Male	17984	5348
+UUO5	Macrophage Activated	UUO5__Macrophage Activated	216	UUO	Male	489889	15855
+UUO5	Macrophage HIF1A+	UUO5__Macrophage HIF1A+	3	UUO	Male	5212	2357
+UUO5	Macrophage Resident	UUO5__Macrophage Resident	1	UUO	Male	2136	1227
+UUO5	Macula Densa	UUO5__Macula Densa	23	UUO	Male	80711	10597
+UUO5	Mast Cell	UUO5__Mast Cell	8	UUO	Male	6651	3163
+UUO5	Memory B Cell	UUO5__Memory B Cell	239	UUO	Male	260466	13787
+UUO5	Monocyte Transitioning	UUO5__Monocyte Transitioning	43	UUO	Male	60744	9394
+UUO5	Myofibroblast	UUO5__Myofibroblast	138	UUO	Male	227244	14527
+UUO5	NK CD56bright	UUO5__NK CD56bright	87	UUO	Male	81184	10357
+UUO5	NK CD56dim	UUO5__NK CD56dim	179	UUO	Male	208363	13127
+UUO5	NKT Cell	UUO5__NKT Cell	131	UUO	Male	156350	11945
+UUO5	Naïve B Cell	UUO5__Naïve B Cell	32	UUO	Male	30235	6944
+UUO5	Naïve Tc Cell	UUO5__Naïve Tc Cell	133	UUO	Male	149329	11756
+UUO5	Naïve Th Cell	UUO5__Naïve Th Cell	633	UUO	Male	836490	17245
+UUO5	PC Injured	UUO5__PC Injured	49	UUO	Male	148045	13126
+UUO5	PEC	UUO5__PEC	51	UUO	Male	126346	12375
+UUO5	PT Inflammatory	UUO5__PT Inflammatory	90	UUO	Male	341454	15651
+UUO5	PT Injured	UUO5__PT Injured	328	UUO	Male	1124224	20139
+UUO5	PT S1	UUO5__PT S1	495	UUO	Male	3104702	22464
+UUO5	PT S2	UUO5__PT S2	299	UUO	Male	1408863	19890
+UUO5	PT S3	UUO5__PT S3	281	UUO	Male	1132926	19634
+UUO5	Pericyte	UUO5__Pericyte	17	UUO	Male	14925	5087
+UUO5	Peritubular Capillary Endothelia	UUO5__Peritubular Capillary Endothelia	267	UUO	Male	363264	15169
+UUO5	Plasma Cell	UUO5__Plasma Cell	120	UUO	Male	191817	13327
+UUO5	Podocyte	UUO5__Podocyte	41	UUO	Male	115223	11467
+UUO5	TAL Inflammatory	UUO5__TAL Inflammatory	117	UUO	Male	385105	16158
+UUO5	TAL Injured	UUO5__TAL Injured	180	UUO	Male	521392	17288
+UUO5	Treg	UUO5__Treg	105	UUO	Male	114997	10739
+UUO5	cDC CCR7+	UUO5__cDC CCR7+	2	UUO	Male	7311	2210
+UUO5	cDC1	UUO5__cDC1	7	UUO	Male	21298	5059
+UUO5	cDC2	UUO5__cDC2	28	UUO	Male	43215	7752
+UUO5	cIC-A	UUO5__cIC-A	147	UUO	Male	608427	16816
+UUO5	cPC	UUO5__cPC	328	UUO	Male	963845	18479
+UUO5	cTAL1	UUO5__cTAL1	415	UUO	Male	1484123	20629
+UUO5	cTAL2	UUO5__cTAL2	651	UUO	Male	2135877	21803
+UUO5	mIC-A	UUO5__mIC-A	12	UUO	Male	40230	8026
+UUO5	mPC	UUO5__mPC	102	UUO	Male	328364	14874
+UUO5	mTAL	UUO5__mTAL	371	UUO	Male	1280876	20170
+UUO5	pDC	UUO5__pDC	32	UUO	Male	54562	8551
+UUO5	vSMC	UUO5__vSMC	27	UUO	Male	31325	7376

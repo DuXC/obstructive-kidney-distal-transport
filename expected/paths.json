@@ -1,0 +1,13 @@
+[
+  "05_results/module_comparisons_primary_run.tsv",
+  "05_results/module_comparisons_all_scenarios.tsv",
+  "05_results/fixed_transport_gene_results.tsv",
+  "05_results/captured_composition_comparisons.tsv",
+  "05_results/transport_context_associations.tsv",
+  "05_results/pseudobulk_gene_results.tsv.gz",
+  "05_results/module_scores_all_scenarios.tsv",
+  "09_manuscript_development_20260909/02_analysis/member_omission_estimates.tsv",
+  "09_manuscript_development_20260909/02_analysis/member_contributions.tsv",
+  "09_manuscript_development_20260909/02_analysis/member_influence_summary.tsv",
+  "09_manuscript_development_20260909/02_analysis/marker_donor_balanced.tsv"
+]

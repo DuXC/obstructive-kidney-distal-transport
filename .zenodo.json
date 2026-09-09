@@ -1,0 +1,61 @@
+{
+  "title": "Obstructive kidney distal transport programs: donor-level reanalysis code and data",
+  "upload_type": "software",
+  "description": "Code, verified donor aggregates, expected result tables and figure scripts for a 12-donor secondary analysis of GSE254185. Tumour type and obstruction status are completely confounded; the results describe transcript scores and do not establish physiological transport or an isolated obstruction effect.",
+  "creators": [
+    {
+      "name": "Du, Xiancheng",
+      "affiliation": "Department of Urology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing 210009, China",
+      "orcid": "0009-0000-4374-8818"
+    },
+    {
+      "name": "Zhu, Yongkun",
+      "affiliation": "Department of Urology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing 210009, China",
+      "orcid": "0000-0003-4041-5801"
+    },
+    {
+      "name": "Xue, Kaihua",
+      "affiliation": "Department of Urology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing 210009, China",
+      "orcid": "0009-0003-0184-6980"
+    },
+    {
+      "name": "Tao, Shuchun",
+      "affiliation": "Department of Urology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing 210009, China",
+      "orcid": "0009-0001-2467-5526"
+    },
+    {
+      "name": "Liu, Chunhui",
+      "affiliation": "Department of Urology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing 210009, China",
+      "orcid": "0000-0003-0231-6271"
+    },
+    {
+      "name": "Sun, Chao",
+      "affiliation": "Department of Urology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing 210009, China",
+      "orcid": "0000-0003-0538-1239"
+    }
+  ],
+  "version": "0.4.0",
+  "publication_date": "2026-09-10",
+  "license": "MIT",
+  "keywords": [
+    "kidney",
+    "ureteral obstruction",
+    "single-nucleus RNA sequencing",
+    "donor-level analysis",
+    "TAL",
+    "DCT"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41467-025-59997-4",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE254185",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Original code: MIT. Source-derived data retain the terms described in DATA_LICENSE.md. Funding: China Postdoctoral Science Foundation 2024M750457 (Chunhui Liu); Jiangsu Provincial Research Project on Traditional Chinese Medicine and Integrated Chinese-Western Medicine ZXFZ2026021 (Chao Sun)."
+}

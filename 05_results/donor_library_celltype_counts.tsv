@@ -1,0 +1,357 @@
+donor	Library	group	sex	celltype	n_nuclei
+Control1	Library1	Control	Male	ATL	17
+Control1	Library1	Control	Male	B Cell	10
+Control1	Library1	Control	Male	CNT	76
+Control1	Library1	Control	Male	DCT	121
+Control1	Library1	Control	Male	DTL	8
+Control1	Library1	Control	Male	Endothelia	118
+Control1	Library1	Control	Male	IC-A	41
+Control1	Library1	Control	Male	IC-B	11
+Control1	Library1	Control	Male	Interstitium	5
+Control1	Library1	Control	Male	Myeloid Cell	23
+Control1	Library1	Control	Male	PC	98
+Control1	Library1	Control	Male	PEC	26
+Control1	Library1	Control	Male	PT	127
+Control1	Library1	Control	Male	Podocyte	6
+Control1	Library1	Control	Male	T Cell	43
+Control1	Library1	Control	Male	TAL	439
+Control2	Library2	Control	Male	ATL	9
+Control2	Library2	Control	Male	B Cell	6
+Control2	Library2	Control	Male	CNT	139
+Control2	Library2	Control	Male	DCT	253
+Control2	Library2	Control	Male	DTL	6
+Control2	Library2	Control	Male	Endothelia	84
+Control2	Library2	Control	Male	IC-A	48
+Control2	Library2	Control	Male	IC-B	38
+Control2	Library2	Control	Male	Interstitium	14
+Control2	Library2	Control	Male	Myeloid Cell	30
+Control2	Library2	Control	Male	PC	43
+Control2	Library2	Control	Male	PEC	33
+Control2	Library2	Control	Male	PT	228
+Control2	Library2	Control	Male	Podocyte	3
+Control2	Library2	Control	Male	T Cell	53
+Control2	Library2	Control	Male	TAL	743
+Control2	Library5	Control	Male	ATL	3
+Control2	Library5	Control	Male	B Cell	13
+Control2	Library5	Control	Male	CNT	158
+Control2	Library5	Control	Male	DCT	293
+Control2	Library5	Control	Male	DTL	3
+Control2	Library5	Control	Male	Endothelia	88
+Control2	Library5	Control	Male	IC-A	79
+Control2	Library5	Control	Male	IC-B	70
+Control2	Library5	Control	Male	Interstitium	66
+Control2	Library5	Control	Male	Myeloid Cell	118
+Control2	Library5	Control	Male	PC	111
+Control2	Library5	Control	Male	PEC	50
+Control2	Library5	Control	Male	PT	574
+Control2	Library5	Control	Male	Podocyte	6
+Control2	Library5	Control	Male	T Cell	119
+Control2	Library5	Control	Male	TAL	492
+Control3	Library4	Control	Female	ATL	34
+Control3	Library4	Control	Female	B Cell	6
+Control3	Library4	Control	Female	CNT	3
+Control3	Library4	Control	Female	DCT	13
+Control3	Library4	Control	Female	DTL	17
+Control3	Library4	Control	Female	Endothelia	11
+Control3	Library4	Control	Female	IC-A	4
+Control3	Library4	Control	Female	IC-B	2
+Control3	Library4	Control	Female	Interstitium	19
+Control3	Library4	Control	Female	Myeloid Cell	17
+Control3	Library4	Control	Female	PC	28
+Control3	Library4	Control	Female	PT	157
+Control3	Library4	Control	Female	T Cell	30
+Control3	Library4	Control	Female	TAL	102
+Control4	Library1	Control	Male	ATL	8
+Control4	Library1	Control	Male	B Cell	1
+Control4	Library1	Control	Male	CNT	71
+Control4	Library1	Control	Male	DCT	74
+Control4	Library1	Control	Male	DTL	3
+Control4	Library1	Control	Male	Endothelia	69
+Control4	Library1	Control	Male	IC-A	39
+Control4	Library1	Control	Male	IC-B	12
+Control4	Library1	Control	Male	Interstitium	7
+Control4	Library1	Control	Male	Myeloid Cell	22
+Control4	Library1	Control	Male	PC	47
+Control4	Library1	Control	Male	PEC	11
+Control4	Library1	Control	Male	PT	318
+Control4	Library1	Control	Male	Podocyte	5
+Control4	Library1	Control	Male	T Cell	35
+Control4	Library1	Control	Male	TAL	406
+Control4	Library6	Control	Male	ATL	37
+Control4	Library6	Control	Male	B Cell	4
+Control4	Library6	Control	Male	CNT	31
+Control4	Library6	Control	Male	DCT	43
+Control4	Library6	Control	Male	DTL	15
+Control4	Library6	Control	Male	Endothelia	27
+Control4	Library6	Control	Male	IC-A	37
+Control4	Library6	Control	Male	IC-B	15
+Control4	Library6	Control	Male	Interstitium	14
+Control4	Library6	Control	Male	Myeloid Cell	48
+Control4	Library6	Control	Male	PC	53
+Control4	Library6	Control	Male	PEC	8
+Control4	Library6	Control	Male	PT	214
+Control4	Library6	Control	Male	Podocyte	1
+Control4	Library6	Control	Male	T Cell	37
+Control4	Library6	Control	Male	TAL	548
+Control5	Library2	Control	Female	ATL	44
+Control5	Library2	Control	Female	CNT	96
+Control5	Library2	Control	Female	DCT	205
+Control5	Library2	Control	Female	DTL	21
+Control5	Library2	Control	Female	Endothelia	79
+Control5	Library2	Control	Female	IC-A	82
+Control5	Library2	Control	Female	IC-B	70
+Control5	Library2	Control	Female	Interstitium	6
+Control5	Library2	Control	Female	Myeloid Cell	34
+Control5	Library2	Control	Female	PC	145
+Control5	Library2	Control	Female	PEC	6
+Control5	Library2	Control	Female	PT	227
+Control5	Library2	Control	Female	Podocyte	2
+Control5	Library2	Control	Female	T Cell	28
+Control5	Library2	Control	Female	TAL	786
+Control6	Library4	Control	Female	ATL	37
+Control6	Library4	Control	Female	CNT	69
+Control6	Library4	Control	Female	DCT	70
+Control6	Library4	Control	Female	DTL	12
+Control6	Library4	Control	Female	Endothelia	27
+Control6	Library4	Control	Female	IC-A	29
+Control6	Library4	Control	Female	IC-B	14
+Control6	Library4	Control	Female	Interstitium	14
+Control6	Library4	Control	Female	Myeloid Cell	10
+Control6	Library4	Control	Female	PC	31
+Control6	Library4	Control	Female	PEC	12
+Control6	Library4	Control	Female	PT	139
+Control6	Library4	Control	Female	Podocyte	1
+Control6	Library4	Control	Female	T Cell	19
+Control6	Library4	Control	Female	TAL	397
+Control6	Library6	Control	Female	B Cell	4
+Control6	Library6	Control	Female	CNT	133
+Control6	Library6	Control	Female	DCT	150
+Control6	Library6	Control	Female	Endothelia	24
+Control6	Library6	Control	Female	IC-A	48
+Control6	Library6	Control	Female	IC-B	31
+Control6	Library6	Control	Female	Interstitium	20
+Control6	Library6	Control	Female	Myeloid Cell	69
+Control6	Library6	Control	Female	PC	37
+Control6	Library6	Control	Female	PEC	18
+Control6	Library6	Control	Female	PT	227
+Control6	Library6	Control	Female	Podocyte	3
+Control6	Library6	Control	Female	T Cell	70
+Control6	Library6	Control	Female	TAL	236
+Control7	Library2	Control	Male	ATL	1
+Control7	Library2	Control	Male	B Cell	10
+Control7	Library2	Control	Male	CNT	217
+Control7	Library2	Control	Male	DCT	353
+Control7	Library2	Control	Male	DTL	6
+Control7	Library2	Control	Male	Endothelia	87
+Control7	Library2	Control	Male	IC-A	70
+Control7	Library2	Control	Male	IC-B	102
+Control7	Library2	Control	Male	Interstitium	21
+Control7	Library2	Control	Male	Myeloid Cell	40
+Control7	Library2	Control	Male	PC	57
+Control7	Library2	Control	Male	PEC	21
+Control7	Library2	Control	Male	PT	513
+Control7	Library2	Control	Male	Podocyte	5
+Control7	Library2	Control	Male	T Cell	56
+Control7	Library2	Control	Male	TAL	424
+Control7	Library6	Control	Male	B Cell	5
+Control7	Library6	Control	Male	CNT	112
+Control7	Library6	Control	Male	DCT	242
+Control7	Library6	Control	Male	Endothelia	77
+Control7	Library6	Control	Male	IC-A	50
+Control7	Library6	Control	Male	IC-B	77
+Control7	Library6	Control	Male	Interstitium	42
+Control7	Library6	Control	Male	Myeloid Cell	44
+Control7	Library6	Control	Male	PC	32
+Control7	Library6	Control	Male	PEC	26
+Control7	Library6	Control	Male	PT	489
+Control7	Library6	Control	Male	Podocyte	3
+Control7	Library6	Control	Male	T Cell	98
+Control7	Library6	Control	Male	TAL	233
+UUO1	Library2	UUO	Male	ATL	1
+UUO1	Library2	UUO	Male	B Cell	116
+UUO1	Library2	UUO	Male	CNT	70
+UUO1	Library2	UUO	Male	DCT	172
+UUO1	Library2	UUO	Male	Endothelia	69
+UUO1	Library2	UUO	Male	IC-A	162
+UUO1	Library2	UUO	Male	IC-B	48
+UUO1	Library2	UUO	Male	Interstitium	11
+UUO1	Library2	UUO	Male	Myeloid Cell	159
+UUO1	Library2	UUO	Male	PC	36
+UUO1	Library2	UUO	Male	PEC	11
+UUO1	Library2	UUO	Male	PT	676
+UUO1	Library2	UUO	Male	Podocyte	1
+UUO1	Library2	UUO	Male	T Cell	419
+UUO1	Library2	UUO	Male	TAL	308
+UUO1	Library3	UUO	Male	B Cell	238
+UUO1	Library3	UUO	Male	CNT	23
+UUO1	Library3	UUO	Male	DCT	41
+UUO1	Library3	UUO	Male	Endothelia	25
+UUO1	Library3	UUO	Male	IC-A	24
+UUO1	Library3	UUO	Male	IC-B	11
+UUO1	Library3	UUO	Male	Interstitium	9
+UUO1	Library3	UUO	Male	Myeloid Cell	145
+UUO1	Library3	UUO	Male	PC	3
+UUO1	Library3	UUO	Male	PEC	7
+UUO1	Library3	UUO	Male	PT	126
+UUO1	Library3	UUO	Male	Podocyte	3
+UUO1	Library3	UUO	Male	T Cell	1042
+UUO1	Library3	UUO	Male	TAL	15
+UUO2	Library1	UUO	Male	ATL	10
+UUO2	Library1	UUO	Male	B Cell	116
+UUO2	Library1	UUO	Male	CNT	41
+UUO2	Library1	UUO	Male	DCT	108
+UUO2	Library1	UUO	Male	DTL	5
+UUO2	Library1	UUO	Male	Endothelia	172
+UUO2	Library1	UUO	Male	IC-A	66
+UUO2	Library1	UUO	Male	IC-B	62
+UUO2	Library1	UUO	Male	Interstitium	26
+UUO2	Library1	UUO	Male	Myeloid Cell	231
+UUO2	Library1	UUO	Male	PC	26
+UUO2	Library1	UUO	Male	PEC	20
+UUO2	Library1	UUO	Male	PT	297
+UUO2	Library1	UUO	Male	Podocyte	4
+UUO2	Library1	UUO	Male	T Cell	813
+UUO2	Library1	UUO	Male	TAL	702
+UUO2	Library2	UUO	Male	ATL	3
+UUO2	Library2	UUO	Male	B Cell	60
+UUO2	Library2	UUO	Male	CNT	34
+UUO2	Library2	UUO	Male	DCT	93
+UUO2	Library2	UUO	Male	DTL	1
+UUO2	Library2	UUO	Male	Endothelia	38
+UUO2	Library2	UUO	Male	IC-A	57
+UUO2	Library2	UUO	Male	IC-B	39
+UUO2	Library2	UUO	Male	Interstitium	11
+UUO2	Library2	UUO	Male	Myeloid Cell	165
+UUO2	Library2	UUO	Male	PC	12
+UUO2	Library2	UUO	Male	PEC	8
+UUO2	Library2	UUO	Male	PT	263
+UUO2	Library2	UUO	Male	Podocyte	1
+UUO2	Library2	UUO	Male	T Cell	340
+UUO2	Library2	UUO	Male	TAL	294
+UUO2	Library4	UUO	Male	ATL	2
+UUO2	Library4	UUO	Male	B Cell	26
+UUO2	Library4	UUO	Male	CNT	6
+UUO2	Library4	UUO	Male	DCT	25
+UUO2	Library4	UUO	Male	Endothelia	21
+UUO2	Library4	UUO	Male	IC-A	12
+UUO2	Library4	UUO	Male	IC-B	12
+UUO2	Library4	UUO	Male	Interstitium	14
+UUO2	Library4	UUO	Male	Myeloid Cell	55
+UUO2	Library4	UUO	Male	PC	3
+UUO2	Library4	UUO	Male	PEC	3
+UUO2	Library4	UUO	Male	PT	77
+UUO2	Library4	UUO	Male	Podocyte	1
+UUO2	Library4	UUO	Male	T Cell	270
+UUO2	Library4	UUO	Male	TAL	130
+UUO3	Library3	UUO	Female	ATL	26
+UUO3	Library3	UUO	Female	B Cell	51
+UUO3	Library3	UUO	Female	CNT	11
+UUO3	Library3	UUO	Female	DCT	25
+UUO3	Library3	UUO	Female	DTL	7
+UUO3	Library3	UUO	Female	Endothelia	6
+UUO3	Library3	UUO	Female	IC-A	2
+UUO3	Library3	UUO	Female	IC-B	5
+UUO3	Library3	UUO	Female	Interstitium	26
+UUO3	Library3	UUO	Female	Myeloid Cell	76
+UUO3	Library3	UUO	Female	PC	30
+UUO3	Library3	UUO	Female	PEC	4
+UUO3	Library3	UUO	Female	PT	80
+UUO3	Library3	UUO	Female	Podocyte	7
+UUO3	Library3	UUO	Female	T Cell	394
+UUO3	Library3	UUO	Female	TAL	180
+UUO3	Library4	UUO	Female	ATL	29
+UUO3	Library4	UUO	Female	B Cell	94
+UUO3	Library4	UUO	Female	CNT	20
+UUO3	Library4	UUO	Female	DCT	26
+UUO3	Library4	UUO	Female	DTL	9
+UUO3	Library4	UUO	Female	Endothelia	16
+UUO3	Library4	UUO	Female	IC-A	8
+UUO3	Library4	UUO	Female	IC-B	3
+UUO3	Library4	UUO	Female	Interstitium	38
+UUO3	Library4	UUO	Female	Myeloid Cell	99
+UUO3	Library4	UUO	Female	PC	32
+UUO3	Library4	UUO	Female	PEC	7
+UUO3	Library4	UUO	Female	PT	88
+UUO3	Library4	UUO	Female	Podocyte	5
+UUO3	Library4	UUO	Female	T Cell	522
+UUO3	Library4	UUO	Female	TAL	255
+UUO3	Library5	UUO	Female	ATL	217
+UUO3	Library5	UUO	Female	B Cell	55
+UUO3	Library5	UUO	Female	CNT	6
+UUO3	Library5	UUO	Female	DCT	9
+UUO3	Library5	UUO	Female	DTL	96
+UUO3	Library5	UUO	Female	Endothelia	61
+UUO3	Library5	UUO	Female	IC-A	33
+UUO3	Library5	UUO	Female	IC-B	1
+UUO3	Library5	UUO	Female	Interstitium	138
+UUO3	Library5	UUO	Female	Myeloid Cell	384
+UUO3	Library5	UUO	Female	PC	172
+UUO3	Library5	UUO	Female	PEC	1
+UUO3	Library5	UUO	Female	PT	79
+UUO3	Library5	UUO	Female	Podocyte	1
+UUO3	Library5	UUO	Female	T Cell	797
+UUO3	Library5	UUO	Female	TAL	1185
+UUO4	Library5	UUO	Male	ATL	1
+UUO4	Library5	UUO	Male	B Cell	1472
+UUO4	Library5	UUO	Male	CNT	14
+UUO4	Library5	UUO	Male	DCT	92
+UUO4	Library5	UUO	Male	DTL	2
+UUO4	Library5	UUO	Male	Endothelia	34
+UUO4	Library5	UUO	Male	IC-A	25
+UUO4	Library5	UUO	Male	IC-B	3
+UUO4	Library5	UUO	Male	Interstitium	90
+UUO4	Library5	UUO	Male	Myeloid Cell	363
+UUO4	Library5	UUO	Male	PC	8
+UUO4	Library5	UUO	Male	PEC	5
+UUO4	Library5	UUO	Male	PT	115
+UUO4	Library5	UUO	Male	Podocyte	5
+UUO4	Library5	UUO	Male	T Cell	1965
+UUO4	Library5	UUO	Male	TAL	205
+UUO4	Library6	UUO	Male	ATL	3
+UUO4	Library6	UUO	Male	B Cell	1654
+UUO4	Library6	UUO	Male	CNT	13
+UUO4	Library6	UUO	Male	DCT	88
+UUO4	Library6	UUO	Male	DTL	2
+UUO4	Library6	UUO	Male	Endothelia	38
+UUO4	Library6	UUO	Male	IC-A	24
+UUO4	Library6	UUO	Male	IC-B	5
+UUO4	Library6	UUO	Male	Interstitium	128
+UUO4	Library6	UUO	Male	Myeloid Cell	434
+UUO4	Library6	UUO	Male	PC	6
+UUO4	Library6	UUO	Male	PEC	5
+UUO4	Library6	UUO	Male	PT	102
+UUO4	Library6	UUO	Male	Podocyte	4
+UUO4	Library6	UUO	Male	T Cell	2098
+UUO4	Library6	UUO	Male	TAL	186
+UUO5	Library5	UUO	Male	ATL	47
+UUO5	Library5	UUO	Male	B Cell	165
+UUO5	Library5	UUO	Male	CNT	215
+UUO5	Library5	UUO	Male	DCT	220
+UUO5	Library5	UUO	Male	DTL	26
+UUO5	Library5	UUO	Male	Endothelia	168
+UUO5	Library5	UUO	Male	IC-A	79
+UUO5	Library5	UUO	Male	IC-B	33
+UUO5	Library5	UUO	Male	Interstitium	81
+UUO5	Library5	UUO	Male	Myeloid Cell	235
+UUO5	Library5	UUO	Male	PC	245
+UUO5	Library5	UUO	Male	PEC	28
+UUO5	Library5	UUO	Male	PT	718
+UUO5	Library5	UUO	Male	Podocyte	23
+UUO5	Library5	UUO	Male	T Cell	791
+UUO5	Library5	UUO	Male	TAL	805
+UUO5	Library6	UUO	Male	ATL	88
+UUO5	Library6	UUO	Male	B Cell	226
+UUO5	Library6	UUO	Male	CNT	244
+UUO5	Library6	UUO	Male	DCT	270
+UUO5	Library6	UUO	Male	DTL	30
+UUO5	Library6	UUO	Male	Endothelia	258
+UUO5	Library6	UUO	Male	IC-A	84
+UUO5	Library6	UUO	Male	IC-B	27
+UUO5	Library6	UUO	Male	Interstitium	105
+UUO5	Library6	UUO	Male	Myeloid Cell	240
+UUO5	Library6	UUO	Male	PC	234
+UUO5	Library6	UUO	Male	PEC	23
+UUO5	Library6	UUO	Male	PT	775
+UUO5	Library6	UUO	Male	Podocyte	18
+UUO5	Library6	UUO	Male	T Cell	1013
+UUO5	Library6	UUO	Male	TAL	952
