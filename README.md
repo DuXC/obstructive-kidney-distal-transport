@@ -1,6 +1,6 @@
-# Reproduction from donor aggregates, version 0.5
+# Reproduction from donor aggregates and public mouse arrays, version 0.6
 
-This code and data release supports the analysis for “Distal nephron transport programs in obstructed and unobstructed cancer nephrectomy tissue”. It starts from verified donor-by-lineage and donor-by-state RNA count matrices derived from GSE254185. The main comparison is five UTUC nephrectomies with obstruction versus seven RCC reference nephrectomies. Tumour context is inseparable from obstruction.
+This code and data release supports the analysis for “Distal nephron transport programs in cancer nephrectomy tissue and experimental obstruction”. It starts from verified donor-by-lineage and donor-by-state RNA count matrices derived from GSE254185. The main comparison is five UTUC nephrectomies with obstruction versus seven RCC reference nephrectomies. Tumour context is inseparable from obstruction.
 
 ## Run
 
@@ -35,11 +35,11 @@ Xiancheng Du, Yongkun Zhu, Kaihua Xue, Shuchun Tao, Chunhui Liu and Chao Sun, in
 
 ## Version and citation
 
-Version 0.5 preserves the discovery analysis and adds a frozen public-data extension using GSE183277 and a secondary GSE183276 assay. The associated manuscript remains under author review.
+Version 0.6 preserves the discovery and external human analyses and adds the frozen GSE96102 mouse obstruction/recovery extension. The associated manuscript remains under author review.
 
 Repository: https://github.com/DuXC/obstructive-kidney-distal-transport
 
-Versioned release: https://github.com/DuXC/obstructive-kidney-distal-transport/releases/tag/v0.5.0
+Versioned release: https://github.com/DuXC/obstructive-kidney-distal-transport/releases/tag/v0.6.0
 
 Use CITATION.cff to cite this software. Cite Reck et al. (2025) and GSE254185 for discovery data, and Lake et al. (2023), GSE183277 and GSE183276 for the external atlas data. The source and supplementary code paths retain their original phase names for reproducibility.
 
@@ -55,3 +55,14 @@ The GSE183276 matrix is author-processed count-scale data with fractional values
 The acceptance run starts from the included donor aggregates. The optional source-download and aggregation scripts require the official source RDS/metadata files and greater memory; the two external RDS archives total about 2.32 GB and are not duplicated here. Download receipts identify the exact official URLs and checksums. The original whole-matrix linkage and aggregation were verified in the originating workspace.
 
 Source: Lake BB et al. An atlas of healthy and injured cell states and niches in the human kidney. Nature 619, 585–594 (2023). https://doi.org/10.1038/s41586-023-05769-3. GEO GSE183277 and GSE183276; reference-biopsy provenance also uses GSE169285. Source participants are identified only by public study pseudonyms.
+
+
+## Public mouse obstruction/recovery extension
+
+Run `python reproduce_recovery.py` from the repository root. This checks the frozen plan, source metadata, orthology and normalized-fluorescence input hashes, reconstructs animal-level gene/program values, and compares 13 regenerated result files with exact reference hashes. It does not use reference effects as statistical inputs. Add `--figures` to regenerate Fig5/FigS7. See [recovery_extension/README.md](recovery_extension/README.md) for the optional upstream normalization and official raw-download steps.
+
+GSE96102 contains 75 individual mice: 36 affected, 35 matched shams and four normal controls. The 71 matched-comparison arrays enter the fixed single-channel Cy5 pipeline; this is a new raw-fluorescence reanalysis, not a reproduction of the authors' two-colour ratios. Normexp background correction (offset 50) and log2 quantile normalization retain 43,379 common noncontrol features. Seventeen of 19 human target genes have one-to-one mouse orthologues. CLCNKA/CLCNKB are many-to-many, so the two affected complete programs remain untestable.
+
+The DCT magnesium score is lower in both acute histories and in the primary five-day/day-10 comparison. The acute findings survive eligible acquisition-date adjustment. Trpm6 has no FDR-supported matched-sham difference. Some transporter estimates depend on detectable-probe aggregation. Acute arrays were acquired in 2012 and recovery arrays in 2014; several later contrasts lack adequate shared acquisition dates. Direct temporal effects are era-confounded, sham-adjusted changes require an untestable group-by-era assumption, and day-28 uncertainty is not equivalence or proof of physiological recovery. Whole-kidney scores do not identify within-lineage regulation. All negative, untestable and sensitivity results are included.
+
+Independent R calculations reproduced 427 tested contrasts (Welch, four-group Satterthwaite and HC3 models) at absolute tolerance 1e-8. The acceptance run for this extension starts from verified normalized fluorescence, not from a new raw-data acquisition.

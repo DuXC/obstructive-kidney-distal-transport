@@ -1,0 +1,54 @@
+{
+  "status": "PASS_VERIFIED_NORMALIZED_INPUT_REPRODUCTION",
+  "files": [
+    {
+      "file": "contrast_definitions.json",
+      "match": true
+    },
+    {
+      "file": "gene_date_adjusted.tsv",
+      "match": true
+    },
+    {
+      "file": "gene_detectable_contrasts.tsv",
+      "match": true
+    },
+    {
+      "file": "gene_primary_contrasts.tsv",
+      "match": true
+    },
+    {
+      "file": "gene_values.tsv",
+      "match": true
+    },
+    {
+      "file": "program_date_adjusted.tsv",
+      "match": true
+    },
+    {
+      "file": "program_detectable_contrasts.tsv",
+      "match": true
+    },
+    {
+      "file": "program_mapping_coverage.tsv",
+      "match": true
+    },
+    {
+      "file": "program_primary_contrasts.tsv",
+      "match": true
+    },
+    {
+      "file": "program_scores.tsv",
+      "match": true
+    },
+    {
+      "file": "results_summary.json",
+      "match": true
+    },
+    {
+      "file": "target_spot_normalized_and_quality.tsv",
+      "match": true
+    }
+  ],
+  "scope": "From normalized raw-fluorescence matrix and source QC metadata; not independent reacquisition or normalization rerun"
+}

@@ -1,0 +1,117 @@
+{
+  "source_sha256": "dc324892607c4cd60bbd285d94085fcd6213410f8485570eaddf3fb4d3bd08db",
+  "samples": 75,
+  "platform_features": 45220,
+  "platform_columns": [
+    "ID",
+    "COL",
+    "ROW",
+    "NAME",
+    "SPOT_ID",
+    "CONTROL_TYPE",
+    "REFSEQ",
+    "GB_ACC",
+    "GENE",
+    "GENE_SYMBOL",
+    "GENE_NAME",
+    "UNIGENE_ID",
+    "ENSEMBL_ID",
+    "TIGR_ID",
+    "ACCESSION_STRING",
+    "CHROMOSOMAL_LOCATION",
+    "CYTOBAND",
+    "DESCRIPTION",
+    "GO_ID",
+    "SEQUENCE"
+  ],
+  "counts": [
+    {
+      "condition": "Normal",
+      "duration_days": 0,
+      "recovery_days": -1,
+      "n": 4
+    },
+    {
+      "condition": "RUUO",
+      "duration_days": 1,
+      "recovery_days": 0,
+      "n": 6
+    },
+    {
+      "condition": "RUUO",
+      "duration_days": 1,
+      "recovery_days": 10,
+      "n": 5
+    },
+    {
+      "condition": "RUUO",
+      "duration_days": 1,
+      "recovery_days": 28,
+      "n": 6
+    },
+    {
+      "condition": "RUUO",
+      "duration_days": 5,
+      "recovery_days": 0,
+      "n": 6
+    },
+    {
+      "condition": "RUUO",
+      "duration_days": 5,
+      "recovery_days": 10,
+      "n": 8
+    },
+    {
+      "condition": "RUUO",
+      "duration_days": 5,
+      "recovery_days": 28,
+      "n": 5
+    },
+    {
+      "condition": "Sham",
+      "duration_days": 1,
+      "recovery_days": 0,
+      "n": 6
+    },
+    {
+      "condition": "Sham",
+      "duration_days": 1,
+      "recovery_days": 10,
+      "n": 6
+    },
+    {
+      "condition": "Sham",
+      "duration_days": 1,
+      "recovery_days": 28,
+      "n": 6
+    },
+    {
+      "condition": "Sham",
+      "duration_days": 5,
+      "recovery_days": 0,
+      "n": 5
+    },
+    {
+      "condition": "Sham",
+      "duration_days": 5,
+      "recovery_days": 10,
+      "n": 6
+    },
+    {
+      "condition": "Sham",
+      "duration_days": 5,
+      "recovery_days": 28,
+      "n": 6
+    }
+  ],
+  "reference_types": [
+    "Mouse Universal Reference RNA"
+  ],
+  "value_definitions": [
+    "normalized log10 ratio (Cy5/Cy3) representing test/reference"
+  ],
+  "duplicate_reported_animal_ids": [],
+  "unresolved_animal_ids": [],
+  "effects_computed": false,
+  "orthology_records": 44
+}

@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 08_logs/
 **/05_figures/
+
+recovery_extension/01_sources/raw/
+recovery_extension/reproduced_results/
+recovery_extension/validation/

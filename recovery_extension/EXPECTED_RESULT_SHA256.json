@@ -1,0 +1,14 @@
+{
+  "contrast_definitions.json": "422d9e27cc5c1baec9d853e781754a987ceaab94e55406230fb1e8faa63a820a",
+  "gene_date_adjusted.tsv": "f8987b4a27558f115623f5e9f9f0b848a7d76b9907dbadd5866f6ac566ed8a74",
+  "gene_detectable_contrasts.tsv": "fd0faae90c213e1b1a456567d24fb61cb5ddf5044b067eb07953c1be0dadb8f3",
+  "gene_primary_contrasts.tsv": "008fcef168d94761c65f9bf0008d488d90009a7f47c70433f435d038ae545f5e",
+  "gene_values.tsv": "102e9cceaf5f27fb2352828b8104480ed2017a1d5db3c1af14cca4e96d6934a6",
+  "program_date_adjusted.tsv": "ebe356a539ba417fb14d6860d49a0a7e19637fd7fbc73670da6d91097766e1fa",
+  "program_detectable_contrasts.tsv": "9b1255054935b0f0b44d652d610979e7d3649f7147f41f84072b8b038e53da82",
+  "program_mapping_coverage.tsv": "16a8b25f9ff13a3fb15471d9ff1bbda9fb4daf9e9ac8f54e53791f5492943648",
+  "program_primary_contrasts.tsv": "5a59c919280e3a79b2ee5102635654ac0b35f94da629cdec233f4fc9f9de78ba",
+  "program_scores.tsv": "37f3e846ed49ca9e6f2e1d77bf40274278e96711a9d29204a6ec493759a7a6b9",
+  "results_summary.json": "b4ccb444b0d3903ac16bea0fe4c68d3bfdefbda27ce200df1e613c6e77ab46b8",
+  "target_spot_normalized_and_quality.tsv": "529f0760056240e50958e391128ad291dbfed292ddc5098b82df23262aa24c25"
+}

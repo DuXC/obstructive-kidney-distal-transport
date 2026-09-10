@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-09-09T19:33:30.381132+08:00",
+  "scope": "Same-machine execution from verified donor aggregates; final figure layout rerun independently after the full analytical execution.",
+  "analysis_execution_receipt": {
+    "status": "PASS",
+    "completed_at": "2026-09-09T19:22:29.783905+08:00",
+    "entry": "verified donor aggregates",
+    "input_hashes_verified": true,
+    "tables": [
+      {
+        "path": "05_results/module_comparisons_primary_run.tsv",
+        "rows": 19,
+        "columns": 16,
+        "numeric_and_text_match": true,
+        "byte_identical": true
+      },
+      {
+        "path": "05_results/module_comparisons_all_scenarios.tsv",
+        "rows": 277,
+        "columns": 16,
+        "numeric_and_text_match": true,
+        "byte_identical": true
+      },
+      {
+        "path": "05_results/fixed_transport_gene_results.tsv",
+        "rows": 75,
+        "columns": 15,
+        "numeric_and_text_match": true,
+        "byte_identical": true
+      },
+      {
+        "path": "05_results/captured_composition_comparisons.tsv",
+        "rows": 10,
+        "columns": 10,
+        "numeric_and_text_match": true,
+        "byte_identical": true
+      },
+      {
+        "path": "05_results/transport_context_associations.tsv",
+        "rows": 18,
+        "columns": 14,
+        "numeric_and_text_match": true,
+        "byte_identical": true
+      },
+      {
+        "path": "05_results/pseudobulk_gene_results.tsv.gz",
+        "rows": 31544,
+        "columns": 15,
+        "numeric_and_text_match": true,
+        "byte_identical": true
+      },
+      {
+        "path": "05_results/module_scores_all_scenarios.tsv",
+        "rows": 2897,
+        "columns": 10,
+        "numeric_and_text_match": true,
+        "byte_identical": true
+      },
+      {
+        "path": "09_manuscript_development_20260909/02_analysis/member_omission_estimates.tsv",
+        "rows": 40,
+        "columns": 11,
+        "numeric_and_text_match": true,
+        "byte_identical": true
+      },
+      {
+        "path": "09_manuscript_development_20260909/02_analysis/member_contributions.tsv",
+        "rows": 47,
+        "columns": 6,
+        "numeric_and_text_match": true,
+        "byte_identical": true
+      },
+      {
+        "path": "09_manuscript_development_20260909/02_analysis/member_influence_summary.tsv",
+        "rows": 9,
+        "columns": 13,
+        "numeric_and_text_match": true,
+        "byte_identical": true
+      },
+      {
+        "path": "09_manuscript_development_20260909/02_analysis/marker_donor_balanced.tsv",
+        "rows": 1664,
+        "columns": 6,
+        "numeric_and_text_match": true,
+        "byte_identical": true
+      }
+    ],
+    "figures_regenerated": true
+  },
+  "final_package_input_hashes_verified": true,
+  "figure_revalidation": [
+    {
+      "figure": "Fig1",
+      "png_byte_identical": true,
+      "sha256": "30ceffffc935ee0c9768a2fc1dcf6a40f0d194cee5d04c5e743f337445c3c369"
+    },
+    {
+      "figure": "Fig2",
+      "png_byte_identical": true,
+      "sha256": "f6d33eea8b0075ca77accf8dc8c0af5ce5b67638632300af6a5f406534efb439"
+    },
+    {
+      "figure": "Fig3",
+      "png_byte_identical": true,
+      "sha256": "33c8a7671009a8dc9f83d07b56047ad8a3d4affb7cb4a3c3199e32212236d741"
+    },
+    {
+      "figure": "FigS1",
+      "png_byte_identical": true,
+      "sha256": "7b396da9b57995d2a5c05b6b6fea7fc54f379fd602ed9b53a13937c689869695"
+    },
+    {
+      "figure": "FigS2",
+      "png_byte_identical": true,
+      "sha256": "d5cfad111e9006b9b933d3691a1009ac9bee3684275920a00b9ad764924c4df0"
+    },
+    {
+      "figure": "FigS3",
+      "png_byte_identical": true,
+      "sha256": "37733fe0c8472c21e34d0484be0ac488f5e817b2135dd05421284e3087606628"
+    },
+    {
+      "figure": "FigS4",
+      "png_byte_identical": true,
+      "sha256": "09e7b5de9d26be957b36693de07b9e70caed76002a66e00f8b84e7e12b8f4e84"
+    }
+  ]
+}

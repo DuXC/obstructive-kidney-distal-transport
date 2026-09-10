@@ -1,0 +1,6 @@
+module	members	one_to_one_members	ambiguous_members	testable_mapping
+TAL_salt	7	5	CLCNKA;CLCNKB	False
+TAL_CaMg	2	2		True
+DCT_NaCl	7	6	CLCNKB	False
+DCT_Mg	5	5		True
+DCT_Ca	4	4		True

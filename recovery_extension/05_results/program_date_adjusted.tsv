@@ -1,0 +1,31 @@
+entity	contrast	duration_days	recovery_days	n_obstruction	n_sham	shared_days	status	effect	se	df	ci_low	ci_high	p	fdr	family_slots
+TAL_salt	d1_r0_vs_sham	1	0	0	0		orthology_ambiguous								30
+TAL_salt	d1_r10_vs_sham	1	10	0	0		orthology_ambiguous								30
+TAL_salt	d1_r28_vs_sham	1	28	0	0		orthology_ambiguous								30
+TAL_salt	d5_r0_vs_sham	5	0	0	0		orthology_ambiguous								30
+TAL_salt	d5_r10_vs_sham	5	10	0	0		orthology_ambiguous								30
+TAL_salt	d5_r28_vs_sham	5	28	0	0		orthology_ambiguous								30
+TAL_CaMg	d1_r0_vs_sham	1	0	5	6	11-21-2012;12-10-2012	tested	-0.8605380108834575	0.24671692669411738	8.0	-1.4294682640649552	-0.2916077577019598	0.008223031171009166	0.049338187026055	30
+TAL_CaMg	d1_r10_vs_sham	1	10	5	6	08-15-2014;08-18-2014;08-20-2014	tested	-0.29872727721102943	0.1161981013783661	7.0	-0.5734921257193508	-0.02396242870270804	0.036962330808603394	0.18481165404301697	30
+TAL_CaMg	d1_r28_vs_sham	1	28	6	3	08-18-2014;08-20-2014	insufficient_date_overlap								30
+TAL_CaMg	d5_r0_vs_sham	5	0	6	5	12-10-2012;12-13-2012	tested	0.008063804887684767	0.09061548291950638	8.0	-0.2008958734382194	0.21702348321358894	0.9312779049574126	1.0	30
+TAL_CaMg	d5_r10_vs_sham	5	10	2	6	08-18-2014	insufficient_date_overlap								30
+TAL_CaMg	d5_r28_vs_sham	5	28	0	0		insufficient_date_overlap								30
+DCT_NaCl	d1_r0_vs_sham	1	0	0	0		orthology_ambiguous								30
+DCT_NaCl	d1_r10_vs_sham	1	10	0	0		orthology_ambiguous								30
+DCT_NaCl	d1_r28_vs_sham	1	28	0	0		orthology_ambiguous								30
+DCT_NaCl	d5_r0_vs_sham	5	0	0	0		orthology_ambiguous								30
+DCT_NaCl	d5_r10_vs_sham	5	10	0	0		orthology_ambiguous								30
+DCT_NaCl	d5_r28_vs_sham	5	28	0	0		orthology_ambiguous								30
+DCT_Mg	d1_r0_vs_sham	1	0	5	6	11-21-2012;12-10-2012	tested	-0.6068751616948371	0.0749533567317915	8.0	-0.7797179122657814	-0.4340324111238929	4.0045901616845156e-05	0.0011713211119457	30
+DCT_Mg	d1_r10_vs_sham	1	10	5	6	08-15-2014;08-18-2014;08-20-2014	tested	-0.10905936366292845	0.08701648026089782	7.0	-0.31482064317609226	0.09670191585023533	0.25032877607413684	1.0	30
+DCT_Mg	d1_r28_vs_sham	1	28	6	3	08-18-2014;08-20-2014	insufficient_date_overlap								30
+DCT_Mg	d5_r0_vs_sham	5	0	6	5	12-10-2012;12-13-2012	tested	-0.5639788395213082	0.08249374576739366	8.0	-0.7542097583893992	-0.37374792065321727	0.00013277982782656378	0.0011832653517306604	30
+DCT_Mg	d5_r10_vs_sham	5	10	2	6	08-18-2014	insufficient_date_overlap								30
+DCT_Mg	d5_r28_vs_sham	5	28	0	0		insufficient_date_overlap								30
+DCT_Ca	d1_r0_vs_sham	1	0	5	6	11-21-2012;12-10-2012	tested	-0.9759698134353787	0.14635695431552223	8.0	-1.3134695553028601	-0.6384700715678973	0.00015776871356408805	0.0011832653517306604	30
+DCT_Ca	d1_r10_vs_sham	1	10	5	6	08-15-2014;08-18-2014;08-20-2014	tested	0.07546321786557786	0.10698095268097024	7.0	-0.17750653730234445	0.32843297303350016	0.5033581813272806	1.0	30
+DCT_Ca	d1_r28_vs_sham	1	28	6	3	08-18-2014;08-20-2014	insufficient_date_overlap								30
+DCT_Ca	d5_r0_vs_sham	5	0	6	5	12-10-2012;12-13-2012	tested	-0.83350721471197	0.11302730993046152	8.0	-1.094148658802617	-0.5728657706213228	7.808807412971333e-05	0.0011713211119457	30
+DCT_Ca	d5_r10_vs_sham	5	10	2	6	08-18-2014	insufficient_date_overlap								30
+DCT_Ca	d5_r28_vs_sham	5	28	0	0		insufficient_date_overlap								30

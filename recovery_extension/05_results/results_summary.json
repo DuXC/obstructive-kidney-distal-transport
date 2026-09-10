@@ -1,0 +1,35 @@
+{
+  "program_primary_contrasts": {
+    "slots": 50,
+    "tested": 30,
+    "fdr_below_005": 15
+  },
+  "program_detectable_contrasts": {
+    "slots": 50,
+    "tested": 21,
+    "fdr_below_005": 6
+  },
+  "program_date_adjusted": {
+    "slots": 30,
+    "tested": 9,
+    "fdr_below_005": 5
+  },
+  "gene_primary_contrasts": {
+    "slots": 190,
+    "tested": 170,
+    "fdr_below_005": 51
+  },
+  "gene_detectable_contrasts": {
+    "slots": 190,
+    "tested": 146,
+    "fdr_below_005": 36
+  },
+  "gene_date_adjusted": {
+    "slots": 114,
+    "tested": 51,
+    "fdr_below_005": 10
+  },
+  "protocol_sha256": "1fcf8aa30514de5b086a7d70b8cb9a04fa50d889297d50e316b3086a7c7e3224",
+  "animal_count": 71,
+  "normal_controls_descriptive": 4
+}

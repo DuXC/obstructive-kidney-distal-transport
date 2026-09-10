@@ -1,7 +1,7 @@
 cff-version: "1.2.0"
 message: "Please cite this code release and the original data study when using these materials."
 type: "software"
-title: "Obstructive kidney distal transport programs: donor-level reanalysis code and data"
+title: "Obstructive kidney distal transport programs: donor and animal-level reanalysis code and data"
 authors:
   - given-names: "Xiancheng"
     family-names: "Du"
@@ -27,10 +27,10 @@ authors:
     family-names: "Sun"
     orcid: "https://orcid.org/0000-0003-0538-1239"
     affiliation: "Department of Urology, Zhongda Hospital, School of Medicine, Southeast University, Nanjing 210009, China"
-version: "0.5.0"
+version: "0.6.0"
 date-released: "2026-09-10"
 repository-code: "https://github.com/DuXC/obstructive-kidney-distal-transport"
-url: "https://github.com/DuXC/obstructive-kidney-distal-transport/releases/tag/v0.5.0"
+url: "https://github.com/DuXC/obstructive-kidney-distal-transport/releases/tag/v0.6.0"
 license: "MIT"
 keywords:
   - "kidney"
@@ -39,4 +39,4 @@ keywords:
   - "donor-level analysis"
   - "TAL"
   - "DCT"
-abstract: "Code, verified donor aggregates and complete results for the 12-donor GSE254185 discovery analysis and a frozen GSE183277/GSE183276 external atlas extension. Primary external snRNA comparisons are uncertain; the secondary scRNA assay gives partial AKI support. Cancer type and obstruction remain confounded in discovery. The results estimate transcript scores and do not establish physiological transport or an isolated obstruction effect."
+abstract: "Code, verified donor aggregates and complete results for the 12-donor GSE254185 discovery analysis and a frozen GSE183277/GSE183276 external atlas extension. The GSE96102 extension adds 71 matched-comparison mouse arrays with complete orthology and acquisition-date sensitivities. Primary external snRNA comparisons are uncertain; the secondary scRNA assay gives partial AKI support. Cancer type and obstruction remain confounded in discovery. The results estimate transcript scores and do not establish physiological transport or an isolated obstruction effect."

@@ -1,0 +1,51 @@
+entity	analysis	contrast	duration_days	recovery_days	kind	status	n_groups	acquisition_caveat	effect	se	df	ci_low	ci_high	p	fdr	family_slots
+TAL_salt	detectable	d1_r0_vs_sham	1	0	same_time	orthology_ambiguous	0;0									50
+TAL_salt	detectable	d1_r10_vs_sham	1	10	same_time	orthology_ambiguous	0;0									50
+TAL_salt	detectable	d1_r28_vs_sham	1	28	same_time	orthology_ambiguous	0;0									50
+TAL_salt	detectable	d1_r28_vs_r0	1	28	late_vs_acute	orthology_ambiguous	0;0	era_confounded								50
+TAL_salt	detectable	d1_sham_adjusted_change	1	28	difference_in_differences	orthology_ambiguous	0;0;0;0	untestable_group_by_era_assumption								50
+TAL_salt	detectable	d5_r0_vs_sham	5	0	same_time	orthology_ambiguous	0;0									50
+TAL_salt	detectable	d5_r10_vs_sham	5	10	same_time	orthology_ambiguous	0;0									50
+TAL_salt	detectable	d5_r28_vs_sham	5	28	same_time	orthology_ambiguous	0;0									50
+TAL_salt	detectable	d5_r28_vs_r0	5	28	late_vs_acute	orthology_ambiguous	0;0	era_confounded								50
+TAL_salt	detectable	d5_sham_adjusted_change	5	28	difference_in_differences	orthology_ambiguous	0;0;0;0	untestable_group_by_era_assumption								50
+TAL_CaMg	detectable	d1_r0_vs_sham	1	0	same_time	insufficient_animals	2;5									50
+TAL_CaMg	detectable	d1_r10_vs_sham	1	10	same_time	tested	5;6		-0.238111735809591	0.16418627024729143	7.1970499753677455	-0.6242060988842045	0.14798262726502254	0.18912988161691577	0.7274226216035221	50
+TAL_CaMg	detectable	d1_r28_vs_sham	1	28	same_time	tested	6;6		0.12682200719768666	0.1469469253445828	9.922725120285232	-0.200942100405399	0.4545861148007723	0.408487499027328	1.0	50
+TAL_CaMg	detectable	d1_r28_vs_r0	1	28	late_vs_acute	insufficient_animals	6;2	era_confounded								50
+TAL_CaMg	detectable	d1_sham_adjusted_change	1	28	difference_in_differences	insufficient_animals	6;6;2;5	untestable_group_by_era_assumption								50
+TAL_CaMg	detectable	d5_r0_vs_sham	5	0	same_time	tested	6;5		0.009910776299344448	0.09571114907628644	8.365628206959268	-0.20913166955865833	0.22895322215734723	0.9199669788297499	1.0	50
+TAL_CaMg	detectable	d5_r10_vs_sham	5	10	same_time	tested	8;6		-0.14947627306890254	0.09481284821414693	8.547062738597974	-0.3657030014492134	0.0667504553114083	0.1511378788135507	0.629741161723128	50
+TAL_CaMg	detectable	d5_r28_vs_sham	5	28	same_time	tested	5;6		0.18789396971825845	0.15154833523972064	5.505624426909644	-0.19115455137947968	0.5669424908159966	0.2652664988876572	0.8746943240350687	50
+TAL_CaMg	detectable	d5_r28_vs_r0	5	28	late_vs_acute	tested	5;6	era_confounded	0.37700651896461146	0.15210257337710642	5.571919646385688	-0.002217471643191027	0.756230509572414	0.05095788717014721	0.31848679481342007	50
+TAL_CaMg	detectable	d5_sham_adjusted_change	5	28	difference_in_differences	tested	5;6;6;5	untestable_group_by_era_assumption	0.177983193418914	0.17924151854811396	9.752396812558365	-0.22277049726743003	0.578736884105258	0.34471743379991704	1.0	50
+DCT_NaCl	detectable	d1_r0_vs_sham	1	0	same_time	orthology_ambiguous	0;0									50
+DCT_NaCl	detectable	d1_r10_vs_sham	1	10	same_time	orthology_ambiguous	0;0									50
+DCT_NaCl	detectable	d1_r28_vs_sham	1	28	same_time	orthology_ambiguous	0;0									50
+DCT_NaCl	detectable	d1_r28_vs_r0	1	28	late_vs_acute	orthology_ambiguous	0;0	era_confounded								50
+DCT_NaCl	detectable	d1_sham_adjusted_change	1	28	difference_in_differences	orthology_ambiguous	0;0;0;0	untestable_group_by_era_assumption								50
+DCT_NaCl	detectable	d5_r0_vs_sham	5	0	same_time	orthology_ambiguous	0;0									50
+DCT_NaCl	detectable	d5_r10_vs_sham	5	10	same_time	orthology_ambiguous	0;0									50
+DCT_NaCl	detectable	d5_r28_vs_sham	5	28	same_time	orthology_ambiguous	0;0									50
+DCT_NaCl	detectable	d5_r28_vs_r0	5	28	late_vs_acute	orthology_ambiguous	0;0	era_confounded								50
+DCT_NaCl	detectable	d5_sham_adjusted_change	5	28	difference_in_differences	orthology_ambiguous	0;0;0;0	untestable_group_by_era_assumption								50
+DCT_Mg	detectable	d1_r0_vs_sham	1	0	same_time	insufficient_animals	2;4									50
+DCT_Mg	detectable	d1_r10_vs_sham	1	10	same_time	tested	5;6		-0.12075483238648843	0.06113381570779103	8.97707027659096	-0.25910299635835193	0.01759333158537507	0.07974739025614523	0.36248813752793285	50
+DCT_Mg	detectable	d1_r28_vs_sham	1	28	same_time	tested	6;6		-0.023388138291323912	0.05399163077443452	9.842442794359945	-0.14395053515832537	0.09717425857567755	0.6742225633305621	1.0	50
+DCT_Mg	detectable	d1_r28_vs_r0	1	28	late_vs_acute	insufficient_animals	6;2	era_confounded								50
+DCT_Mg	detectable	d1_sham_adjusted_change	1	28	difference_in_differences	insufficient_animals	6;6;2;4	untestable_group_by_era_assumption								50
+DCT_Mg	detectable	d5_r0_vs_sham	5	0	same_time	tested	6;5		-0.5830990154169768	0.08532226421308793	4.776428639496246	-0.8055509622047441	-0.3606470686292096	0.0012264236987225283	0.015027042478003698	50
+DCT_Mg	detectable	d5_r10_vs_sham	5	10	same_time	tested	8;6		-0.4677183864088743	0.07350759642739386	8.444699740863978	-0.6356859500402432	-0.2997508227775054	0.00017257331273886527	0.004314332818471631	50
+DCT_Mg	detectable	d5_r28_vs_sham	5	28	same_time	tested	5;6		-0.2572878668439529	0.10714219793453421	4.292167401748317	-0.5469441462795661	0.03236841259166029	0.06988868346966258	0.34944341734831286	50
+DCT_Mg	detectable	d5_r28_vs_r0	5	28	late_vs_acute	tested	5;6	era_confounded	0.6267989232015285	0.10825317816020104	4.465697932120571	0.33820657757090794	0.915391268832149	0.0031282771805119544	0.02606897650426629	50
+DCT_Mg	detectable	d5_sham_adjusted_change	5	28	difference_in_differences	tested	5;6;6;5	untestable_group_by_era_assumption	0.32581114857302396	0.13696473761041889	8.41948975211737	0.012688171856152619	0.6389341252898952	0.043134254238940475	0.3081018159924319	50
+DCT_Ca	detectable	d1_r0_vs_sham	1	0	same_time	insufficient_animals	2;4									50
+DCT_Ca	detectable	d1_r10_vs_sham	1	10	same_time	tested	5;6		0.13569906401552423	0.1173346582280144	8.239062747721297	-0.13351465736475404	0.4049127853958025	0.279902183691222	0.8746943240350687	50
+DCT_Ca	detectable	d1_r28_vs_sham	1	28	same_time	tested	6;6		0.032443013869006165	0.062229993131107796	9.130391067807711	-0.10802515067760829	0.17291117841562062	0.6145379568539665	1.0	50
+DCT_Ca	detectable	d1_r28_vs_r0	1	28	late_vs_acute	insufficient_animals	6;2	era_confounded								50
+DCT_Ca	detectable	d1_sham_adjusted_change	1	28	difference_in_differences	insufficient_animals	6;6;2;4	untestable_group_by_era_assumption								50
+DCT_Ca	detectable	d5_r0_vs_sham	5	0	same_time	tested	6;5		-0.8112561963157034	0.07940155705358129	5.059540776882724	-1.0146440563493948	-0.6078683362820121	0.00014400924116351522	0.004314332818471631	50
+DCT_Ca	detectable	d5_r10_vs_sham	5	10	same_time	tested	8;6		-0.2655487638202967	0.12529591702209003	10.647840795088758	-0.542440101793245	0.011342574152651552	0.05844307188257653	0.3246837326809807	50
+DCT_Ca	detectable	d5_r28_vs_sham	5	28	same_time	tested	5;6		-0.15711685553235633	0.11387801151165008	8.2429676906524	-0.4183787771328344	0.10414506606812174	0.20394879687398573	0.7283885602642347	50
+DCT_Ca	detectable	d5_r28_vs_r0	5	28	late_vs_acute	tested	5;6	era_confounded	0.6009532117830343	0.0919475214425543	4.766673370138107	0.36107193650807046	0.8408344870579981	0.00150270424780037	0.015027042478003698	50
+DCT_Ca	detectable	d5_sham_adjusted_change	5	28	difference_in_differences	tested	5;6;6;5	untestable_group_by_era_assumption	0.6541393407833471	0.13882654201693792	13.144538695659039	0.354557728914092	0.9537209526526023	0.0003945410409777023	0.006575684016295038	50

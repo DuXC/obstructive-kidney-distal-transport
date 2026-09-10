@@ -1,0 +1,1 @@
+{"status":"PASS_R_STATISTICAL_CROSSCHECK","tested_contrasts":427,"absolute_tolerance":1e-8,"checks":"Welch t.test, four-group contrasts, BH families, lm HC3 covariance"}

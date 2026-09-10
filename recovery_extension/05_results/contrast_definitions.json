@@ -1,0 +1,202 @@
+[
+  {
+    "id": "d1_r0_vs_sham",
+    "duration": 1,
+    "kind": "same_time",
+    "day": 0,
+    "parts": [
+      [
+        "RUUO",
+        0,
+        1
+      ],
+      [
+        "Sham",
+        0,
+        -1
+      ]
+    ]
+  },
+  {
+    "id": "d1_r10_vs_sham",
+    "duration": 1,
+    "kind": "same_time",
+    "day": 10,
+    "parts": [
+      [
+        "RUUO",
+        10,
+        1
+      ],
+      [
+        "Sham",
+        10,
+        -1
+      ]
+    ]
+  },
+  {
+    "id": "d1_r28_vs_sham",
+    "duration": 1,
+    "kind": "same_time",
+    "day": 28,
+    "parts": [
+      [
+        "RUUO",
+        28,
+        1
+      ],
+      [
+        "Sham",
+        28,
+        -1
+      ]
+    ]
+  },
+  {
+    "id": "d1_r28_vs_r0",
+    "duration": 1,
+    "kind": "late_vs_acute",
+    "day": 28,
+    "parts": [
+      [
+        "RUUO",
+        28,
+        1
+      ],
+      [
+        "RUUO",
+        0,
+        -1
+      ]
+    ]
+  },
+  {
+    "id": "d1_sham_adjusted_change",
+    "duration": 1,
+    "kind": "difference_in_differences",
+    "day": 28,
+    "parts": [
+      [
+        "RUUO",
+        28,
+        1
+      ],
+      [
+        "Sham",
+        28,
+        -1
+      ],
+      [
+        "RUUO",
+        0,
+        -1
+      ],
+      [
+        "Sham",
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "d5_r0_vs_sham",
+    "duration": 5,
+    "kind": "same_time",
+    "day": 0,
+    "parts": [
+      [
+        "RUUO",
+        0,
+        1
+      ],
+      [
+        "Sham",
+        0,
+        -1
+      ]
+    ]
+  },
+  {
+    "id": "d5_r10_vs_sham",
+    "duration": 5,
+    "kind": "same_time",
+    "day": 10,
+    "parts": [
+      [
+        "RUUO",
+        10,
+        1
+      ],
+      [
+        "Sham",
+        10,
+        -1
+      ]
+    ]
+  },
+  {
+    "id": "d5_r28_vs_sham",
+    "duration": 5,
+    "kind": "same_time",
+    "day": 28,
+    "parts": [
+      [
+        "RUUO",
+        28,
+        1
+      ],
+      [
+        "Sham",
+        28,
+        -1
+      ]
+    ]
+  },
+  {
+    "id": "d5_r28_vs_r0",
+    "duration": 5,
+    "kind": "late_vs_acute",
+    "day": 28,
+    "parts": [
+      [
+        "RUUO",
+        28,
+        1
+      ],
+      [
+        "RUUO",
+        0,
+        -1
+      ]
+    ]
+  },
+  {
+    "id": "d5_sham_adjusted_change",
+    "duration": 5,
+    "kind": "difference_in_differences",
+    "day": 28,
+    "parts": [
+      [
+        "RUUO",
+        28,
+        1
+      ],
+      [
+        "Sham",
+        28,
+        -1
+      ],
+      [
+        "RUUO",
+        0,
+        -1
+      ],
+      [
+        "Sham",
+        0,
+        1
+      ]
+    ]
+  }
+]
