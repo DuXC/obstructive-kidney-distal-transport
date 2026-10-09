@@ -82,7 +82,7 @@ for lib,cols,c in pb_lib:
 pd.DataFrame(markrows).to_csv(RES/'marker_audit_by_donor.tsv.gz',sep='\t',index=False)
 q.groupby(['donor','Library','group','sex','celltype']).size().rename('n_nuclei').reset_index().to_csv(RES/'donor_library_celltype_counts.tsv',sep='\t',index=False)
 donor=q.groupby('donor').agg(group=('group','first'),sex=('sex','first'),n_nuclei=('barcode','size'),n_libraries=('Library','nunique'),median_umis=('n_counts','median'),median_genes=('n_genes','median'),median_percent_mito=('percent_mito','median')).reset_index()
-donor['tumour_context']=np.where(donor.group.eq('UUO'),'upper urinary tract urothelial carcinoma','renal cell carcinoma')
+donor['tumour_context']=np.where(donor.group.eq('UUO'),'upper urinary tract urothelial carcinoma','unobstructed renal tumour; individual histology unlinked')
 donor.to_csv(RES/'donor_qc.tsv',sep='\t',index=False)
 composition=q.groupby(['donor','group','celltype']).size().rename('n_nuclei').reset_index()
 epithelia=['ATL','CNT','DCT','DTL','IC-A','IC-B','PC','PEC','PT','Podocyte','TAL']

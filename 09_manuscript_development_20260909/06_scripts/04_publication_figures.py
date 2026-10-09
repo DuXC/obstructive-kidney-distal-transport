@@ -25,7 +25,10 @@ def export(fig,name):
         if ax.get_title(loc='left') in TITLES:ax.set_title(TITLES[ax.get_title(loc='left')],loc='left',fontsize=9,pad=10)
         if ax.get_legend() is not None:
             ax.get_legend().remove()
-            ax.legend(handles=[Line2D([],[],marker='o',linestyle='',color='#446D87',label='RCC reference',markersize=4),Line2D([],[],marker='^',linestyle='',color='#A94F29',label='UTUC + obstruction',markersize=4)],loc='best',fontsize=8)
+            ax.legend(handles=[Line2D([],[],marker='o',linestyle='',color='#356F85',label='Unobstructed reference',markersize=4),Line2D([],[],marker='^',linestyle='',color='#C16B3A',label='UTUC + obstruction',markersize=4)],loc='best',fontsize=8)
+    if short=='FigS1':
+        target=fig.axes[-1]; target.set_ylim(target.get_ylim()[0],6200)
+    if short=='FigS1': fig.axes[-1].set_ylim(fig.axes[-1].get_ylim()[0],6200)
     fig.savefig(OUT/f'{short}.svg',dpi=301)
     fig.savefig(OUT/f'{short}.pdf',dpi=301)
     fig.savefig(OUT/f'{short}.png',dpi=301)
@@ -39,7 +42,7 @@ source=source.replace("O=ROOT/'06_figures'", "O=DEV/'05_figures'")
 source=source.replace("R/'marker_audit_donor_balanced.tsv'", "DEV/'02_analysis/marker_donor_balanced.tsv'")
 start=source.index('def save(fig,name):');end=source.index('\ndef donorplot',start)
 source=source[:start]+"def save(fig,name):\n    publication_export(fig,name)\n"+source[end:]
-source=source.replace("'#547D99'","'#446D87'").replace("'#C76A43'","'#A94F29'")
+source=source.replace("'#356F85'","'#356F85'").replace("'#C16B3A'","'#C16B3A'")
 source=source.replace("ax.scatter(i+off+j,y,s=15,color=COL[g]", "ax.scatter(i+off+j,y,s=15,marker='o' if g=='Control' else '^',color=COL[g]")
 source=source.replace("ax.scatter(s.epithelial_injury,s[mo],color=COL[g]", "ax.scatter(s.epithelial_injury,s[mo],marker='o' if g=='Control' else '^',color=COL[g]")
 source=source.replace("ax.text(0,-.46,", "ax.text(0,-.35,")
@@ -51,8 +54,8 @@ fig,axes=plt.subplots(1,3,figsize=(174/25.4,116/25.4),layout='constrained')
 for k,(ax,mod,label) in enumerate(zip(axes,['TAL_salt','DCT_NaCl','DCT_Mg'],['TAL salt','DCT NaCl','DCT magnesium'])):
     z=data[data.module.eq(mod)].reset_index(drop=True)
     for i,r in z.iterrows():
-        ax.plot([r.ci_low,r.ci_high],[i,i],color='#677D8C',lw=1)
-        ax.scatter(r.effect,i,color='#446D87',s=16,zorder=3)
+        ax.plot([r.ci_low,r.ci_high],[i,i],color='#356F85',lw=1)
+        ax.scatter(r.effect,i,color='#356F85',s=16,zorder=3)
     ax.axvline(0,color='#AAA',ls=':',lw=.7)
     ax.axvline(summary.loc[mod,'main_effect'],color='#777',ls='--',lw=.7)
     ax.set_yticks(range(len(z)),z.omitted_gene);ax.set_ylim(len(z)-.5,-.5)

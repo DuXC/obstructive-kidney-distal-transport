@@ -1,7 +1,7 @@
 {
-  "title": "Obstructive kidney distal transport programs: donor and animal-level reanalysis code and data",
+  "title": "Distal Nephron Transport Transcription in Tumour Nephrectomy and Experimental Obstruction: analysis code and source data",
   "upload_type": "software",
-  "description": "Code, verified donor aggregates, expected result tables and figure scripts for a 12-donor secondary analysis of GSE254185. Tumour type and obstruction status are completely confounded; the results describe transcript scores and do not establish physiological transport or an isolated obstruction effect. This version adds primary snRNA and secondary scRNA cross-injury analyses from the Lake et al. atlas, with partial support and complete null/untestable results. The GSE96102 public mouse extension includes verified fluorescence inputs, fixed target orthology, 71 matched-comparison arrays, complete animal-level contrasts and acquisition-date/detectability sensitivities. Acquisition era limits temporal interpretation.",
+  "description": "Reproducible donor-level analysis of fixed distal-nephron transport programs in GSE254185, with primary single-nucleus and secondary single-cell cross-injury comparisons from GSE183277 and GSE183276, and animal-level obstruction/recovery analyses from GSE96102. The release contains donor aggregates, fluorescence inputs, source identifiers, fixed gene memberships, complete effect estimates and sensitivity analyses. Human discovery compares five obstructed upper-tract urothelial carcinoma nephrectomies with seven unobstructed renal tumour nephrectomies. The fixed magnesium program has lower scores in this comparison, secondary human acute kidney injury and acute experimental obstruction; the primary external single-nucleus comparisons have wide confidence intervals. Version 0.7.0 aligns cohort annotation and figure presentation while preserving the numerical analysis.",
   "creators": [
     {
       "name": "Du, Xiancheng",
@@ -34,8 +34,8 @@
       "orcid": "0000-0003-0538-1239"
     }
   ],
-  "version": "0.6.0",
-  "publication_date": "2026-09-10",
+  "version": "0.7.0",
+  "publication_date": "2026-10-10",
   "license": "MIT",
   "keywords": [
     "kidney",

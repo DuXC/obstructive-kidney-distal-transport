@@ -5,7 +5,7 @@ import gzip,io,json,hashlib
 import pandas as pd
 import numpy as np
 P=Path(__file__).resolve().parents[1]
-freeze=json.loads((P/'09_qa/protocol_freeze.json').read_text())
+freeze=json.loads((P/'03_protocol/freeze_receipt.json').read_text())
 assert hashlib.sha256((P/freeze['file']).read_bytes()).hexdigest()==freeze['sha256']
 meta=pd.read_csv(P/'02_audit/GSE96102_sample_inventory.tsv',sep='\t')
 meta=meta[meta.condition.ne('Normal')].sort_values('sample')

@@ -1,8 +1,0 @@
-{
-  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE183nnn/GSE183277/suppl/GSE183277_Kidney_Healthy-Injury_Cell_Atlas_snCv3_Counts_03282022.RDS.gz",
-  "file": "02_data/GSE183277_Kidney_Healthy-Injury_Cell_Atlas_snCv3_Counts_03282022.RDS.gz",
-  "bytes": 910246297,
-  "sha256": "b5635cc2052384e5f16ada484190621de0f9a3d20c84986689a5ca17bb144f12",
-  "retrieved_at": "2026-09-10T01:09:15.213893+08:00",
-  "elapsed_seconds": 76.69
-}

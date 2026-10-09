@@ -11,7 +11,7 @@ import statsmodels.api as sm
 P=Path(__file__).resolve().parents[1]
 OUT=Path(sys.argv[1]) if len(sys.argv)>1 else P/'05_results'
 OUT.mkdir(parents=True,exist_ok=True)
-freeze=json.loads((P/'09_qa/protocol_freeze.json').read_text())
+freeze=json.loads((P/'03_protocol/freeze_receipt.json').read_text())
 assert hashlib.sha256((P/freeze['file']).read_bytes()).hexdigest()==freeze['sha256']
 mods=[m for m in json.loads((P.parent/'03_protocol/modules_v1.json').read_text()) if m['family']=='primary_transport']
 gene_names=sorted({g for m in mods for g in m['genes']})

@@ -1,11 +1,11 @@
 donor	group	sex	n_nuclei	n_libraries	median_umis	median_genes	median_percent_mito	tumour_context
-Control1	Control	Male	1169	1	2868.0	1695.0	0.1786777843954735	renal cell carcinoma
-Control2	Control	Male	3973	2	2790.0	1619.0	0.10475591870940709	renal cell carcinoma
-Control3	Control	Female	443	1	2362.0	1440.0	0.12903225806451613	renal cell carcinoma
-Control4	Control	Male	2260	2	2395.5	1508.5	0.15227022208105243	renal cell carcinoma
-Control5	Control	Female	1831	1	2269.0	1412.0	0.12113870381586916	renal cell carcinoma
-Control6	Control	Female	1951	2	2427.0	1472.0	0.13458950201884254	renal cell carcinoma
-Control7	Control	Male	3513	2	2551.0	1493.0	0.10576414595452141	renal cell carcinoma
+Control1	Control	Male	1169	1	2868.0	1695.0	0.1786777843954735	unobstructed renal tumour; individual histology unlinked
+Control2	Control	Male	3973	2	2790.0	1619.0	0.10475591870940709	unobstructed renal tumour; individual histology unlinked
+Control3	Control	Female	443	1	2362.0	1440.0	0.12903225806451613	unobstructed renal tumour; individual histology unlinked
+Control4	Control	Male	2260	2	2395.5	1508.5	0.15227022208105243	unobstructed renal tumour; individual histology unlinked
+Control5	Control	Female	1831	1	2269.0	1412.0	0.12113870381586916	unobstructed renal tumour; individual histology unlinked
+Control6	Control	Female	1951	2	2427.0	1472.0	0.13458950201884254	unobstructed renal tumour; individual histology unlinked
+Control7	Control	Male	3513	2	2551.0	1493.0	0.10576414595452141	unobstructed renal tumour; individual histology unlinked
 UUO1	UUO	Male	3971	2	1288.0	929.0	0.30272452068617556	upper urinary tract urothelial carcinoma
 UUO2	UUO	Male	4775	3	2093.0	1303.0	0.4321808510638298	upper urinary tract urothelial carcinoma
 UUO3	UUO	Female	5416	3	1942.0	1225.0	0.18928645134661026	upper urinary tract urothelial carcinoma

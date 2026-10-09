@@ -1,11 +1,11 @@
 donor	age_band_years	sex_reported	baseline_egfr_ml_min_1_73m2	postoperative_egfr_ml_min_1_73m2	glomerulosclerosis_percent	tubulointerstitial_fibrosis_percent	tubular_atrophy_percent	hypertension	source_location	age_band_midpoint_approx	group	sex	n_nuclei	n_libraries	median_umis	median_genes	median_percent_mito	tumour_context
-Control1	65-69	M	94	55	5	5	5	N	Supplementary Data 2, row 6	67.0	Control	Male	1169	1	2868.0	1695.0	0.1786777843954735	renal cell carcinoma
-Control2	80-84	M	84	55	5	5	5	Y	Supplementary Data 2, row 7	82.0	Control	Male	3973	2	2790.0	1619.0	0.104755918709407	renal cell carcinoma
-Control3	60-64	F	99	62	5	10	15	Y	Supplementary Data 2, row 8	62.0	Control	Female	443	1	2362.0	1440.0	0.1290322580645161	renal cell carcinoma
-Control4	65-69	M	86	48	10	15	12	Y	Supplementary Data 2, row 9	67.0	Control	Male	2260	2	2395.5	1508.5	0.1522702220810524	renal cell carcinoma
-Control5	70-74	F	78	48	12	15	10	Y	Supplementary Data 2, row 10	72.0	Control	Female	1831	1	2269.0	1412.0	0.1211387038158691	renal cell carcinoma
-Control6	60-64	F	97	53	3	5	5	N	Supplementary Data 2, row 11	62.0	Control	Female	1951	2	2427.0	1472.0	0.1345895020188425	renal cell carcinoma
-Control7	60-64	M	77	49	3	7	7	Y	Supplementary Data 2, row 12	62.0	Control	Male	3513	2	2551.0	1493.0	0.1057641459545214	renal cell carcinoma
+Control1	65-69	M	94	55	5	5	5	N	Supplementary Data 2, row 6	67.0	Control	Male	1169	1	2868.0	1695.0	0.1786777843954735	unobstructed renal tumour; individual histology unlinked
+Control2	80-84	M	84	55	5	5	5	Y	Supplementary Data 2, row 7	82.0	Control	Male	3973	2	2790.0	1619.0	0.104755918709407	unobstructed renal tumour; individual histology unlinked
+Control3	60-64	F	99	62	5	10	15	Y	Supplementary Data 2, row 8	62.0	Control	Female	443	1	2362.0	1440.0	0.1290322580645161	unobstructed renal tumour; individual histology unlinked
+Control4	65-69	M	86	48	10	15	12	Y	Supplementary Data 2, row 9	67.0	Control	Male	2260	2	2395.5	1508.5	0.1522702220810524	unobstructed renal tumour; individual histology unlinked
+Control5	70-74	F	78	48	12	15	10	Y	Supplementary Data 2, row 10	72.0	Control	Female	1831	1	2269.0	1412.0	0.1211387038158691	unobstructed renal tumour; individual histology unlinked
+Control6	60-64	F	97	53	3	5	5	N	Supplementary Data 2, row 11	62.0	Control	Female	1951	2	2427.0	1472.0	0.1345895020188425	unobstructed renal tumour; individual histology unlinked
+Control7	60-64	M	77	49	3	7	7	Y	Supplementary Data 2, row 12	62.0	Control	Male	3513	2	2551.0	1493.0	0.1057641459545214	unobstructed renal tumour; individual histology unlinked
 UUO1	60-64	M	98	71	0	70	70	N	Supplementary Data 2, row 13	62.0	UUO	Male	3971	2	1288.0	929.0	0.3027245206861755	upper urinary tract urothelial carcinoma
 UUO2	65-69	M	44	44	2	70	70	Y	Supplementary Data 2, row 14	67.0	UUO	Male	4775	3	2093.0	1303.0	0.4321808510638298	upper urinary tract urothelial carcinoma
 UUO3	80-84	F	46	49	5	35	35	N	Supplementary Data 2, row 15	82.0	UUO	Female	5416	3	1942.0	1225.0	0.1892864513466102	upper urinary tract urothelial carcinoma

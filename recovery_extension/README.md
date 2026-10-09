@@ -1,24 +1,24 @@
-# GSE96102 public mouse obstruction and recovery
+# GSE96102 mouse obstruction and recovery
 
-The primary analysis unit is one animal. This extension retains all 75 source samples in the inventory and uses 71 matched-comparison arrays for normalization and inference. Four normal animals are source/QC records only. The five frozen human transport programs retain their original membership; 17 genes have unambiguous one-to-one mouse orthology. CLCNKA and CLCNKB map many-to-many, leaving TAL salt and DCT NaCl programs untestable in this exact-membership analysis.
+This animal-level reanalysis uses 71 matched-comparison arrays and retains four normal controls in the 75-sample inventory. The five human transport programs have fixed memberships. Seventeen genes have one-to-one mouse orthology; the three programs with complete orthology are testable. CLCNKA/CLCNKB map many-to-many, leaving TAL salt and DCT NaCl programs untestable.
 
 ## Reproduction
 
-From the repository root, use the versions in requirements.txt and an R installation with limma 3.68.5:
+From the repository root:
 
 ```sh
 python reproduce_recovery.py --figures --check-normalization
 ```
 
-RSCRIPT selects the Rscript executable and KIDNEY_R_LIB can select an installed R package library. No dependencies are installed automatically. The default command (with no options) requires only Python, checks the input and frozen-plan hashes, reconstructs the gene/program summaries from the included normalized fluorescence and target quality flags, and reproduces 13 result files byte-for-byte in the recorded environment. The expected hashes are validators, never effect inputs. It writes regenerated results under reproduced_results and a receipt under validation.
+Use the Python dependencies in `requirements.txt` and R with limma 3.68.5. `RSCRIPT` selects the R executable and `KIDNEY_R_LIB` selects an installed package library. The command verifies input and fixed-plan hashes, reconstructs all reference result files and compares every retained value and text field against the reference results at tolerance 1e-10. Byte identity is recorded separately. The normalization option rebuilds the 43,379 by 71 matrix from foreground/background signals. Runtime checks are written locally by the entry point.
 
-The optional normalization check runs limma in a temporary directory from the supplied foreground/background matrices, compares all 43,379 x 71 normalized values within absolute tolerance 1e-10, and leaves the frozen inputs intact. This verifies the normalization stage; it is not a fresh acquisition of the original Agilent files. The optional figure run uses the regenerated tables. PDF/SVG metadata and font differences can change figure hashes on another system.
+## Source data and measurements
 
-## Source acquisition and upstream reconstruction
+`raw_data_sources.tsv` lists the 75 official source URLs, byte sizes and SHA-256 values. The original compressed arrays total 625,754,441 bytes. GPL4134 annotations, public sample metadata and dated Ensembl responses establish sample, probe and orthology mappings. Animals have unique filename identifiers and are independent biological replicates. `02_audit` contains scientific measurement and mapping records; `03_protocol` contains the dated analysis plan and its hash.
 
-raw_data_sources.tsv lists the 75 official source URLs, byte sizes and SHA-256 values. The source compressed arrays total 625,754,441 bytes and are excluded from Git. The preserved GPL4134 annotation, public sample metadata and dated Ensembl responses supply the mapping provenance. Metadata describe individual biological replicates with unique filename animal IDs; no samples are repeatedly measured animals.
+The Cy5 tissue channel receives normexp background correction (offset 50), log2 transformation and quantile normalization. This specifies the single-channel estimand used here; the source study used two-colour ratios. Gene estimates aggregate replicate spots within ProbeName and distinct unambiguous probes by median. Complete program membership is required per animal. Detectability sensitivity can change both contributing probes and eligible animals.
 
-In a separate working copy of the repository, the following commands download/extract the source arrays and rebuild the pre-normalization inputs:
+To download the source arrays and reconstruct upstream inputs in a separate working copy:
 
 ```sh
 python recovery_extension/04_scripts/02_acquire_feature_tables.py
@@ -26,18 +26,12 @@ python recovery_extension/04_scripts/03_extract_cy5_inputs.py
 python reproduce_recovery.py --check-normalization
 ```
 
-Check every downloaded source file against raw_data_sources.tsv before interpreting a reconstruction. The code never treats absent optional flags as measured zeroes. The original 43-column and 112-column schemas, shared feature/probe identities, and single-channel decision are documented in 02_audit and the frozen protocol. GPL annotation and Ensembl mapping snapshots are fixed inputs rather than a request to silently accept future annotation changes. The released default acceptance run does not claim a fresh download/re-extraction; the original source extraction is documented in 09_qa/raw_acquisition_receipt.json and cy5_input_receipt.json.
+Verify downloads against `raw_data_sources.tsv`. Source schema and quality-flag definitions are retained in the input records. An independent R implementation, `04_scripts/07_crosscheck_statistics.R`, checks Welch, four-group Satterthwaite and date-adjusted HC3 calculations, including their BH families; run it with this extension as the working directory.
 
-For the independent statistical calculation, run Rscript 04_scripts/07_crosscheck_statistics.R with this extension directory as the working directory. It compares separate Welch t.test, four-group Satterthwaite and date-adjusted HC3 calculations against the supplied animal values/results, including BH families, and reproduces 427 tested contrasts within absolute tolerance 1e-8.
+## Statistical interpretation
 
-## Interpretation and complete reporting
+The main families contain 50 program and 190 gene slots; date sensitivity contains 30 and 114 slots. Untestable slots contribute p=1 to the BH denominator and remain NA in displayed results. All planned matched-sham, direct late/acute and sham-adjusted temporal contrasts are retained.
 
-The raw rMedianSignal and rBGMedianSignal kidney channel receives normexp correction (offset 50) and log2 quantile normalization. The universal-reference channel is not used. This is a new single-channel reanalysis, not a reproduction of the source two-colour ratio pipeline. Gene estimates first aggregate replicate spots within ProbeName and then distinct unambiguous gene probes by median. Complete program membership is required for each animal. The detectability sensitivity can change the probes contributing to a gene estimate, in addition to removing unmeasured samples.
+Effects describe whole-kidney transcript-associated fluorescence. Acute arrays were acquired in 2012 and recovery arrays in 2014; temporal contrasts therefore require assumptions about acquisition era. Selected recovery comparisons lack sufficient shared scan dates for adjustment. DCT magnesium scores are lower in selected acute contrasts, whereas Trpm6 has no FDR-supported matched-sham effect. Human lineage-level RNA and mouse whole-kidney fluorescence are interpreted on their own scales.
 
-Families contain 50 program and 190 gene slots; date sensitivity has 30 and 114 slots. Untestable slots use p=1 only in the BH denominator and remain NA in displayed results. Same-time sham comparisons, direct late/acute differences, and sham-adjusted changes are all retained with separate status/caveat fields. The inference is about whole-kidney transcript-associated fluorescence, not transporter activity or within-lineage regulation. Acute acquisitions are from 2012 and recovery acquisitions from 2014. Direct temporal changes cannot separate era from biology; sham-adjusted change requires an untestable group-by-era assumption. Several later comparisons lack enough shared scan dates for adjustment. Uncertain late contrasts do not establish equivalence to sham.
-
-The DCT magnesium aggregate supports selected acute contrasts, but Trpm6 has no FDR-supported matched-sham effect and several individual transporter estimates depend on probe detectability. All positive, negative, uncertain and untestable comparisons are supplied. Human atlas and mouse fluorescence effect scales are not pooled.
-
-PXD039314 sample mapping and GSE145053 expression-scale/recovery-label clarification were requested from the source authors on 10 September 2026. They remain resource dependencies and are not counted as completed protein or additional RNA validation in this release. Private correspondence is not part of this public package.
-
-See the root DATA_LICENSE.md for source attribution and reuse terms. Code is MIT; third-party data retain their source terms.
+See the root `DATA_LICENSE.md` for attribution and reuse terms. Project code is MIT; third-party data retain their source terms.

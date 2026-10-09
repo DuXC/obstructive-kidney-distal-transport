@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE183nnn/GSE183276/soft/GSE183276_family.soft.gz",
+    "file": "01_sources/GSE183276_family.soft.gz",
+    "bytes": 5230,
+    "sha256": "dd907d45d1706b995a606518142d27b1d4e1a6860e5de6b089c311332b59bfb9",
+    "retrieved_at": "2026-09-10T01:05:38.507986+08:00",
+    "elapsed_seconds": 1.96
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE183nnn/GSE183277/soft/GSE183277_family.soft.gz",
+    "file": "01_sources/GSE183277_family.soft.gz",
+    "bytes": 5766,
+    "sha256": "aca3328532b4c437b95b40d50a727d252239e73b5c6da871aec5be752cfd0ead",
+    "retrieved_at": "2026-09-10T01:05:38.511149+08:00",
+    "elapsed_seconds": 1.96
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE180nnn/GSE180394/soft/GSE180394_family.soft.gz",
+    "file": "01_sources/GSE180394_family.soft.gz",
+    "bytes": 12788655,
+    "sha256": "31560693371066c09c03dd215b44c9827e94410b482b84b0ae1662d9940d26e6",
+    "retrieved_at": "2026-09-10T01:05:42.542592+08:00",
+    "elapsed_seconds": 4.03
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE183nnn/GSE183277/suppl/GSE183277_Kidney_Healthy-Injury_Cell_Atlas_snCv3_Metadata_03282022.txt.gz",
+    "file": "01_sources/GSE183277_Kidney_Healthy-Injury_Cell_Atlas_snCv3_Metadata_03282022.txt.gz",
+    "bytes": 19757814,
+    "sha256": "dbf2ed1a793d9fe2f1894f490b44ca71c527c8155def378c984fbb00e520d44c",
+    "retrieved_at": "2026-09-10T01:05:43.625845+08:00",
+    "elapsed_seconds": 5.11
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE183nnn/GSE183277/suppl/GSE183277_Kidney_Healthy-Injury_Cell_Atlas_snCv3_Metadata_Field_Descriptions.txt.gz",
+    "file": "01_sources/GSE183277_Kidney_Healthy-Injury_Cell_Atlas_snCv3_Metadata_Field_Descriptions.txt.gz",
+    "bytes": 1013,
+    "sha256": "c691e2077d235039eec0f287662b0cfc94fe9afb7d138e245f1b705c5de6f608",
+    "retrieved_at": "2026-09-10T01:05:43.694176+08:00",
+    "elapsed_seconds": 1.15
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE183nnn/GSE183276/suppl/GSE183276_Kidney_Healthy-Injury_Cell_Atlas_scCv3_Metadata_Field_Descriptions.txt.gz",
+    "file": "01_sources/GSE183276_Kidney_Healthy-Injury_Cell_Atlas_scCv3_Metadata_Field_Descriptions.txt.gz",
+    "bytes": 1125,
+    "sha256": "48ab7d2fc48af8800ab3acc5b0d7f3006bd516daa598a8f7f86351befb5e2f18",
+    "retrieved_at": "2026-09-10T01:05:45.164385+08:00",
+    "elapsed_seconds": 1.47
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE183nnn/GSE183276/suppl/GSE183276_Kidney_Healthy-Injury_Cell_Atlas_scCv3_Metadata_03282022.txt.gz",
+    "file": "01_sources/GSE183276_Kidney_Healthy-Injury_Cell_Atlas_scCv3_Metadata_03282022.txt.gz",
+    "bytes": 10126725,
+    "sha256": "7f90d8d00b0ebe4b52bcb01d1d87b0f291777706d4ef166f8903bf430b9592fe",
+    "retrieved_at": "2026-09-10T01:05:47.271704+08:00",
+    "elapsed_seconds": 3.65
+  }
+]

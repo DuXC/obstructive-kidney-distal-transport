@@ -10,14 +10,14 @@ from matplotlib.colors import TwoSlopeNorm
 from matplotlib.lines import Line2D
 ROOT=Path(__file__).resolve().parents[1];R=ROOT/'05_results';O=ROOT/'06_figures'
 plt.rcParams.update({'font.family':'sans-serif','font.sans-serif':['Arial','DejaVu Sans'],'font.size':7,'axes.titlesize':8,'axes.labelsize':7,'xtick.labelsize':6.5,'ytick.labelsize':6.5,'axes.spines.top':False,'axes.spines.right':False,'axes.linewidth':.6,'lines.linewidth':1,'svg.fonttype':'none','pdf.fonttype':42,'legend.frameon':False,'savefig.facecolor':'white'})
-COL={'Control':'#547D99','UUO':'#C76A43'};DON=[f'Control{x}' for x in range(1,8)]+[f'UUO{x}' for x in range(1,6)]
+COL={'Control':'#356F85','UUO':'#C16B3A'};DON=[f'Control{x}' for x in range(1,8)]+[f'UUO{x}' for x in range(1,6)]
 CT=['TAL','DCT','PC','IC-A','IC-B'];PRIMARY=['TAL_salt','TAL_CaMg','DCT_NaCl','DCT_Mg','DCT_Ca']
 SHORT={'TAL_salt':'TAL salt','TAL_CaMg':'TAL Ca/Mg','DCT_NaCl':'DCT NaCl','DCT_Mg':'DCT Mg','DCT_Ca':'DCT Ca','PC_water':'PC water','PC_NaK':'PC Na/K','ICA_acid':'IC-A acid','ICB_base':'IC-B base'}
 cmp=pd.read_csv(R/'module_comparisons_primary_run.tsv',sep='\t');scores=pd.read_csv(R/'module_scores_all_scenarios.tsv',sep='\t');main=scores[scores.scenario.eq('main')];allcmp=pd.read_csv(R/'module_comparisons_all_scenarios.tsv',sep='\t')
 def panel(ax,letter,title):
     ax.set_title(title,loc='left',pad=9,fontweight='normal');ax.text(-.14,1.075,letter,transform=ax.transAxes,fontweight='bold',fontsize=10,va='bottom')
 def legend(ax,loc='best'):
-    ax.legend(handles=[Line2D([],[],marker='o',linestyle='',color=COL[g],label=('RCC reference' if g=='Control' else 'UTUC + obstruction'),markersize=4) for g in COL],loc=loc,fontsize=6)
+    ax.legend(handles=[Line2D([],[],marker='o',linestyle='',color=COL[g],label=('Unobstructed reference' if g=='Control' else 'UTUC + obstruction'),markersize=4) for g in COL],loc=loc,fontsize=6)
 def save(fig,name):
     for ext in ['svg','pdf','png']:fig.savefig(O/f'{name}.{ext}',dpi=301 if ext=='png' else 300)
     plt.close(fig)
@@ -34,7 +34,7 @@ def effectforest(ax,frame,order,showq=True):
         rr=frame[frame.module.eq(mo)].iloc[0];tested=pd.notna(rr.ci_low)
         if tested:
             ax.plot([rr.ci_low,rr.ci_high],[i,i],color='#536878',lw=1.2)
-            ax.scatter(rr.effect,i,s=23,facecolor='#547D99' if rr.fdr<.05 else 'white',edgecolor='#536878',zorder=3)
+            ax.scatter(rr.effect,i,s=23,facecolor='#356F85' if rr.fdr<.05 else 'white',edgecolor='#536878',zorder=3)
         else:ax.scatter(rr.effect,i,marker='x',color='#888888',s=20)
         if showq:ax.text(1.015,i,f'{rr.fdr:.3f}' if tested else 'n.a.',transform=ax.get_yaxis_transform(),va='center',fontsize=6)
     ax.axvline(0,color='#aaaaaa',lw=.7,ls=':');ax.set_yticks(range(len(order)),[SHORT[x] for x in order]);ax.set_ylim(len(order)-.5,-.6);ax.set_xlabel('Difference in mean log2 CPM')
@@ -80,7 +80,7 @@ for col,ct in enumerate(['TAL','DCT']):
     for i,g in enumerate(genes):
         z=gene[(gene.celltype==ct)&(gene.gene==g)]
         if len(z):
-            r=z.iloc[0];ax.plot([r['CI.L'],r['CI.R']],[i,i],color='#647889');ax.scatter(r.logFC,i,s=19,facecolor='#547D99' if r.FDR_family<.05 else 'white',edgecolor='#536878',zorder=3)
+            r=z.iloc[0];ax.plot([r['CI.L'],r['CI.R']],[i,i],color='#647889');ax.scatter(r.logFC,i,s=19,facecolor='#356F85' if r.FDR_family<.05 else 'white',edgecolor='#536878',zorder=3)
         else:ax.text(.03,i,'Not tested: low counts',transform=ax.get_yaxis_transform(),fontsize=5.5,va='center',color='#777777')
     ax.set_yticks(range(len(genes)),genes);ax.set_ylim(len(genes)-.5,-.6);ax.axvline(0,color='#aaa',ls=':',lw=.7);ax.set_xlabel('Gene log2 fold change (UUO - reference)');panel(ax,'ab'[col],f'{ct}: prespecified member genes')
     ax.text(0,-.17,'Filled: FDR <0.05 across TAL + DCT gene tests',transform=ax.transAxes,fontsize=6)
@@ -92,7 +92,7 @@ save(fig,'Figure3_genes_collecting_duct')
 fig=plt.figure(figsize=(183/25.4,170/25.4),layout='constrained');gs=fig.add_gridspec(2,2,height_ratios=[1,1.2],width_ratios=[1,1.05])
 ax=fig.add_subplot(gs[0,0]);ld=pd.read_csv(R/'module_lodo_summary.tsv',sep='\t').set_index('module')
 for i,m in enumerate(PRIMARY):
-    z=ld.loc[m];ax.plot([z.lodo_min,z.lodo_max],[i,i],lw=3,color='#a1b5c2');ax.scatter(z.main_effect,i,s=25,color='#547D99',zorder=4);ax.text(1.02,i,f'{int(z.n_same_direction)}/{int(z.n_lodo)}',transform=ax.get_yaxis_transform(),va='center',fontsize=6)
+    z=ld.loc[m];ax.plot([z.lodo_min,z.lodo_max],[i,i],lw=3,color='#a1b5c2');ax.scatter(z.main_effect,i,s=25,color='#356F85',zorder=4);ax.text(1.02,i,f'{int(z.n_same_direction)}/{int(z.n_lodo)}',transform=ax.get_yaxis_transform(),va='center',fontsize=6)
 ax.set_yticks(range(5),[SHORT[x] for x in PRIMARY]);ax.set_ylim(4.6,-.6);ax.axvline(0,color='#aaa',ls=':',lw=.7);ax.set_xlabel('Difference in mean log2 CPM');panel(ax,'a','Leave-one-donor-out estimates');ax.text(0,-.24,'Bar: estimate range; dot: full-sample estimate',transform=ax.transAxes,fontsize=6)
 ax.text(1.02,1.01,'Same sign',transform=ax.transAxes,fontsize=6)
 ax=fig.add_subplot(gs[0,1]);scenarios=['main','min10','min50','sex_adjusted','sex_ageband_adjusted','author_healthy_states'];labs=['Main','Min 10','Min 50','+ sex','+ sex/age','Healthy']

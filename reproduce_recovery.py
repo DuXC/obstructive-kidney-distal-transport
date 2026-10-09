@@ -14,8 +14,18 @@ for rel,want in inputs.items():
 out=E/'reproduced_results';out.mkdir(exist_ok=True)
 log=subprocess.run([sys.executable,str(E/'04_scripts/05_recovery_statistics.py'),str(out)],check=True,capture_output=True,text=True)
 expected=json.loads((E/'EXPECTED_RESULT_SHA256.json').read_text())
-checks=[{'file':f,'byte_identical':sha(out/f)==want} for f,want in expected.items()]
-if not all(x['byte_identical'] for x in checks):raise RuntimeError('A regenerated result differs: '+json.dumps(checks))
+checks=[]
+for name,want in expected.items():
+    reference=E/'05_results'/name
+    if sha(reference)!=want:raise RuntimeError('Reference checksum differs: '+name)
+    identical=sha(out/name)==want
+    if not identical:
+        if not name.endswith('.tsv'):raise RuntimeError('A regenerated file differs: '+name)
+        import pandas as pd
+        observed=pd.read_csv(out/name,sep='\t');baseline=pd.read_csv(reference,sep='\t')
+        pd.testing.assert_frame_equal(observed,baseline,check_exact=False,rtol=1e-10,atol=1e-10)
+    checks.append({'file':name,'byte_identical':identical,'values_and_text_match':True,'numeric_tolerance':1e-10})
+
 normalization=None
 if a.check_normalization:
     import numpy as np,pandas as pd

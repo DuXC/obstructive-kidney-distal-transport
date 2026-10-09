@@ -36,7 +36,6 @@
   "recovery_extension/02_audit/retained_feature_map.tsv": "6c5ec5449d9478c20b0ec204cf55b10a908f472fc12b3ea7d03e76342497ae61",
   "recovery_extension/02_audit/sample_batches.tsv": "2a81c3358fd919b5035d7ffd12612509e4ab9c6d30f59c66e367cafaae7bf3d6",
   "recovery_extension/02_audit/target_probe_map.tsv": "9ba886e20911e3be436f07907174411cc3efb6af97cbbc0d8e04b10a60ec7396",
-  "recovery_extension/03_protocol/FIGURE_CONTRACT.md": "985892262e86daef22e538c73806782e38f95a56dab2791cd31e6593c49af91b",
   "recovery_extension/03_protocol/RECOVERY_EXTENSION_PLAN_v2.md": "1fcf8aa30514de5b086a7d70b8cb9a04fa50d889297d50e316b3086a7c7e3224",
-  "recovery_extension/09_qa/protocol_freeze.json": "f4f01f7e41730425546f616652c90e03322a9780498961996f956aeea2d08328"
+  "recovery_extension/03_protocol/freeze_receipt.json": "f4f01f7e41730425546f616652c90e03322a9780498961996f956aeea2d08328"
 }

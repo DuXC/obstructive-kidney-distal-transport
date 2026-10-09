@@ -13,7 +13,7 @@ from PIL import Image
 DEV=Path(__file__).resolve().parents[1];ROOT=DEV.parent;R=ROOT/'05_results';OUT=DEV/'05_figures'
 OUT.mkdir(parents=True,exist_ok=True);(DEV/'00_admin').mkdir(parents=True,exist_ok=True)
 plt.rcParams.update({'font.family':'sans-serif','font.sans-serif':['Arial','DejaVu Sans'],'font.size':8,'axes.titlesize':9,'axes.labelsize':8,'xtick.labelsize':8,'ytick.labelsize':8,'axes.spines.top':False,'axes.spines.right':False,'axes.linewidth':.7,'lines.linewidth':1,'svg.fonttype':'none','pdf.fonttype':42,'legend.frameon':False,'savefig.facecolor':'white'})
-COL={'Control':'#446D87','UUO':'#A94F29'}
+COL={'Control':'#356F85','UUO':'#C16B3A'}
 DON=[f'Control{x}' for x in range(1,8)]+[f'UUO{x}' for x in range(1,6)]
 CT=['TAL','DCT','PC','IC-A','IC-B'];PRIMARY=['TAL_salt','TAL_CaMg','DCT_NaCl','DCT_Mg','DCT_Ca']
 SHORT={'TAL_salt':'TAL salt','TAL_CaMg':'TAL Ca/Mg','DCT_NaCl':'DCT NaCl','DCT_Mg':'DCT Mg','DCT_Ca':'DCT Ca','PC_water':'PC water','PC_NaK':'PC Na/K','ICA_acid':'IC-A acid','ICB_base':'IC-B base'}
@@ -25,7 +25,7 @@ def panel(ax,letter,title):
     ax.set_title(title,loc='left',pad=12)
     ax.text(-.13,1.06,letter,transform=ax.transAxes,fontweight='bold',fontsize=11,va='bottom')
 def leg(ax,loc='best',ncol=1):
-    ax.legend(handles=[Line2D([],[],marker='o' if g=='Control' else '^',linestyle='',color=COL[g],label='RCC reference' if g=='Control' else 'UTUC + obstruction',markersize=4) for g in COL],loc=loc,fontsize=8,ncol=ncol)
+    ax.legend(handles=[Line2D([],[],marker='o' if g=='Control' else '^',linestyle='',color=COL[g],label='Unobstructed reference' if g=='Control' else 'UTUC + obstruction',markersize=4) for g in COL],loc=loc,fontsize=8,ncol=ncol)
 def export(fig,name):
     for ext in ['svg','pdf','png']:fig.savefig(OUT/f'{name}.{ext}',dpi=301)
     fig.set_dpi(601);fig.canvas.draw()
@@ -47,7 +47,7 @@ ax.imshow(np.log10(cnt.clip(lower=1)),cmap='Blues',vmin=0,vmax=3.5,aspect='auto'
 for i in range(12):
     for j in range(5):
         n=int(cnt.iloc[i,j]);ax.text(j,i,str(n),ha='center',va='center',fontsize=8,color='white' if n>500 else '#17222B')
-        if n<20:ax.add_patch(Rectangle((j-.48,i-.48),.96,.96,fill=False,edgecolor='#A94F29',linewidth=1.1))
+        if n<20:ax.add_patch(Rectangle((j-.48,i-.48),.96,.96,fill=False,edgecolor='#C16B3A',linewidth=1.1))
 ax.set_xticks(range(5),CT);ax.set_yticks(range(12),[d.replace('Control','C').replace('UUO','U') for d in DON]);ax.axhline(6.5,color='white',lw=2)
 panel(ax,'a','Donor coverage across lineages')
 ax.text(0,-.14,'Outlined cells: fewer than 20 nuclei',transform=ax.transAxes,fontsize=8)
@@ -61,7 +61,7 @@ ax.set_xlabel('Baseline eGFR (mL/min/1.73 m²)');ax.set_ylabel('Tubulointerstiti
 panel(ax,'b','Clinical and histological context');leg(ax,loc='center right')
 ax=fig.add_subplot(gs[1,0]);co=pd.read_csv(R/'captured_composition_comparisons.tsv',sep='\t')
 for i,(ct,den) in enumerate([('TAL','fraction_all_captured'),('TAL','fraction_captured_epithelia'),('DCT','fraction_all_captured'),('DCT','fraction_captured_epithelia')]):
-    z=co[(co.celltype==ct)&(co.denominator==den)].iloc[0];color='#446D87' if den=='fraction_all_captured' else '#777777'
+    z=co[(co.celltype==ct)&(co.denominator==den)].iloc[0];color='#356F85' if den=='fraction_all_captured' else '#777777'
     ax.plot([z.ci_low,z.ci_high],[i,i],color=color,lw=1.1);ax.scatter(z.effect,i,marker='o' if den=='fraction_all_captured' else 's',facecolor='white',edgecolor=color,s=25,zorder=3)
     ax.text(1.03,i,f'{z.fdr_permutation:.3f}',transform=ax.get_yaxis_transform(),va='center',fontsize=8)
 ax.text(1.03,1.015,'FDR',transform=ax.transAxes,fontsize=8);ax.axvline(0,color='#AAA',ls=':',lw=.8)
@@ -77,7 +77,7 @@ ax=fig.add_subplot(top[0]);stats_ax=fig.add_subplot(top[1]);stats_ax.set_axis_of
 df=cmp.set_index('module').loc[PRIMARY]
 for i,(m,z) in enumerate(df.iterrows()):
     if i%2==0:ax.axhspan(i-.45,i+.45,color='#F1F4F6',zorder=0)
-    ax.plot([z.ci_low,z.ci_high],[i,i],color='#446D87',lw=1.3);ax.scatter(z.effect,i,s=28,facecolor='#446D87' if z.fdr<.05 else 'white',edgecolor='#446D87',zorder=3)
+    ax.plot([z.ci_low,z.ci_high],[i,i],color='#356F85',lw=1.3);ax.scatter(z.effect,i,s=28,facecolor='#356F85' if z.fdr<.05 else 'white',edgecolor='#356F85',zorder=3)
     for xpos,txt,ha in [(.015,f'{int(z.n_control)}/{int(z.n_uuo)}','left'),(.22,f'{z.effect:.2f} [{z.ci_low:.2f}, {z.ci_high:.2f}]','left'),(.985,f'{z.fdr:.3f}','right')]:
         stats_ax.text(xpos,i,txt,transform=stats_ax.get_yaxis_transform(),va='center',ha=ha,fontsize=8)
 for xpos,txt,ha in [(.015,'n C/U','left'),(.22,'Difference [95% CI]','left'),(.985,'FDR','right')]:stats_ax.text(xpos,1.025,txt,transform=stats_ax.transAxes,ha=ha,fontsize=8)
@@ -85,7 +85,7 @@ ax.set_yticks(range(5),[SHORT[m] for m in PRIMARY]);ax.set_ylim(4.6,-.7);ax.set_
 ax=fig.add_subplot(gs[1]);d=main[main.module.isin(PRIMARY)].copy();d['category']=d.module;donorplot(ax,d,PRIMARY,'score_mean_log2cpm',SHORT);ax.set_ylabel('Mean log2 CPM score');panel(ax,'b','Individual donor scores');leg(ax,'lower left',2)
 ax=fig.add_subplot(gs[2]);lodo=pd.read_csv(R/'module_lodo_summary.tsv',sep='\t').set_index('module')
 for i,m in enumerate(PRIMARY):
-    z=lodo.loc[m];ax.plot([z.lodo_min,z.lodo_max],[i,i],color='#95AEBE',lw=3);ax.scatter(z.main_effect,i,color='#446D87',s=22,zorder=3)
+    z=lodo.loc[m];ax.plot([z.lodo_min,z.lodo_max],[i,i],color='#A3BBC5',lw=3);ax.scatter(z.main_effect,i,color='#356F85',s=22,zorder=3)
     ax.text(.985,i,f'{int(z.n_same_direction)}/{int(z.n_lodo)}',transform=ax.get_yaxis_transform(),va='center',ha='right',fontsize=8)
 ax.set_yticks(range(5),[SHORT[m] for m in PRIMARY]);ax.set_ylim(4.6,-.6);ax.set_xlim(-2.0,.45);ax.axvline(0,color='#AAA',ls=':',lw=.8);ax.set_xlabel('Mean log2 CPM difference');panel(ax,'c','Donor-omission ranges');ax.text(.985,1.04,'Same sign',transform=ax.transAxes,ha='right',fontsize=8)
 export(fig,'Fig2');source('Fig2',['module_comparisons_primary_run.tsv','module_scores_all_scenarios.tsv','module_lodo_summary.tsv'],'All five prespecified programs are displayed; three meet program FDR, and donor omission describes stability rather than replication.')
@@ -99,7 +99,7 @@ for j,(ax,ct) in enumerate(zip(axes,['TAL','DCT'])):
         z=genes[(genes.celltype==ct)&(genes.gene==g)]
         if i%2==0:ax.axhspan(i-.48,i+.48,color='#F4F6F7',zorder=0)
         if len(z):
-            z=z.iloc[0];ax.plot([z['CI.L'],z['CI.R']],[i,i],color='#536F81',lw=1.1);ax.scatter(z.logFC,i,s=24,facecolor='#446D87' if z.FDR_family<.05 else 'white',edgecolor='#446D87',zorder=3)
+            z=z.iloc[0];ax.plot([z['CI.L'],z['CI.R']],[i,i],color='#356F85',lw=1.1);ax.scatter(z.logFC,i,s=24,facecolor='#356F85' if z.FDR_family<.05 else 'white',edgecolor='#356F85',zorder=3)
             if g in ['SLC12A1','SLC12A3','TRPM6']:ax.text(.98,i,f'q={z.FDR_family:.3f}',transform=ax.get_yaxis_transform(),ha='right',va='center',fontsize=8)
         else:ax.text(.05,i,'Below gene filter',transform=ax.get_yaxis_transform(),va='center',fontsize=8,color='#666')
     ax.set_yticks(range(len(members)),members,fontstyle='italic');ax.set_ylim(len(members)-.7,-.7);ax.axvline(0,color='#AAA',ls=':',lw=.8);ax.set_xlabel('Gene log2 fold change');ax.set_xlim(-7.2,3.5);panel(ax,'ab'[j],ct+' fixed transport genes')
@@ -110,7 +110,7 @@ order=['PC_water','PC_NaK','ICA_acid','ICB_base'];ax=axes[0]
 for i,m in enumerate(order):
     z=cmp[cmp.module==m].iloc[0]
     if pd.notna(z.ci_low):
-        ax.plot([z.ci_low,z.ci_high],[i,i],color='#536F81');ax.scatter(z.effect,i,facecolor='white',edgecolor='#446D87',s=25);txt=f'{z.fdr:.3f}'
+        ax.plot([z.ci_low,z.ci_high],[i,i],color='#356F85');ax.scatter(z.effect,i,facecolor='white',edgecolor='#356F85',s=25);txt=f'{z.fdr:.3f}'
     else:ax.scatter(z.effect,i,marker='x',color='#777',s=25);txt='NA'
     ax.text(1.03,i,txt,transform=ax.get_yaxis_transform(),va='center',fontsize=8)
 ax.text(1.03,1.03,'FDR',transform=ax.transAxes,fontsize=8);ax.set_yticks(range(4),[SHORT[m] for m in order]);ax.set_ylim(3.7,-.7);ax.axvline(0,color='#AAA',ls=':',lw=.8);ax.set_xlabel('Mean log2 CPM difference');panel(ax,'a','Collecting-duct estimates')
